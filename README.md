@@ -4,12 +4,12 @@ Playing with AFL repository fitzRoy
 This repository makes use of the fitzRoy package in R https://cran.r-project.org/web/packages/fitzRoy/index.html
 
 ## What the code is doing
-AFL_data.R file is to pull data from footy_wire and reorganise it so it may go into a deep learning netural network in predict_model.R
+AFL_data.R file is to pull data from footy_wire and reorganises it so it may go into a deep learning netural network run from predict_model.R
 
 ## First
 AFL_data.R must be run first, it pulls the data then creates a data rating based on the Glicko2 rating system from PlayerRatings package. These are then merged so we can incorporate the ratings into the match statistics for modeling.
 
-The code then creates metrics that are known before a match are created such as previous match score difference etc.
+The code then creates metrics that are known before a match such as previous match score difference etc.
 
 There is a .csv file called fixture which allow you to make predictions about an upcoming round based on the model. You just need to fill in the cells with the next rounds matches. You only need to do this if you want to test to see how your model goes in prediciting future matches.
 
