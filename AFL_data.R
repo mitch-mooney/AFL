@@ -6,32 +6,69 @@ library(ggplot2)
 library(plotly)
 library(lubridate)
 library(reshape2)
-## Update footywire data player box score statistics
+##########----- Gather Data from fitZroy package -----########## 
+# player stats
 dat <- update_footywire_stats()
-#get betting odds as well
+## betting data
 betting_odds<-get_footywire_betting_odds(
   start_season = "2010",
-  end_season = lubridate::year(Sys.Date())
-)
+  end_season = lubridate::year(Sys.Date()))
+## Get match results
+results<-get_match_results()
 
-# get team summarized data
+##########----- Clean and merge results with stats -----########## 
+
+  # Create an index of the rows you want with duplications
+res_idx <- rep(1:nrow(results), 2)
+  # Use that index to genderate your new data frame
+results_df <- results[res_idx,]
+  # Add variables for joining
+res <- results_df%>%
+  group_by(Game)%>%
+  filter(Season > 2009)%>%
+  mutate(num = row_number())%>%
+  mutate(Status = ifelse(num == 1, "Home", "Away"))%>%
+  mutate(Team = ifelse(num == 1, Home.Team, Away.Team))%>%
+  mutate(Opposition = ifelse(Team == Home.Team, Away.Team, Home.Team))%>%
+  mutate(goals = ifelse(Team == Home.Team, Home.Goals, Away.Goals))%>%
+  mutate(behinds = ifelse(Team == Home.Team, Home.Behinds, Away.Behinds))%>%
+  mutate(points = ifelse(Team == Home.Team, Home.Points, Away.Points))%>%
+  mutate(opp_goals = ifelse(Team == Home.Team, Away.Goals, Home.Goals))%>%
+  mutate(opp_behinds = ifelse(Team == Home.Team, Away.Behinds, Home.Behinds))%>%
+  mutate(opp_points = ifelse(Team == Home.Team, Away.Points, Home.Points))%>%
+  mutate(Margin = points - opp_points) %>% 
+  ungroup()%>%
+  select(Date, Season, Team, goals, behinds, points, opp_goals, opp_behinds, opp_points, Margin)
+library(tidyverse)
+res$Team<-str_replace(res$Team, "Footscray", "Western Bulldogs")
+res$Team<-str_replace(res$Team, "Brisbane Lions", "Brisbane")
+detach("package:tidyverse", unload = TRUE) # detach Tidyverse because it conflicts with lag function
+
+# get team summarized data for merging
 match<-dat %>%
   group_by(Date, Season, Round,Venue, Team, Opposition, Status, Match_id)%>%
   summarize_if(is.numeric, sum, na.rm=TRUE)
+# bind res with match
+match<-merge(match, res, by=c("Date","Season", "Team"))
 
 #differential scores
 match<-match %>% 
   group_by(Match_id) %>% 
-  mutate(score = (G*6)+(B*1)) %>%
-  mutate(score_diff = score*2 - sum(score))%>%
   mutate(tackel_diff = (T*2) - sum(T)) %>%
   mutate(SC_diff = (SC*2)- sum(SC)) %>%
-  mutate(score_acc = G/(G+B)) 
+  mutate(score_acc = G/(G+B)) %>% 
+  ungroup()
 
 #turn score difference into an integer D = 2, W = 1, L = 0
-match$results <- ifelse(match$score_diff < 0, 0, ifelse(match$score_diff > 0, 1, 2))
+match$results <- ifelse(match$Margin < 0, 0, ifelse(match$Margin > 0, 1, 2))
+# determine how many wins had for the year
+match <- match%>%
+  group_by(Season, Team) %>% 
+  arrange(Date)%>%
+  mutate(wins_this_season = cumsum(ifelse(results == 2, 0.5, results))) %>% 
+  ungroup()
 
-#Make Glicko Ratings
+##########----- Make Glicko Ratings -----########## 
 ratings <- match %>%
   filter(Status == 'Home') %>%
   select(Date, Team, Opposition, results)%>%
@@ -67,7 +104,8 @@ glicko <- glicko %>%
 glicko <- glicko %>% 
   group_by(Team) %>%
   mutate(rate_change = (value) - lag(value)) %>%
-  mutate(rate_change = ifelse(is.na(rate_change), 2200 - value, rate_change))
+  mutate(rate_change = ifelse(is.na(rate_change), 2200 - value, rate_change)) %>% 
+  ungroup()
 
 glicko_clean<-glicko[apply(glicko!=0, 1, all),]
 glicko_clean <- glicko_clean %>% filter(var == "Rating")
@@ -76,9 +114,10 @@ glicko_clean$match <- as.integer(glicko_clean$match)
 glicko_clean<-glicko_clean%>%
   group_by(Team)%>%
   mutate(match_num = order(order(match, decreasing=F)))%>%
-  select(Team, match_num, value, rate_change)
+  select(Team, match_num, value, rate_change) %>% 
+  ungroup()
 # create interactive plot with plotly
-p<- glicko%>%
+plotly_build(glicko%>%
   filter(var == "Rating")%>%
   mutate(match = as.numeric(match))%>%
   ggplot(aes(x = match, y = value, color = Team)) +
@@ -86,9 +125,7 @@ p<- glicko%>%
   geom_line()+
   annotate(geom="text", x=3, y=2800, label="2010", color="black")+ 
   annotate(geom="text", x=880, y=2800, label="2020",color="black")+
-  ggtitle("AFL: Glicko 2 Ratings")
-
-plotly_build(p)
+  ggtitle("AFL: Glicko 2 Ratings"))
 
 #join with match dataset
 match$date <- as.integer(format(match$Date, "%Y%m%d"))
@@ -98,7 +135,8 @@ match<- match %>%
 
 match <- merge(match, glicko_clean, by=c("Team","match_num"))
 
-# Reorganize betting data to merge with match stats
+##########----- Clean and merge betting statisitcs -----########## 
+
 # Create an index of the rows you want with duplications
 idx <- rep(1:nrow(betting_odds), 2)
 # Use that index to genderate your new data frame
@@ -122,59 +160,11 @@ detach("package:tidyverse", unload = TRUE) # detach Tidyverse because it conflic
 #merge with match stats
 match <- merge(match, bet, by=c("Date","Status", "Team"))
 
-# lag values from previous matches
-match<-match %>%
-  group_by(Team) %>%
-  mutate(last_scoreDiff = lag(score_diff, order_by=Date)) %>%
-  mutate(last_result = lag(results, order_by=Date)) %>%
-  mutate(last_SC = lag(SC_diff, order_by=Date)) %>%
-  mutate(last_score_acc = lag(score_acc, order_by=Date)) %>%
-  mutate(last_disposals = lag(D, order_by=Date)) %>%
-  mutate(last_I50 = lag(I50, order_by=Date)) %>%
-  mutate(last_One.Percenters = lag(One.Percenters, order_by=Date)) %>%
-  mutate(pre_rate = lag(value, order_by=Date))%>%
-  mutate(last_tackelDiff = lag(tackel_diff, order_by=Date))%>%
-  ungroup()
-# Add some more differential metrics
-match<-match %>% 
-  group_by(Match_id) %>% 
-  mutate(rate_diff = (pre_rate*2)-sum(pre_rate)) %>%
-  mutate(opp_rating = (sum(pre_rate)-pre_rate)) 
-# select variable to model
-#match team and opposition integer values
-match$team <- as.numeric(ordered(match$Team, levels = c("Adelaide","Brisbane","Carlton","Collingwood","Essendon","Fremantle",       
-                                                        "Geelong","Gold Coast","GWS" ,"Hawthorn","Melbourne","North Melbourne", 
-                                                        "Port Adelaide","Richmond","St Kilda","Sydney","West Coast","Western Bulldogs")))
-
-match$opposition <- as.numeric(ordered(match$Opposition, levels = c("Adelaide","Brisbane","Carlton","Collingwood","Essendon","Fremantle",       
-                                                                    "Geelong","Gold Coast","GWS" ,"Hawthorn","Melbourne","North Melbourne", 
-                                                                    "Port Adelaide","Richmond","St Kilda","Sydney","West Coast","Western Bulldogs")))
-match$status <- as.numeric(ordered(match$Status, levels = c("Home", "Away")))
-#final metrics to add
-match<-match%>%
-  group_by(Team) %>%
-  mutate(last_rateDiff = lag(rate_diff, order_by=Date))%>%
-  mutate(pre_oppRate = lag(opp_rating, order_by=Date))%>%
-  mutate(last_opp = lag(opposition, order_by=Date)) %>%
-  mutate(last_oppRate = lag(pre_oppRate, order_by=Date))%>%
-  ungroup()
-
-
-# select variables
-model_data <- match %>%
-  select(results, Season, team, opposition, status, last_scoreDiff, last_result, 
-         last_SC, last_score_acc, last_disposals, last_I50, rate_diff,
-         last_One.Percenters,pre_rate, last_opp, last_oppRate, last_rateDiff, last_tackelDiff)
-
-model_data<-model_data[complete.cases(model_data), ] #remove NAs from dataframe
+##########----- Add next round fixture to dataframe -----########## 
 
 # add new fixture to dataframe for prediction
-new_season<-get_fixture(season = lubridate::year(Sys.Date()), convert_date = FALSE)
-new_season <- new_season%>%
-  filter(Round == 2)
 round2 <- read.csv('fixture.csv', stringsAsFactors = F)
 round2$Date<- as.Date(round2$Date, "%Y-%m-%d %H:%M:%S")
-#round2$results <- 999
 match<-as.data.frame(match)
 
 library(plyr) #remove plyr from library after this:
@@ -192,23 +182,31 @@ new$opposition <- as.numeric(ordered(new$Opposition, levels = c("Adelaide","Bris
 new$status <- as.numeric(ordered(new$Status, levels = c("Home", "Away")))
 
 new<-new %>%
-group_by(Team) %>%
-mutate(last_scoreDiff = lag(score_diff, order_by=Date)) %>%
-mutate(last_result = lag(results, order_by=Date)) %>%
-mutate(last_SC = lag(SC_diff, order_by=Date)) %>%
-mutate(last_score_acc = lag(score_acc, order_by=Date)) %>%
-mutate(last_disposals = lag(D, order_by=Date)) %>%
-mutate(last_I50 = lag(I50, order_by=Date)) %>%
-mutate(last_One.Percenters = lag(One.Percenters, order_by=Date)) %>%
-mutate(pre_rate = lag(value, order_by=Date))%>%
-mutate(last_tackelDiff = lag(tackel_diff, order_by=Date))
+  group_by(Team) %>%
+  mutate(last_scoreDiff = lag(Margin, order_by=Date)) %>%
+  mutate(last_result = lag(results, order_by=Date)) %>%
+  mutate(last_SC = lag(SC_diff, order_by=Date)) %>%
+  mutate(last_score_acc = lag(score_acc, order_by=Date)) %>%
+  mutate(last_disposals = lag(D, order_by=Date)) %>%
+  mutate(last_I50 = lag(I50, order_by=Date)) %>%
+  mutate(last_One.Percenters = lag(One.Percenters, order_by=Date)) %>%
+  mutate(pre_rate = lag(value, order_by=Date))%>%
+  mutate(last_tackelDiff = lag(tackel_diff, order_by=Date)) %>%
+  mutate(matches_won = lag(wins_this_season, order_by = Date)) %>% 
+  ungroup()
 
 new<-new %>% 
   group_by(Match_id) %>% 
   mutate(rate_diff = (pre_rate*2)-sum(pre_rate)) %>%
-  mutate(opp_rating = (sum(pre_rate)-pre_rate)) 
+  mutate(opp_rating = (sum(pre_rate)-pre_rate)) %>% 
+  ungroup()
 
-  #final metrics to add
+new<-new %>% 
+  group_by(Team, Opposition) %>% 
+  mutate(last_encounter_margin = lag(Margin, order_by = Date)) %>% 
+  ungroup()
+
+# use above metrics to create a couple of more
 new<-new%>%
   group_by(Team) %>%
   mutate(last_rateDiff = lag(rate_diff, order_by=Date))%>%
@@ -220,13 +218,14 @@ new<-new%>%
   mutate(last_CP = lag(CP, order_by = Date))%>%
   mutate(last_CM = lag(CM, order_by = Date))%>%
   mutate(last_MI5 = lag(MI5, order_by = Date))%>%
+  mutate(last_AF = lag(AF, order_by = Date))%>%
   ungroup()
-
+# Select metrics to include in training the model
 future_data <- new %>%
   select(results, Season, team, opposition, status, last_scoreDiff, last_result, 
          last_SC, last_score_acc, last_disposals, last_I50, rate_diff,
          last_One.Percenters,pre_rate, last_opp, last_oppRate, last_rateDiff, 
          last_tackelDiff, Odds, Opp_Odds,line_Odds,Opp_lineOdds,
-         last_Odds,last_LineOdds,last_CP, last_CM, last_MI5)
+         last_Odds,last_LineOdds,last_CP, last_CM, last_MI5, last_AF, matches_won, last_encounter_margin)
 
-future_data<-future_data[complete.cases(future_data), ] #remove NAs from dataframe
+future_data<-future_data[complete.cases(future_data), ] #remove NAs from data frame

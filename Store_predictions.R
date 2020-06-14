@@ -14,6 +14,7 @@ formattable(new_predictions, align = c("l", rep("r", NCOL(new_predictions) - 1))
 library(plyr)
 #bind new with previous predictions
 new_season_pred<-rbind.fill(season_predictions, new_predictions)
+#detach("package:plyr", unload = TRUE)
 #rewrite csv with up to date predictions to keep tally
 write.csv(new_season_pred,'fixture_res.csv')
 

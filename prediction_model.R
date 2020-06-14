@@ -25,7 +25,7 @@ future_matrix <- data[firstRow:lastRow,2:col_num] #have to adjust the row for ne
 #remove future data from training set
 data<- data[-firstRow:-lastRow,] #have to adjust the row for new data
 # organize training set
-set.seed(1234)
+set.seed(12345)
 ind<-sample(2, nrow(data), replace = T, prob = c(0.8, 0.2))
 training <- data[ind==1, 2:col_num]
 test <- data[ind==2 , 2:col_num]
@@ -37,26 +37,26 @@ testLabels <- to_categorical(testtarget)
 #configure model
 model <- keras_model_sequential()
 model %>% 
-  layer_dense(units = 126, activation = 'relu', input_shape = c(26)) %>% 
-  layer_dropout(rate = 0.6) %>% 
-  layer_dense(units = 32, activation = 'relu') %>% 
-  layer_dropout(rate = 0.5) %>% 
+  layer_dense(units = 256, activation = 'relu', input_shape = c(col_num-1)) %>% 
+  layer_dropout(rate = 0.8) %>% 
+  layer_dense(units = 128, activation = 'sigmoid') %>% 
+  layer_dropout(rate = 0.2) %>% 
   layer_dense(units = 64, activation = 'relu') %>% 
-  layer_dropout(rate = 0.3) %>% 
+  layer_dropout(rate = 0.6) %>% 
   layer_dense(units = 3, activation = 'softmax')
 summary(model)
 #compile model choose an optimizer
 model %>% 
   compile(loss = 'categorical_crossentropy',
-          #optimizer = 'adam',
-          #optimizer = optimizer_sgd(lr = 0.05, decay = 1e-6, momentum = 0.9, nesterov = TRUE),
-          optimizer = 'rmsprop',
+          optimizer = optimizer_adam(lr=0.002),
+          #optimizer = optimizer_sgd(lr = 0.002),
+          #optimizer = optimizer_rmsprop(),
           metrics = 'accuracy')
 
 history <- model %>% 
   fit(training,
       trainLabels,
-      epochs = 7000,
+      epochs = 1000,
       batch_size = 128,
       validation_split = 0.3)
 
@@ -75,9 +75,9 @@ pred <- model %>%
 table(Predicted = pred, Actual = testtarget)
 
 #bind guesses with probabilities and actual target values identify correct and incorrect guesses
-prob_pred<-cbind(round(prob[1:808,1:3], 3),
-      pred[1:808],
-      testtarget[1:808])
+prob_pred<-cbind(round(prob[1:764,1:3], 3),
+      pred[1:764],
+      testtarget[1:764])
 prob_pred_df <- as.data.frame(prob_pred)
 prob_pred_df <- prob_pred_df %>%
   mutate(pred_result = ifelse(V4 == V5, "correct", "incorrect"))
