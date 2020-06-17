@@ -1,19 +1,37 @@
-,Date,Match_id,Season,Team,Opposition,Status,Venue,Round,match_num,results,Odds,line_Odds,Opp_Odds,Opp_lineOdds,Tips,Loss_prob,Win_Prob,Draw_Prob,Actual
-19,11/6/20,9937,2020,Collingwood,Richmond,Home,M.C.G.,Round 2,239,999,2.4,8.5,1.6,-8.5,0,0.565,0.423,0.012,2
-20,12/6/20,9938,2020,Geelong,Hawthorn,Home,Kardinia Park,Round 2,242,999,1.55,-10.5,2.45,10.5,0,0.526,0.464,0.01,1
-21,13/6/20,9939,2020,Brisbane,Fremantle,Home,Gabba,Round 2,224,999,1.36,-18.5,3.25,18.5,1,0.286,0.71,0.004,1
-22,13/6/20,9940,2020,Carlton,Melbourne,Home,Docklands,Round 2,227,999,2.4,9.5,1.6,-9.5,1,0.29,0.706,0.004,0
-23,13/6/20,9941,2020,Port Adelaide,Adelaide,Home,Adelaide Oval,Round 2,228,999,1.47,-13.5,2.75,13.5,1,0.396,0.597,0.007,1
-24,13/6/20,9942,2020,Gold Coast,West Coast,Home,Carrara,Round 2,200,999,5.75,30.5,1.15,-30.5,0,0.842,0.155,0.003,1
-25,14/6/20,9943,2020,GWS,North Melbourne,Home,Sydney Showground,Round 2,189,999,1.35,-19.5,3.2,19.5,1,0.414,0.579,0.007,0
-26,14/6/20,9944,2020,Sydney,Essendon,Home,S.C.G.,Round 2,244,999,1.74,-3.5,2.1,3.5,0,0.551,0.437,0.012,0
-27,14/6/20,9945,2020,St Kilda,Western Bulldogs,Home,Docklands,Round 2,227,999,2.35,9.5,1.6,-9.5,0,0.669,0.321,0.011,1
-28,11/6/20,9937,2020,Richmond,Collingwood,Away,M.C.G.,Round 2,233,999,1.6,-8.5,2.4,8.5,1,0.422,0.57,0.007,2
-29,12/6/20,9938,2020,Hawthorn,Geelong,Away,Kardinia Park,Round 2,243,999,2.45,10.5,1.55,-10.5,1,0.473,0.519,0.008,0
-30,13/6/20,9939,2020,Fremantle,Brisbane,Away,Gabba,Round 2,233,999,3.25,18.5,1.36,-18.5,0,0.669,0.321,0.01,0
-31,13/6/20,9940,2020,Melbourne,Carlton,Away,Docklands,Round 2,225,999,1.6,-9.5,2.4,9.5,0,0.669,0.321,0.01,1
-32,13/6/20,9941,2020,Adelaide,Port Adelaide,Away,Adelaide Oval,Round 2,231,999,2.75,13.5,1.47,-13.5,0,0.63,0.358,0.012,0
-33,13/6/20,9942,2020,West Coast,Gold Coast,Away,Carrara,Round 2,238,999,1.15,-30.5,5.75,30.5,1,0.133,0.865,0.002,0
-34,14/6/20,9943,2020,North Melbourne,GWS,Away,Sydney Showground,Round 2,230,999,3.2,19.5,1.35,-19.5,0,0.569,0.418,0.013,1
-35,14/6/20,9944,2020,Essendon,Sydney,Away,S.C.G.,Round 2,226,999,2.1,3.5,1.74,-3.5,1,0.478,0.514,0.008,1
-36,14/6/20,9945,2020,Western Bulldogs,St Kilda,Away,Docklands,Round 2,231,999,1.6,-9.5,2.35,9.5,1,0.291,0.705,0.004,0
+"","X","Date","Match_id","Season","Team","Opposition","Status","Venue","Round","match_num","results","Odds","line_Odds","Opp_Odds","Opp_lineOdds","Tips","Loss_prob","Win_Prob","Draw_Prob","Actual","Margin"
+"1",19,"11/6/20",9937,2020,"Collingwood","Richmond","Home","M.C.G.","Round 2",239,999,2.4,8.5,1.6,-8.5,0,0.565,0.423,0.012,2,NA
+"2",20,"12/6/20",9938,2020,"Geelong","Hawthorn","Home","Kardinia Park","Round 2",242,999,1.55,-10.5,2.45,10.5,0,0.526,0.464,0.01,1,NA
+"3",21,"13/6/20",9939,2020,"Brisbane","Fremantle","Home","Gabba","Round 2",224,999,1.36,-18.5,3.25,18.5,1,0.286,0.71,0.004,1,NA
+"4",22,"13/6/20",9940,2020,"Carlton","Melbourne","Home","Docklands","Round 2",227,999,2.4,9.5,1.6,-9.5,1,0.29,0.706,0.004,0,NA
+"5",23,"13/6/20",9941,2020,"Port Adelaide","Adelaide","Home","Adelaide Oval","Round 2",228,999,1.47,-13.5,2.75,13.5,1,0.396,0.597,0.007,1,NA
+"6",24,"13/6/20",9942,2020,"Gold Coast","West Coast","Home","Carrara","Round 2",200,999,5.75,30.5,1.15,-30.5,0,0.842,0.155,0.003,1,NA
+"7",25,"14/6/20",9943,2020,"GWS","North Melbourne","Home","Sydney Showground","Round 2",189,999,1.35,-19.5,3.2,19.5,1,0.414,0.579,0.007,0,NA
+"8",26,"14/6/20",9944,2020,"Sydney","Essendon","Home","S.C.G.","Round 2",244,999,1.74,-3.5,2.1,3.5,0,0.551,0.437,0.012,0,NA
+"9",27,"14/6/20",9945,2020,"St Kilda","Western Bulldogs","Home","Docklands","Round 2",227,999,2.35,9.5,1.6,-9.5,0,0.669,0.321,0.011,1,NA
+"10",28,"11/6/20",9937,2020,"Richmond","Collingwood","Away","M.C.G.","Round 2",233,999,1.6,-8.5,2.4,8.5,1,0.422,0.57,0.007,2,NA
+"11",29,"12/6/20",9938,2020,"Hawthorn","Geelong","Away","Kardinia Park","Round 2",243,999,2.45,10.5,1.55,-10.5,1,0.473,0.519,0.008,0,NA
+"12",30,"13/6/20",9939,2020,"Fremantle","Brisbane","Away","Gabba","Round 2",233,999,3.25,18.5,1.36,-18.5,0,0.669,0.321,0.01,0,NA
+"13",31,"13/6/20",9940,2020,"Melbourne","Carlton","Away","Docklands","Round 2",225,999,1.6,-9.5,2.4,9.5,0,0.669,0.321,0.01,1,NA
+"14",32,"13/6/20",9941,2020,"Adelaide","Port Adelaide","Away","Adelaide Oval","Round 2",231,999,2.75,13.5,1.47,-13.5,0,0.63,0.358,0.012,0,NA
+"15",33,"13/6/20",9942,2020,"West Coast","Gold Coast","Away","Carrara","Round 2",238,999,1.15,-30.5,5.75,30.5,1,0.133,0.865,0.002,0,NA
+"16",34,"14/6/20",9943,2020,"North Melbourne","GWS","Away","Sydney Showground","Round 2",230,999,3.2,19.5,1.35,-19.5,0,0.569,0.418,0.013,1,NA
+"17",35,"14/6/20",9944,2020,"Essendon","Sydney","Away","S.C.G.","Round 2",226,999,2.1,3.5,1.74,-3.5,1,0.478,0.514,0.008,1,NA
+"18",36,"14/6/20",9945,2020,"Western Bulldogs","St Kilda","Away","Docklands","Round 2",231,999,1.6,-9.5,2.35,9.5,1,0.291,0.705,0.004,0,NA
+"19",NA,"2020-06-18",9946,2020,"Richmond","Hawthorn","Home","M.C.G.","Round 3",NA,999,1.35,-16.5,3.25,16.5,1,0.3418,0.6582,NA,NA,999
+"20",NA,"2020-06-19",9947,2020,"Western Bulldogs","GWS","Home","Docklands","Round 3",NA,999,2.45,9.5,1.56,-9.5,0,0.5949,0.4051,NA,NA,999
+"21",NA,"2020-06-20",9948,2020,"North Melbourne","Sydney","Home","Docklands","Round 3",NA,999,1.56,-9.5,2.45,9.5,1,0.3738,0.6262,NA,NA,999
+"22",NA,"2020-06-20",9949,2020,"Collingwood","St Kilda","Home","M.C.G.","Round 3",NA,999,1.38,16.5,3.1,-16.5,0,0.5455,0.4545,NA,NA,999
+"23",NA,"2020-06-20",9950,2020,"Brisbane","West Coast","Home","Gabba","Round 3",NA,999,1.78,-3.5,2.05,3.5,1,0.4863,0.5137,NA,NA,999
+"24",NA,"2020-06-20",9951,2020,"Geelong","Carlton","Home","Kardinia Park","Round 3",NA,999,1.15,-27.5,5.5,27.5,1,0.2551,0.7449,NA,NA,999
+"25",NA,"2020-06-21",9952,2020,"Gold Coast","Adelaide","Home","Carrara","Round 3",NA,999,1.85,-1.5,1.97,1.5,1,0.489,0.511,NA,NA,999
+"26",NA,"2020-06-21",9953,2020,"Essendon","Melbourne","Home","M.C.G.","Round 3",NA,999,1.87,-1.5,1.95,1.5,1,0.4957,0.5043,NA,NA,999
+"27",NA,"2020-06-21",9954,2020,"Fremantle","Port Adelaide","Home","Carrara","Round 3",NA,999,3.35,21.5,1.33,-21.5,0,0.7192,0.2808,NA,NA,999
+"28",NA,"2020-06-18",9946,2020,"Hawthorn","Richmond","Away","M.C.G.","Round 3",NA,999,3.25,16.5,1.35,-16.5,0,0.6157,0.3843,NA,NA,999
+"29",NA,"2020-06-19",9947,2020,"GWS","Western Bulldogs","Away","Docklands","Round 3",NA,999,1.56,-9.5,2.45,9.5,1,0.4028,0.5972,NA,NA,999
+"30",NA,"2020-06-20",9948,2020,"Sydney","North Melbourne","Away","Docklands","Round 3",NA,999,2.45,9.5,1.56,-9.5,0,0.6083,0.3917,NA,NA,999
+"31",NA,"2020-06-20",9949,2020,"St Kilda","Collingwood","Away","M.C.G.","Round 3",NA,999,3.1,-16.5,1.38,16.5,1,0.381,0.619,NA,NA,999
+"32",NA,"2020-06-20",9950,2020,"West Coast","Brisbane","Away","Gabba","Round 3",NA,999,2.05,3.5,1.78,-3.5,0,0.5466,0.4534,NA,NA,999
+"33",NA,"2020-06-20",9951,2020,"Carlton","Geelong","Away","Kardinia Park","Round 3",NA,999,5.5,27.5,1.15,-27.5,0,0.8066,0.1934,NA,NA,999
+"34",NA,"2020-06-21",9952,2020,"Adelaide","Gold Coast","Away","Carrara","Round 3",NA,999,1.97,1.5,1.85,-1.5,0,0.5089,0.4911,NA,NA,999
+"35",NA,"2020-06-21",9953,2020,"Melbourne","Essendon","Away","M.C.G.","Round 3",NA,999,1.95,1.5,1.87,-1.5,0,0.5005,0.4995,NA,NA,999
+"36",NA,"2020-06-21",9954,2020,"Port Adelaide","Fremantle","Away","Carrara","Round 3",NA,999,1.33,-21.5,3.35,21.5,1,0.3324,0.6676,NA,NA,999

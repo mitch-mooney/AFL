@@ -5,7 +5,8 @@ library(corrplot)
 #correlation plots
 M <- cor(score_data_lean)
 corrplot(M, method = "circle")
-corrplot(M, method = "number")
+#png(height=1200, width=1500, pointsize=15, file="overlap.png")
+corrplot(cor(M), method = "color", addCoef.col="grey", number.cex=0.5)
 
 #data preparations
 data_score <- score_data_lean
@@ -44,12 +45,12 @@ build_model <- function() {
     layer_dense(units = 128, activation = "relu",
                 input_shape = dim(train_data)[2]) %>%
     layer_dropout(rate = 0.6) %>% 
-    layer_dense(units = 32, activation = "linear") %>%
+    layer_dense(units = 32, activation = "relu") %>%
     #layer_dropout(rate = 0.4) %>% 
-    layer_dense(units = 16, activation = "linear") %>%
+    layer_dense(units = 16, activation = "relu") %>%
     #layer_dropout(rate = 0.2) %>% 
     layer_dense(units = 8, activation = "relu") %>%
-    #layer_dropout(rate = 0.6) %>% 
+    layer_dropout(rate = 0.6) %>% 
     layer_dense(units = 1)
   
   model %>% compile(
@@ -72,7 +73,7 @@ print_dot_callback <- callback_lambda(
   }
 )    
 
-epochs <- 500
+epochs <- 750
 
 # Fit the model and store training stats
 history <- model %>% fit(

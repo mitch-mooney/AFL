@@ -140,9 +140,9 @@ match<- match %>%
 
 match <- merge(match, glicko_clean, by=c("Team","match_num"))
 
-##########----- Clean and merge betting statisitcs -----########## 
+##########----- Clean and merge betting statistics -----########## 
 
-# Create an index of the rows you want with duplications
+# Create an index of the rows you want with duplication
 idx <- rep(1:nrow(betting_odds), 2)
 # Use that index to genderate your new data frame
 betting <- betting_odds[idx,]
@@ -209,6 +209,10 @@ new<-new %>%
 new<-new %>% 
   group_by(Team, Opposition) %>% 
   mutate(last_encounter_margin = lag(Margin, order_by = Date)) %>% 
+  mutate(last_encounter_SC = lag(SC, order_by = Date)) %>% 
+  mutate(last_encounter_score_acc = lag(score_acc, order_by=Date)) %>%
+  mutate(last_encounter_disposals = lag(D, order_by=Date)) %>%
+  mutate(last_encounter_line_Odds = lag(line_Odds, order_by = Date)) %>% 
   ungroup()
 
 # use above metrics to create a couple of more
@@ -227,20 +231,22 @@ new<-new%>%
   ungroup()
 # Select metrics to include in training the model; I've left out a lot of metrics because they seem to make the model perform better after trial and error.
 future_data_lean <- new %>%
-  select(results, Season, team, opposition, status, last_scoreDiff, 
+  select(results, Season, team, opposition, status,
          pre_rate,pre_oppRate,Odds, Opp_Odds,line_Odds,Opp_lineOdds, 
-         matches_won, last_encounter_margin)
+         matches_won, last_encounter_margin, last_encounter_SC,last_encounter_score_acc, 
+         last_encounter_line_Odds)
 
 future_data_lean<-future_data_lean[complete.cases(future_data_lean), ] #remove NAs from data frame
 future_data_lean<-future_data_lean%>%
   filter(results == 0 | results == 1 | results == 999) #remove draws ensure that the loss function is "binary_crossentropy", if you want to keep Draws change to "categorical_crossentropy"
 
-#Create dataframe for margin predictions
+#Create data frame for margin predictions used in DeepLearning_Margin.R
 score_data_lean <- new %>%
   select(Margin, Season, team, opposition, status, last_scoreDiff, 
          pre_rate,pre_oppRate,Odds, Opp_Odds,line_Odds,Opp_lineOdds,last_score_acc, 
-         matches_won, last_encounter_margin, last_AF, last_rateDiff,last_score_acc,last_Odds,
-         last_LineOdds, last_oppRate, last_scoreDiff, last_SC, last_CM, last_CP, last_opp,last_tackelDiff
+         matches_won, last_encounter_margin, last_rateDiff,last_Odds,
+         last_LineOdds, last_encounter_SC,last_encounter_score_acc, 
+         last_encounter_disposals,last_encounter_line_Odds
          )
 score_data_lean<-score_data_lean[complete.cases(score_data_lean), ] #remove NAs from data frame
 

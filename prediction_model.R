@@ -4,13 +4,14 @@ data <- future_data_lean
 col_num<-as.numeric(ncol(data))
 data[1:col_num] <- lapply(data[1:col_num], as.numeric) #make sure all variables are numeric
 
-table(future_data$results)
-barplot(prop.table(table(data$results)),
-        col = rainbow(3),
-        ylim = c(0, 1),
-        ylab = 'proportion',
-        xlab = 'score events',
-        cex.names = 1.5)
+# Check the data matrix
+#table(future_data$results)
+#barplot(prop.table(table(data$results)),
+#        col = rainbow(3),
+#        ylim = c(0, 1),
+#        ylab = 'proportion',
+#        xlab = 'score events',
+#        cex.names = 1.5)
 
 #include all future data with previous data
 data <- as.matrix(data)
@@ -25,7 +26,7 @@ future_matrix <- data[firstRow:lastRow,2:col_num] #have to adjust the row for ne
 #remove future data from training set
 data<- data[-firstRow:-lastRow,] #have to adjust the row for new data
 # organize training set
-set.seed(123)
+set.seed(321)
 ind<-sample(2, nrow(data), replace = T, prob = c(0.8, 0.2))
 training <- data[ind==1, 2:col_num]
 test <- data[ind==2 , 2:col_num]
@@ -36,7 +37,7 @@ testLabels <- to_categorical(testtarget)
 test_var<-as.numeric(nrow(testLabels))
 test_dim<-as.numeric(ncol(testLabels))
 
-### --- Winning Model --- ### 70.8% accuracy on test data on 1000 EPOCHS
+### --- Winning Model --- ### 71.3% accuracy on test data on 1500 EPOCHS
 #configure model
 model <- keras_model_sequential()
 model %>% 
@@ -61,7 +62,7 @@ model %>%
 history <- model %>% 
   fit(training,
       trainLabels,
-      epochs = 1000,
+      epochs = 1500,
       batch_size = 256,
       validation_split = 0.3)
 
@@ -73,12 +74,12 @@ model <- keras_model_sequential()
 model %>% 
   layer_dense(units = 256, activation = 'relu', input_shape = c(col_num-1)) %>% 
   layer_dropout(rate = 0.8) %>% 
-  layer_dense(units = 128, activation = 'relu') %>% 
-  layer_dropout(rate = 0.5) %>% 
+  layer_dense(units = 128, activation = 'sigmoid') %>% 
+  layer_dropout(rate = 0.3) %>% 
   layer_dense(units = 64, activation = 'sigmoid') %>% 
-  layer_dropout(rate = 0.5) %>% 
-  layer_dense(units = 32, activation = 'relu') %>% 
   layer_dropout(rate = 0.2) %>% 
+  layer_dense(units = 32, activation = 'relu') %>% 
+  layer_dropout(rate = 0.1) %>% 
   layer_dense(units = 2, activation = 'softmax')
 summary(model)
 #compile model choose an optimizer
@@ -86,15 +87,15 @@ model %>%
   compile(loss = 'binary_crossentropy',
           optimizer = optimizer_adam(lr=0.002),
           #optimizer = optimizer_sgd(lr = 0.002),
-          #optimizer = optimizer_rmsprop(lr = 0.003),
+          #optimizer = optimizer_rmsprop(lr = 0.002),
           metrics = 'accuracy')
 
 history <- model %>% 
   fit(training,
       trainLabels,
-      epochs = 1000,
+      epochs = 1500,
       batch_size = 256,
-      validation_split = 0.3)
+      validation_split = 0.2)
 
 plot(history)
 
