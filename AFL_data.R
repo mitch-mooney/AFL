@@ -6,6 +6,9 @@ library(ggplot2)
 library(plotly)
 library(lubridate)
 library(reshape2)
+# Get Football Draw
+fixture<-get_fixture(2020)
+
 ##########----- Gather Data from fitZroy package -----########## 
 # player stats
 dat <- update_footywire_stats()
@@ -100,6 +103,8 @@ glicko <- glicko %>%
   filter(var == "Rating")
 #rate$match_num <- with(rate, match(match, unique(Date)))
 
+## See Glicko Prediction.R for ratings predictions ##
+
 #prepare data for merging with player stats
 glicko <- glicko %>% 
   group_by(Team) %>%
@@ -163,12 +168,12 @@ match <- merge(match, bet, by=c("Date","Status", "Team"))
 ##########----- Add next round fixture to dataframe -----########## 
 
 # add new fixture to dataframe for prediction
-round2 <- read.csv('fixture.csv', stringsAsFactors = F)
-round2$Date<- as.Date(round2$Date, "%Y-%m-%d %H:%M:%S")
+round <- read.csv('fixture.csv', stringsAsFactors = F)
+round$Date<- as.Date(round$Date, "%Y-%m-%d %H:%M:%S")
 match<-as.data.frame(match)
 
 library(plyr) #remove plyr from library after this:
-new<-rbind.fill(match, round2)
+new<-rbind.fill(match, round)
 detach("package:plyr", unload = TRUE)
 
 #change team names & home and away status to integer values
@@ -220,12 +225,22 @@ new<-new%>%
   mutate(last_MI5 = lag(MI5, order_by = Date))%>%
   mutate(last_AF = lag(AF, order_by = Date))%>%
   ungroup()
-# Select metrics to include in training the model
-future_data <- new %>%
-  select(results, Season, team, opposition, status, last_scoreDiff, last_result, 
-         last_SC, last_score_acc, last_disposals, last_I50, rate_diff,
-         last_One.Percenters,pre_rate, last_opp, last_oppRate, last_rateDiff, 
-         last_tackelDiff, Odds, Opp_Odds,line_Odds,Opp_lineOdds,
-         last_Odds,last_LineOdds,last_CP, last_CM, last_MI5, last_AF, matches_won, last_encounter_margin)
+# Select metrics to include in training the model; I've left out a lot of metrics because they seem to make the model perform better after trial and error.
+future_data_lean <- new %>%
+  select(results, Season, team, opposition, status, last_scoreDiff, 
+         pre_rate,pre_oppRate,Odds, Opp_Odds,line_Odds,Opp_lineOdds, 
+         matches_won, last_encounter_margin)
 
-future_data<-future_data[complete.cases(future_data), ] #remove NAs from data frame
+future_data_lean<-future_data_lean[complete.cases(future_data_lean), ] #remove NAs from data frame
+future_data_lean<-future_data_lean%>%
+  filter(results == 0 | results == 1 | results == 999) #remove draws ensure that the loss function is "binary_crossentropy", if you want to keep Draws change to "categorical_crossentropy"
+
+#Create dataframe for margin predictions
+score_data_lean <- new %>%
+  select(Margin, Season, team, opposition, status, last_scoreDiff, 
+         pre_rate,pre_oppRate,Odds, Opp_Odds,line_Odds,Opp_lineOdds,last_score_acc, 
+         matches_won, last_encounter_margin, last_AF, last_rateDiff,last_score_acc,last_Odds,
+         last_LineOdds, last_oppRate, last_scoreDiff, last_SC, last_CM, last_CP, last_opp,last_tackelDiff
+         )
+score_data_lean<-score_data_lean[complete.cases(score_data_lean), ] #remove NAs from data frame
+

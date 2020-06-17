@@ -3,8 +3,8 @@ library(formattable)
 prob_pred_df <- prob_pred_df%>%
   rename(Loss_prob = V1,
          Win_Prob = V2,
-         Draw_Prob = V3,
-         Tips = V4)
+         #Draw_Prob = V3,
+         Tips = V3)
 
 season_predictions <-read.csv('fixture_res.csv')
 new_predictions<-cbind(round2, prob_pred_df)

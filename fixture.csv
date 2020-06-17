@@ -1,19 +1,19 @@
-﻿Date,Match_id,Season,Team,Opposition,Status,Venue,Round,match_num,results,Odds,line_Odds,Opp_Odds,Opp_lineOdds
-2020-06-11 19:40:00,9937,2020,Collingwood,Richmond,Home,M.C.G.,Round 2,239,999,2.4,8.5,1.6,-8.5
-2020-06-12 19:50:00,9938,2020,Geelong,Hawthorn,Home,Kardinia Park,Round 2,242,999,1.55,-10.5,2.45,10.5
-2020-06-13 13:45:00,9939,2020,Brisbane,Fremantle,Home,Gabba,Round 2,224,999,1.36,-18.5,3.25,18.5
-2020-06-13 16:35:00,9940,2020,Carlton,Melbourne,Home,Docklands,Round 2,227,999,2.4,9.5,1.6,-9.5
-2020-06-13 19:10:00,9941,2020,Port Adelaide,Adelaide,Home,Adelaide Oval,Round 2,228,999,1.47,-13.5,2.75,13.5
-2020-06-13 19:40:00,9942,2020,Gold Coast,West Coast,Home,Carrara,Round 2,200,999,5.75,30.5,1.15,-30.5
-2020-06-14 13:05:00,9943,2020,GWS,North Melbourne,Home,Sydney Showground,Round 2,189,999,1.35,-19.5,3.2,19.5
-2020-06-14 15:35:00,9944,2020,Sydney,Essendon,Home,S.C.G.,Round 2,244,999,1.74,-3.5,2.1,3.5
-2020-06-14 18:05:00,9945,2020,St Kilda,Western Bulldogs,Home,Docklands,Round 2,227,999,2.35,9.5,1.6,-9.5
-2020-06-11 19:40:00,9937,2020,Richmond,Collingwood,Away,M.C.G.,Round 2,233,999,1.6,-8.5,2.4,8.5
-2020-06-12 19:50:00,9938,2020,Hawthorn,Geelong,Away,Kardinia Park,Round 2,243,999,2.45,10.5,1.55,-10.5
-2020-06-13 13:45:00,9939,2020,Fremantle,Brisbane,Away,Gabba,Round 2,233,999,3.25,18.5,1.36,-18.5
-2020-06-13 16:35:00,9940,2020,Melbourne,Carlton,Away,Docklands,Round 2,225,999,1.6,-9.5,2.4,9.5
-2020-06-13 19:10:00,9941,2020,Adelaide,Port Adelaide,Away,Adelaide Oval,Round 2,231,999,2.75,13.5,1.47,-13.5
-2020-06-13 19:40:00,9942,2020,West Coast,Gold Coast,Away,Carrara,Round 2,238,999,1.15,-30.5,5.75,30.5
-2020-06-14 13:05:00,9943,2020,North Melbourne,GWS,Away,Sydney Showground,Round 2,230,999,3.2,19.5,1.35,-19.5
-2020-06-14 15:35:00,9944,2020,Essendon,Sydney,Away,S.C.G.,Round 2,226,999,2.1,3.5,1.74,-3.5
-2020-06-14 18:05:00,9945,2020,Western Bulldogs,St Kilda,Away,Docklands,Round 2,231,999,1.6,-9.5,2.35,9.5
+﻿Date,Match_id,Season,Team,Opposition,Status,Venue,Round,results,Margin,Odds,line_Odds,Opp_Odds,Opp_lineOdds
+2020-06-18 19:40:00,9946,2020,Richmond,Hawthorn,Home,M.C.G.,Round 3,999,999,1.35,-16.5,3.25,16.5
+2020-06-19 19:50:00,9947,2020,Western Bulldogs,GWS,Home,Docklands,Round 3,999,999,2.45,9.5,1.56,-9.5
+2020-06-20 13:45:00,9948,2020,North Melbourne,Sydney,Home,Docklands,Round 3,999,999,1.56,-9.5,2.45,9.5
+2020-06-20 16:35:00,9949,2020,Collingwood,St Kilda,Home,M.C.G.,Round 3,999,999,1.38,16.5,3.1,-16.5
+2020-06-20 19:40:00,9950,2020,Brisbane,West Coast,Home,Gabba,Round 3,999,999,1.78,-3.5,2.05,3.5
+2020-06-20 19:40:00,9951,2020,Geelong,Carlton,Home,Kardinia Park,Round 3,999,999,1.15,-27.5,5.5,27.5
+2020-06-21 13:05:00,9952,2020,Gold Coast,Adelaide,Home,Carrara,Round 3,999,999,1.85,-1.5,1.97,1.5
+2020-06-21 15:35:00,9953,2020,Essendon,Melbourne,Home,M.C.G.,Round 3,999,999,1.87,-1.5,1.95,1.5
+2020-06-21 18:05:00,9954,2020,Fremantle,Port Adelaide,Home,Carrara,Round 3,999,999,3.35,21.5,1.33,-21.5
+2020-06-18 19:40:00,9946,2020,Hawthorn,Richmond,Away,M.C.G.,Round 3,999,999,3.25,16.5,1.35,-16.5
+2020-06-19 19:50:00,9947,2020,GWS,Western Bulldogs,Away,Docklands,Round 3,999,999,1.56,-9.5,2.45,9.5
+2020-06-20 13:45:00,9948,2020,Sydney,North Melbourne,Away,Docklands,Round 3,999,999,2.45,9.5,1.56,-9.5
+2020-06-20 16:35:00,9949,2020,St Kilda,Collingwood,Away,M.C.G.,Round 3,999,999,3.1,-16.5,1.38,16.5
+2020-06-20 19:40:00,9950,2020,West Coast,Brisbane,Away,Gabba,Round 3,999,999,2.05,3.5,1.78,-3.5
+2020-06-20 19:40:00,9951,2020,Carlton,Geelong,Away,Kardinia Park,Round 3,999,999,5.5,27.5,1.15,-27.5
+2020-06-21 13:05:00,9952,2020,Adelaide,Gold Coast,Away,Carrara,Round 3,999,999,1.97,1.5,1.85,-1.5
+2020-06-21 15:35:00,9953,2020,Melbourne,Essendon,Away,M.C.G.,Round 3,999,999,1.95,1.5,1.87,-1.5
+2020-06-21 18:05:00,9954,2020,Port Adelaide,Fremantle,Away,Carrara,Round 3,999,999,1.33,-21.5,3.35,21.5
