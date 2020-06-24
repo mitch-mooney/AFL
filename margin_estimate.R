@@ -14,7 +14,7 @@ for(i in 1:nrow(Sum_pred_cat)){
 score_data_lean$margin_est_rand<-NA
 prediction = as.data.frame(as.numeric(score_data_lean$pred_cat_factor))
 for (j in 1:nrow(score_data_lean)){
- num<-as.numeric(score_data_lean[j,22])
+ num<-as.numeric(score_data_lean[j,24])
  sample<- sample(resampling[,num], 100, replace=FALSE)
  mean_margin <- round(mean(sample),0)
  score_data_lean[j,25]<- mean_margin
@@ -24,22 +24,27 @@ score_data_lean<-score_data_lean %>%
   mutate(margin_est_linear = round(-63.5+129*pred_win_prob,0))
 
 margin_data <- score_data_lean %>%
-  select(Margin,margin_est_linear, margin_est_rand, pred_cat)
+  select(Margin,margin_est_linear, margin_est_rand, pred_win_prob, line_Odds, Odds, status, last_encounter_SC, pred_cat, pred_cat_factor)
 
 margin_data %>%
   filter(Margin != 999) %>% 
-ggplot(aes(x = margin_est_rand, y = Margin)) +
+ggplot(aes(x = margin_est_rand, y = Margin, color = pred_cat)) +
   geom_point()+
   geom_smooth(method = "lm", se=TRUE, color="blue", formula = my.formula) +
+  labs(color="Win Probability") +
   stat_poly_eq(formula = my.formula, 
                aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
                parse = TRUE)
 
 margin_data %>%
   filter(Margin != 999) %>% 
-  ggplot(aes(x = margin_est_linear, y = Margin)) +
+  ggplot(aes(x = margin_est_linear, y = Margin, color = pred_cat)) +
   geom_point()+
-  geom_smooth(method = "lm", se=TRUE, color="blue", formula = my.formula) +
-  stat_poly_eq(formula = my.formula, 
-               aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
-               parse = TRUE)  
+  geom_smooth(method = "lm", se=TRUE, color="blue", formula = my.formula)+
+  labs(color="Win Probability") +
+  ggtitle("Predicted margin vs actual margin by wining prediction probability")+
+  xlab("predicted margin")+
+  ylab("actual margin")
+  #stat_poly_eq(formula = my.formula, 
+  #             aes(label = paste(..rr.label.., sep = "~~~")),label.y.npc = "bottom", 
+  #             parse = TRUE)  

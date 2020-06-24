@@ -6,6 +6,7 @@ library(ggplot2)
 library(plotly)
 library(lubridate)
 library(reshape2)
+library(ggpmisc)
 # Get Football Draw
 fixture<-get_fixture(2020)
 
@@ -21,7 +22,7 @@ results<-get_match_results()
 
 ##########----- Clean and merge results with stats -----########## 
 
-  # Create an index of the rows you want with duplications
+  # Create an index of the rows you want with duplication
 res_idx <- rep(1:nrow(results), 2)
   # Use that index to genderate your new data frame
 results_df <- results[res_idx,]
@@ -86,8 +87,8 @@ ratings$Match_id<-NULL
 
 glicko_rate<-glicko2(ratings, history = T)
 # plot ratings
-plot(glicko_rate, players = glicko_rate$ratings$player)
-print(glicko_rate) #print latest ratings
+#plot(glicko_rate, players = glicko_rate$ratings$player)
+#print(glicko_rate) #print latest ratings
 
 #make dataframe with history ratings
 glicko <- as.data.frame(glicko_rate$history)
@@ -122,15 +123,15 @@ glicko_clean<-glicko_clean%>%
   select(Team, match_num, value, rate_change) %>% 
   ungroup()
 # create interactive plot with plotly
-plotly_build(glicko%>%
-  filter(var == "Rating")%>%
-  mutate(match = as.numeric(match))%>%
-  ggplot(aes(x = match, y = value, color = Team)) +
-  geom_point()+
-  geom_line()+
-  annotate(geom="text", x=3, y=2800, label="2010", color="black")+ 
-  annotate(geom="text", x=880, y=2800, label="2020",color="black")+
-  ggtitle("AFL: Glicko 2 Ratings"))
+#plotly_build(glicko%>%
+#  filter(var == "Rating")%>%
+#  mutate(match = as.numeric(match))%>%
+#  ggplot(aes(x = match, y = value, color = Team)) +
+#  geom_point()+
+#  geom_line()+
+#  annotate(geom="text", x=3, y=2800, label="2010", color="black")+ 
+#  annotate(geom="text", x=880, y=2800, label="2020",color="black")+
+#  ggtitle("AFL: Glicko 2 Ratings"))
 
 #join with match dataset
 match$date <- as.integer(format(match$Date, "%Y%m%d"))
@@ -245,8 +246,9 @@ score_data_lean <- new %>%
   select(Margin, Season, team, opposition, status, last_scoreDiff, 
          pre_rate,pre_oppRate,Odds, Opp_Odds,line_Odds,Opp_lineOdds,last_score_acc, 
          matches_won, last_encounter_margin, last_rateDiff,last_Odds,
-         last_LineOdds, last_encounter_SC,last_encounter_score_acc, 
-         last_encounter_disposals,last_encounter_line_Odds
+         last_LineOdds, last_encounter_SC,last_encounter_score_acc,
          )
 score_data_lean<-score_data_lean[complete.cases(score_data_lean), ] #remove NAs from data frame
+score_data_lean<-score_data_lean%>%
+  filter(Margin != 0) #remove draws ensure that the loss function is "binary_crossentropy", if you want to keep Draws change to "categorical_crossentropy"
 

@@ -3,15 +3,16 @@ library(ggpmisc)
 library(corrplot)
 
 #correlation plots
-M <- cor(score_data_lean)
+margin_model<-margin_data%>% select(Margin, pred_win_prob, line_Odds, Odds, status, last_encounter_SC)
+M <- cor(margin_model)
 corrplot(M, method = "circle")
-#png(height=1200, width=1500, pointsize=15, file="overlap.png")
-corrplot(cor(M), method = "color", addCoef.col="grey", number.cex=0.5)
+png(height=1200, width=1500, pointsize=15, file="overlap.png")
+corrplot(cor(M), method = "color", addCoef.col="grey", number.cex=0.8)
 
 #data preparations
-data_score <- score_data_lean
+data_score <- margin_model
 colNum<-as.numeric(ncol(data_score))
-data_score[1:col_num] <- lapply(data_score[1:col_num], as.numeric) 
+data_score[1:colNum] <- lapply(data_score[1:colNum], as.numeric) 
 # separate future data
 future_score <- data_score%>%
   filter(Margin == 999)%>%
@@ -20,12 +21,13 @@ future_score <- data_score%>%
 data_score<- data_score%>%
   filter(Margin != 999) #have to adjust the row for new data
 # organize training set
-set.seed(123)
+set.seed(321)
 ind_score<-sample(2, nrow(data_score), replace = T, prob = c(0.8, 0.2))
 training_score <- data_score[ind_score==1, 2:colNum]
 test_score <- data_score[ind_score==2 , 2:colNum]
 trainingtarget_score <- data_score[ind_score==1, 1]
 testtarget_score <- data_score[ind_score==2, 1]
+#target data is a dataframe make into a vector
 trainingtarget_score<-as.vector(trainingtarget_score$Margin)
 testtarget_score <- as.vector(testtarget_score$Margin)
 # Test data is *not* used when calculating the mean and std.
@@ -36,20 +38,20 @@ train_data <- scale(training_score)
 col_means_train <- attr(train_data, "scaled:center") 
 col_stddevs_train <- attr(train_data, "scaled:scale")
 test_data <- scale(test_score, center = col_means_train, scale = col_stddevs_train)
-future_data_score <- scale(future_score, center = col_means_train, scale = col_stddevs_train)
+future_data_score <- scale(future_score[,1:5], center = col_means_train, scale = col_stddevs_train)
 
 # Build model as a function
 build_model <- function() {
   
   model <- keras_model_sequential() %>%
-    layer_dense(units = 128, activation = "relu",
+    layer_dense(units = 126, activation = "linear",
                 input_shape = dim(train_data)[2]) %>%
-    layer_dropout(rate = 0.6) %>% 
+    layer_dropout(rate = 0.3) %>% 
     layer_dense(units = 32, activation = "relu") %>%
-    #layer_dropout(rate = 0.4) %>% 
-    layer_dense(units = 16, activation = "relu") %>%
-    #layer_dropout(rate = 0.2) %>% 
-    layer_dense(units = 8, activation = "relu") %>%
+    layer_dropout(rate = 0.1) %>% 
+    layer_dense(units = 16, activation = "linear") %>%
+    layer_dropout(rate = 0.2) %>% 
+    layer_dense(units = 8, activation = "linear") %>%
     layer_dropout(rate = 0.6) %>% 
     layer_dense(units = 1)
   
@@ -80,11 +82,10 @@ history <- model %>% fit(
   train_data,
   trainingtarget_score,
   epochs = epochs,
-  validation_split = 0.2,
+  validation_split = 0.3,
   verbose = 1,
-  callbacks = list(print_dot_callback)
-)
-
+  callbacks = list(print_dot_callback))
+plot(history)
 #Make predicitions from testing data
 test_predictions <- model %>% 
   predict(test_data)
@@ -100,9 +101,9 @@ pred_score <-pred_score %>%
 my.formula <- y ~ x
 ggplot(pred_score, aes(x = test_predictions, y=target))+
   geom_point()+
-  geom_smooth(method = "lm", se=FALSE, color="black", formula = my.formula) +
+  geom_smooth(method = "lm", se=TRUE, color="black", formula = my.formula) +
   stat_poly_eq(formula = my.formula, 
-               aes(label = paste(..rr.label.., sep = "~~~")), 
+               aes(label = paste(..eq.label..,..rr.label.., sep = "~~~")), 
                parse = TRUE)   
 
 futrure_margin_predictions <- model %>% 
