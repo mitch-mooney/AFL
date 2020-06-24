@@ -67,37 +67,6 @@ history <- model %>%
       batch_size = 256,
       validation_split = 0.3)
 
-
-### --- Testing Model --- ###
- 
-##configure model
-#model <- keras_model_sequential()
-#model %>% 
-#  layer_dense(units = 256, activation = 'relu', input_shape = c(col_num-1)) %>% 
-#  layer_dropout(rate = 0.8) %>% 
-#  layer_dense(units = 128, activation = 'sigmoid') %>% 
-#  layer_dropout(rate = 0.3) %>% 
-#  layer_dense(units = 64, activation = 'sigmoid') %>% 
-#  layer_dropout(rate = 0.2) %>% 
-#  layer_dense(units = 32, activation = 'relu') %>% 
-#  layer_dropout(rate = 0.1) %>% 
-#  layer_dense(units = 2, activation = 'softmax')
-#summary(model)
-##compile model choose an optimizer
-#model %>% 
-#  compile(loss = 'binary_crossentropy',
-#          optimizer = optimizer_adam(lr=0.002),
-#          #optimizer = optimizer_sgd(lr = 0.002),
-#          #optimizer = optimizer_rmsprop(lr = 0.002),
-#          metrics = 'accuracy')
-#
-#history <- model %>% 
-#  fit(training,
-#      trainLabels,
-#      epochs = 1500,
-#      batch_size = 256,
-#      validation_split = 0.2)
-#
 #plot(history)
 
 #evalute model from test dataset
@@ -119,15 +88,17 @@ prob_pred<-cbind(round(prob[1:test_var,1:test_dim], 3),
 prob_pred_df <- as.data.frame(prob_pred)
 prob_pred_df <- prob_pred_df %>%
   mutate(pred_result = ifelse(V3 == V4, "correct", "incorrect"))
-# plot findings separating into probability categories
+
+
+# See how the degree of predicition works
 #plotly_build(prob_pred_df%>%
-#  filter(V2 < 0.40)%>%
+#  filter(V2 < .40)%>%
 #  ggplot(aes(x = pred_result, fill = pred_result))+
 #  geom_bar(aes(y = (..count..)/sum(..count..)))+
-#  ggtitle('proportion of correct guesses when probabilities below 0.4')+
+#  ggtitle('proportion of correct guesses when probabilities above 0.6')+
 #  ylab("Percent predictions")+
 #  xlab('Prediction result'))
-#
+
 #plotly_build(prob_pred_df%>%
 #  filter(V2 > 0.40 & V2 <0.6)%>%
 #ggplot(aes(x = pred_result, fill = pred_result))+
@@ -150,8 +121,9 @@ pred_new <- model %>%
 #predict target probabilities
 prob_future<-model %>% 
   predict_proba(future_matrix)
-prob_pred_future<-cbind(round(prob_future[1:18,1:test_dim], 3),
-                 pred_new[1:18])
+future_rows<-as.numeric(nrow(prob_future))
+prob_pred_future<-cbind(round(prob_future[1:future_rows,1:test_dim], 3),
+                 pred_new[1:future_rows])
 prob_pred_df <- as.data.frame(prob_pred_future)
 
 #put down predictions for all matches to add to score_margin dataframe
@@ -160,8 +132,8 @@ x<-data_mat[,2:col_num]
 all_match_pred<-model %>% predict_proba(x)
 
 score_data_lean<-cbind(score_data_lean, all_match_pred)
-names(score_data_lean)[23] <- "pred_loss_prob"
-names(score_data_lean)[24] <- "pred_win_prob"
+names(score_data_lean)[21] <- "pred_loss_prob"
+names(score_data_lean)[22] <- "pred_win_prob"
 
 #plot correlation between win probability and Margin
 my.formula <- y ~ x
@@ -206,7 +178,46 @@ ggplot(aes(x=Margin, color=pred_cat)) +
   geom_density(alpha = 0.3)+
   geom_vline(data=Sum_pred_cat, aes(xintercept=rating.mean,  colour=pred_cat),
              linetype="dashed", size=1)+
-  ggtitle("Histogram of margins within prediction probability categories")+
+  labs(title = "Histogram of margins within prediction probability categories",
+       subtitle = "AFL",
+       color="Win Probability") +
   theme(legend.position="top")+
   facet_grid(pred_cat ~.)
+
+# plot to see if home or away predictions are more effective
+plotly_build(score_data_lean%>%
+               filter(status == 2)%>%
+               mutate(pred_result = ifelse(pred_win_prob > 0.5, 1, 0)) %>% 
+               mutate(result = ifelse(Margin > 0, 1, ifelse(Margin < 0, 0, 0.5))) %>% 
+               mutate(outcome = ifelse(pred_result == result, "correct", "incorrect")) %>% 
+               ggplot(aes(x = outcome, fill = pred_result))+
+               geom_bar(aes(y = (..count..)/sum(..count..)))+
+               ggtitle('proportion of correct guesses when probabilities below 0.4')+
+               ylab("Percent predictions")+
+               xlab('Prediction result'))
+
 # Add mean lines
+
+score_data_lean<-score_data_lean %>%
+  filter(Margin != 999) %>% 
+  mutate(margin_linear_error = Margin - margin_est_linear) %>% 
+  mutate(margin_rand_error = Margin - margin_est_rand)
+
+# Function that returns Root Mean Squared Error
+rmse <- function(error)
+{
+  sqrt(mean(error^2))
+}
+
+# Function that returns Mean Absolute Error
+mae <- function(error)
+{
+  mean(abs(error))
+}
+
+rmse(score_data_lean$margin_linear_error)
+mae(score_data_lean$margin_linear_error)
+ 
+rmse(score_data_lean$margin_rand_error)
+mae(score_data_lean$margin_rand_error) 
+
