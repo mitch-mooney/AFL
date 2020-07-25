@@ -14,9 +14,12 @@ fixture<-get_fixture(2020)
 # player stats
 dat <- update_footywire_stats()
 ## betting data
-betting_odds<-get_footywire_betting_odds(
-  start_season = "2010",
-  end_season = lubridate::year(Sys.Date()))
+#betting_odds<-get_footywire_betting_odds(
+#  start_season = "2010",
+#  end_season = lubridate::year(Sys.Date()))
+#
+#read in betting odd .csv
+betting_odds <- read.csv('betting_odds.csv')
 ## Get match results
 results<-get_match_results()
 
@@ -24,7 +27,7 @@ results<-get_match_results()
 
   # Create an index of the rows you want with duplication
 res_idx <- rep(1:nrow(results), 2)
-  # Use that index to genderate your new data frame
+  # Use that index to generate your new data frame
 results_df <- results[res_idx,]
   # Add variables for joining
 res <- results_df%>%
@@ -43,10 +46,9 @@ res <- results_df%>%
   mutate(Margin = points - opp_points) %>% 
   ungroup()%>%
   select(Date, Season, Team, goals, behinds, points, opp_goals, opp_behinds, opp_points, Margin)
-library(tidyverse)
-res$Team<-str_replace(res$Team, "Footscray", "Western Bulldogs")
-res$Team<-str_replace(res$Team, "Brisbane Lions", "Brisbane")
-detach("package:tidyverse", unload = TRUE) # detach Tidyverse because it conflicts with lag function
+# clean team names
+res$Team<-stringr::str_replace(res$Team, "Footscray", "Western Bulldogs")
+res$Team<-stringr::str_replace(res$Team, "Brisbane Lions", "Brisbane")
 
 # get team summarized data for merging
 match<-dat %>%
@@ -122,6 +124,7 @@ glicko_clean<-glicko_clean%>%
   mutate(match_num = order(order(match, decreasing=F)))%>%
   select(Team, match_num, value, rate_change) %>% 
   ungroup()
+
 # create interactive plot with plotly
 #plotly_build(glicko%>%
 #  filter(var == "Rating")%>%
@@ -158,11 +161,15 @@ bet <- betting%>%
   mutate(Opp_Odds = ifelse(Opposition == Home.Team, Home.Win.Odds, Away.Win.Odds))%>%
   mutate(line_Odds = ifelse(Team == Home.Team, Home.Line.Odds, Away.Line.Odds))%>%
   mutate(Opp_lineOdds = ifelse(Opposition == Home.Team, Home.Line.Odds, Away.Line.Odds))%>%
-  select(Date,Status, Home.Team, Team, Odds, Opp_Odds, line_Odds, Opp_lineOdds)
-library(tidyverse)
-bet$Team<-str_replace(bet$Team, "Footscray", "Western Bulldogs")
-bet$Team<-str_replace(bet$Team, "Brisbane Lions", "Brisbane")
-detach("package:tidyverse", unload = TRUE) # detach Tidyverse because it conflicts with lag function
+  select(Date,Status, Home.Team, Team, Odds, Opp_Odds, line_Odds, Opp_lineOdds) %>% 
+  ungroup()
+#clean up team names
+bet$Team<-stringr::str_replace(bet$Team, "Footscray", "Western Bulldogs")
+bet$Team<-stringr::str_replace(bet$Team, "Brisbane Lions", "Brisbane")
+
+#If you have to read in the .csv locally you'll have to change the Date column to date format
+bet$Date <- as.Date(bet$Date, "%d/%m/%y")
+
 #merge with match stats
 match <- merge(match, bet, by=c("Date","Status", "Team"))
 
@@ -172,10 +179,8 @@ match <- merge(match, bet, by=c("Date","Status", "Team"))
 round <- read.csv('fixture.csv', stringsAsFactors = F)
 round$Date<- as.Date(round$Date, "%Y-%m-%d %H:%M:%S")
 match<-as.data.frame(match)
-
-library(plyr) #remove plyr from library after this:
-new<-rbind.fill(match, round)
-detach("package:plyr", unload = TRUE)
+#bind rows need to use plyr to fill blank columns
+new<-plyr::rbind.fill(match, round)
 
 #change team names & home and away status to integer values
 new$team <- as.numeric(ordered(new$Team, levels = c("Adelaide","Brisbane","Carlton","Collingwood","Essendon","Fremantle",       
@@ -186,7 +191,9 @@ new$opposition <- as.numeric(ordered(new$Opposition, levels = c("Adelaide","Bris
                                                                     "Geelong","Gold Coast","GWS" ,"Hawthorn","Melbourne","North Melbourne", 
                                                                       "Port Adelaide","Richmond","St Kilda","Sydney","West Coast","Western Bulldogs")))
 new$status <- as.numeric(ordered(new$Status, levels = c("Home", "Away")))
+#new$date <- as.integer(format(new$Date, "%Y%m%d"))
 
+#finalize the variable lists for modeling
 new<-new %>%
   group_by(Team) %>%
   mutate(last_scoreDiff = lag(Margin, order_by=Date)) %>%
@@ -209,14 +216,14 @@ new<-new %>%
 
 new<-new %>% 
   group_by(Team, Opposition) %>% 
-  mutate(last_encounter_margin = lag(Margin, order_by = Date)) %>% 
+  mutate(last_encounter_margin = lag(Margin, order_by = date)) %>% 
   mutate(last_encounter_SC = lag(SC, order_by = Date)) %>% 
-  mutate(last_encounter_score_acc = lag(score_acc, order_by=Date)) %>%
-  mutate(last_encounter_disposals = lag(D, order_by=Date)) %>%
-  mutate(last_encounter_line_Odds = lag(line_Odds, order_by = Date)) %>% 
+  mutate(last_encounter_score_acc = lag(score_acc, order_by=date)) %>%
+  mutate(last_encounter_disposals = lag(D, order_by=date)) %>%
+  mutate(last_encounter_line_Odds = lag(line_Odds, order_by = date)) %>% 
   ungroup()
 
-# use above metrics to create a couple of more
+# use above metrics to create a couple of final variables
 new<-new%>%
   group_by(Team) %>%
   mutate(last_rateDiff = lag(rate_diff, order_by=Date))%>%
@@ -230,7 +237,7 @@ new<-new%>%
   mutate(last_MI5 = lag(MI5, order_by = Date))%>%
   mutate(last_AF = lag(AF, order_by = Date))%>%
   ungroup()
-# Select metrics to include in training the model; I've left out a lot of metrics because they seem to make the model perform better after trial and error.
+# Select metrics to include in training the model; I've left out a lot of metrics because these ones seem to make the model perform better after trial and error.
 future_data_lean <- new %>%
   select(results, Season, team, opposition, status,
          pre_rate,pre_oppRate,Odds, Opp_Odds,line_Odds,Opp_lineOdds, 

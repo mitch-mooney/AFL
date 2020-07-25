@@ -8,12 +8,12 @@ library(lattice)
 rating_pred <- fixture %>% 
   filter(Round == 3) %>% # choose round you want to predict
   select(Date, Home.Team,Away.Team)
-library(tidyverse)
-rating_pred$Home.Team<-str_replace(rating_pred$Home.Team, "Footscray", "Western Bulldogs")
-rating_pred$Home.Team<-str_replace(rating_pred$Home.Team, "Brisbane Lions", "Brisbane")
-rating_pred$Away.Team<-str_replace(rating_pred$Away.Team, "Footscray", "Western Bulldogs")
-rating_pred$Away.Team<-str_replace(rating_pred$Away.Team, "Brisbane Lions", "Brisbane")
-detach("package:tidyverse", unload = TRUE)
+#library(tidyverse)
+rating_pred$Home.Team<-stringr::str_replace(rating_pred$Home.Team, "Footscray", "Western Bulldogs")
+rating_pred$Home.Team<-stringr::str_replace(rating_pred$Home.Team, "Brisbane Lions", "Brisbane")
+rating_pred$Away.Team<-stringr::str_replace(rating_pred$Away.Team, "Footscray", "Western Bulldogs")
+rating_pred$Away.Team<-stringr::str_replace(rating_pred$Away.Team, "Brisbane Lions", "Brisbane")
+#detach("package:tidyverse", unload = TRUE)
 
 # Training and testing split
 glicko_train <- ratings[ratings$match <= 1500,]

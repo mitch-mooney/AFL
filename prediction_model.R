@@ -69,7 +69,7 @@ history <- model %>%
 
 #plot(history)
 
-#evalute model from test dataset
+#evaluate model from test dataset
 model %>% 
   evaluate(test, testLabels)
 # look at the model prediction probabilities
@@ -139,8 +139,8 @@ names(score_data_lean)[22] <- "pred_win_prob"
 my.formula <- y ~ x
 score_data_lean%>%
   filter(Margin != 999) %>% 
-  #filter(pred_win_prob >0.5)%>%
-  ggplot(aes(x = pred_win_prob, y = Margin))+
+  filter(pred_win_prob <0.5)%>%
+  ggplot(aes(x = pred_win_prob, y = Margin, color = team))+
   geom_point()+
   geom_smooth(method = "lm", se=TRUE, color="blue", formula = my.formula) +
   stat_poly_eq(formula = my.formula, 
@@ -196,28 +196,4 @@ plotly_build(score_data_lean%>%
                ylab("Percent predictions")+
                xlab('Prediction result'))
 
-# Add mean lines
-
-score_data_lean<-score_data_lean %>%
-  filter(Margin != 999) %>% 
-  mutate(margin_linear_error = Margin - margin_est_linear) %>% 
-  mutate(margin_rand_error = Margin - margin_est_rand)
-
-# Function that returns Root Mean Squared Error
-rmse <- function(error)
-{
-  sqrt(mean(error^2))
-}
-
-# Function that returns Mean Absolute Error
-mae <- function(error)
-{
-  mean(abs(error))
-}
-
-rmse(score_data_lean$margin_linear_error)
-mae(score_data_lean$margin_linear_error)
- 
-rmse(score_data_lean$margin_rand_error)
-mae(score_data_lean$margin_rand_error) 
 
