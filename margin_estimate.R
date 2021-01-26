@@ -1,5 +1,6 @@
+#AFL
 # run simulation to determine margin based on category
-runs = 10000
+runs = 100000
 resampling<-matrix(0,runs,10)
 
 for(i in 1:nrow(Sum_pred_cat)){
@@ -15,29 +16,34 @@ score_data_lean$margin_est_rand<-NA
 prediction = as.data.frame(as.numeric(score_data_lean$pred_cat_factor))
 for (j in 1:nrow(score_data_lean)){
  num<-as.numeric(score_data_lean[j,24])
- sample<- sample(resampling[,num], 1000, replace=FALSE)
+ sample<- sample(resampling[,num], 10000, replace=FALSE)
  mean_margin <- round(mean(sample),0)
  score_data_lean[j,25]<- mean_margin
 }
 
+# estimate margin using linear model     
+score_data_lean<-score_data_lean %>% 
+  mutate(margin_est_linear = round(-63.5+129*pred_win_prob,0))
 #create simulation of margin estimate
 margin_sim <- score_data_lean %>% 
   filter(Margin == 999) %>% 
   select(pred_loss_prob, pred_win_prob, margin_est_linear, pred_cat_factor)
 
 margin_sim<- cbind(round, margin_sim)
+games = nrow(round)
 #fill matrix with columns representing the simulated game margins
-score_sim <- matrix(0, nrow = 1000, ncol = 18)
+  # Look at including home or away match into the loop.
+score_sim <- matrix(0, nrow = 10000, ncol = games)
 for (k in 1:nrow(margin_sim)){
   num<-as.numeric(margin_sim[k,18])
-  sample<- sample(resampling[,num], 1000, replace=FALSE)
+  sample<- sample(resampling[,num], 10000, replace=FALSE)
   score_sim[,k] <- sample
 }
 score_sim <- as.data.frame(score_sim)
 score_sim<-reshape2::melt(score_sim)
 #get data frame of match data to merge with simulation
-names <- data.frame(team=margin_sim$Team, opp=margin_sim$Opposition, game=1:18)
-names<-as.data.frame(lapply(names, rep, 1000))
+names <- data.frame(team=margin_sim$Team, opp=margin_sim$Opposition, game=1:games, round = margin_sim$Round)
+names<-as.data.frame(lapply(names, rep, 10000))
 names <- arrange(names, game)
 #merge names with score simulation
 score_sim <- cbind(score_sim, names)
@@ -52,30 +58,45 @@ mean_score = mean_score %>%
   mutate(match = paste(team, opp, sep = " v "))
 
 #create custom colors for teams
-cols <- (c("Gold Coast" = 'gold',"GWS" = 'orange',"Collingwood" = 'black', "North Melbourne" = 'mediumblue',"Sydney"= "firebrick1", "Fremantle" ="purple","Port Adelaide" = "lightseagreen", "Adelaide" = "blue4",
-           "West Coast" = "blue", "Melbourne" = "darkblue", "Western Bulldogs" = "ivory1", "Richmond" = "yellow2","Carlton" = "navy","Hawthorn" = "chocolate4", "St Kilda" = "grey", "Essendon" =  "red3",
+cols <- (c("Gold Coast" = 'gold',"GWS" = 'orange',"Collingwood" = 'black', "North Melbourne" = 'mediumblue',"Sydney"= "firebrick1", "Fremantle" ="purple","Port Adelaide" = "lightseagreen", "Adelaide" = "gold",
+           "West Coast" = "blue", "Melbourne" = "darkblue", "Western Bulldogs" = "ivory1", "Richmond" = "yellow","Carlton" = "navy","Hawthorn" = "chocolate4", "St Kilda" = "grey", "Essendon" =  "red3",
            "Brisbane" = "maroon", "Geelong" = "dodgerblue"))
+
 # create plot for simulation
 plt<-score_sim %>% 
   mutate(result = ifelse(value < 0, opp, team)) %>% 
-  filter(game < 10) %>% 
+  filter(game < (games/2 +1)) %>% #change this to suit how many matches there are that round
   ggplot(aes(x = value, color = result))+
-  geom_histogram(binwidth = 1, fill="white", alpha = 0.5)+
-  geom_vline(data=mean_score[1:9,], aes(xintercept=rating.mean,  colour=result),
+  geom_histogram(binwidth = 1,  alpha = 0.8)+
+  geom_vline(data=mean_score[1:(games/2),], aes(xintercept=rating.mean,  colour=result), #change mean_score[1:games/2]
              linetype="dashed", size=1)+
   scale_colour_manual(values = cols)+
-  labs(title = "Match simulation of Super Netball",
-       subtitle = "Round 1",
+  labs(title = "Match simulation of AFL",
+       subtitle = score_sim$round,
        color = "Team",
        x = "simulated margin")+
-  theme_dark() +
-  facet_grid(match ~.,labeller = label_wrap_gen(width = 2, multi_line = TRUE))
+  scale_x_continuous(breaks = seq(-100, 100, 20))+
+  theme(plot.title = element_text(hjust = 0.5), # Centered title
+        plot.background = element_rect(fill="black"), # Black background
+        panel.background = element_rect(fill="gray20"), # Dark grey panel background
+        panel.grid.minor = element_line(color="black"), # Hide grid lines
+        panel.grid.major = element_line(color="black"), # Hide grid lines
+        axis.text = element_text(color="white"), # Make axis text white
+        title = element_text(color="white", face="bold"), # Make title white and bold.
+        legend.background = element_rect(fill="black"), # Make legend background black
+        legend.text = element_text(color="white"), # Make legend text white
+        legend.key = element_rect(fill="black", color="black"), #Squares/borders of legend black
+        legend.position = c(.9,.4)) + # Coordinates. Top right = (1,1) # Dark grey panel back+
+  facet_grid(game+match~.,labeller = label_wrap_gen(width = 0.5, multi_line = TRUE))
 
 #summary table to simulation results
 tapply(score_sim$value, score_sim$match, summary)
-     
-score_data_lean<-score_data_lean %>% 
-  mutate(margin_est_linear = round(-63.5+129*pred_win_prob,0))
+# mean and 95% confidence of simulation
+#computation of the standard error of the mean
+score_sim %>% 
+  group_by(match) %>% 
+  summarise(mean = mean(value), sd = sd(value), cv = sd/mean, sem = sd(value)/sqrt(length(value)), lower_CI = mean(value)-2*sem, upper_CI = mean(value)+2*sem)
+
 
 margin_data <- score_data_lean %>%
   select(Margin,margin_est_linear, margin_est_rand, pred_win_prob, line_Odds, Odds, status, last_encounter_SC, pred_cat, pred_cat_factor)

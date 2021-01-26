@@ -17,7 +17,7 @@ dat <- update_footywire_stats()
 #betting_odds<-get_footywire_betting_odds(
 #  start_season = "2010",
 #  end_season = lubridate::year(Sys.Date()))
-#
+
 #read in betting odd .csv
 betting_odds <- read.csv('betting_odds.csv')
 ## Get match results
@@ -176,7 +176,8 @@ match <- merge(match, bet, by=c("Date","Status", "Team"))
 ##########----- Add next round fixture to dataframe -----########## 
 
 # add new fixture to dataframe for prediction
-round <- read.csv('fixture.csv', stringsAsFactors = F)
+#round <- read.csv('fixture.csv', stringsAsFactors = F)
+round <- read.csv('fixture_GF.csv', stringsAsFactors = F)
 round$Date<- as.Date(round$Date, "%Y-%m-%d %H:%M:%S")
 match<-as.data.frame(match)
 #bind rows need to use plyr to fill blank columns

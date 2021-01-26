@@ -68,6 +68,7 @@ history <- model %>%
       validation_split = 0.3)
 
 #plot(history)
+#save_model_hdf5(model, "model.h5")
 
 #evaluate model from test dataset
 model %>% 
@@ -82,38 +83,12 @@ pred <- model %>%
 table(Predicted = pred, Actual = testtarget)
 
 #bind guesses with probabilities and actual target values identify correct and incorrect guesses
-prob_pred<-cbind(round(prob[1:test_var,1:test_dim], 3),
-      pred[1:test_var],
-      testtarget[1:test_var])
-prob_pred_df <- as.data.frame(prob_pred)
-prob_pred_df <- prob_pred_df %>%
-  mutate(pred_result = ifelse(V3 == V4, "correct", "incorrect"))
-
-
-# See how the degree of predicition works
-#plotly_build(prob_pred_df%>%
-#  filter(V2 < .40)%>%
-#  ggplot(aes(x = pred_result, fill = pred_result))+
-#  geom_bar(aes(y = (..count..)/sum(..count..)))+
-#  ggtitle('proportion of correct guesses when probabilities above 0.6')+
-#  ylab("Percent predictions")+
-#  xlab('Prediction result'))
-
-#plotly_build(prob_pred_df%>%
-#  filter(V2 > 0.40 & V2 <0.6)%>%
-#ggplot(aes(x = pred_result, fill = pred_result))+
-#  geom_bar(aes(y = (..count..)/sum(..count..)))+
-#  ggtitle('proportion of correct guesses when probabilities between 0.4 & 0.6')+
-#  ylab("Percent predictions")+
-#  xlab('Prediction result'))
-#
-#plotly_build(prob_pred_df%>%
-#  filter(V2 > .60)%>%
-#  ggplot(aes(x = pred_result, fill = pred_result))+
-#  geom_bar(aes(y = (..count..)/sum(..count..)))+
-#  ggtitle('proportion of correct guesses when probabilities above 0.6')+
-#  ylab("Percent predictions")+
-#  xlab('Prediction result'))
+#prob_pred<-cbind(round(prob[1:test_var,1:test_dim], 3),
+#      pred[1:test_var],
+#      testtarget[1:test_var])
+#prob_pred_df <- as.data.frame(prob_pred)
+#prob_pred_df <- prob_pred_df %>%
+#  mutate(pred_result = ifelse(V3 == V4, "correct", "incorrect"))
 
 #predict future events targets
 pred_new <- model %>% 
@@ -132,20 +107,20 @@ x<-data_mat[,2:col_num]
 all_match_pred<-model %>% predict_proba(x)
 
 score_data_lean<-cbind(score_data_lean, all_match_pred)
-names(score_data_lean)[21] <- "pred_loss_prob"
-names(score_data_lean)[22] <- "pred_win_prob"
+score_data_lean<- score_data_lean %>%  
+  rename(pred_loss_prob = `1`, pred_win_prob = `2`)
 
 #plot correlation between win probability and Margin
-my.formula <- y ~ x
-score_data_lean%>%
-  filter(Margin != 999) %>% 
-  filter(pred_win_prob <0.5)%>%
-  ggplot(aes(x = pred_win_prob, y = Margin, color = team))+
-  geom_point()+
-  geom_smooth(method = "lm", se=TRUE, color="blue", formula = my.formula) +
-  stat_poly_eq(formula = my.formula, 
-               aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
-               parse = TRUE)   
+#my.formula <- y ~ x
+#score_data_lean%>%
+#  filter(Margin != 999) %>% 
+#  filter(pred_win_prob <0.5)%>%
+#  ggplot(aes(x = pred_win_prob, y = Margin, color = team))+
+#  geom_point()+
+#  geom_smooth(method = "lm", se=TRUE, color="blue", formula = my.formula) +
+#  stat_poly_eq(formula = my.formula, 
+#               aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
+#               parse = TRUE)   
 
 score_data_lean<-score_data_lean %>%
   mutate(pred_cat = ifelse(pred_win_prob < 0.1, 1, 
@@ -171,29 +146,29 @@ Sum_pred_cat<-score_data_lean %>%
   summarise(rating.mean=mean(Margin), rating.sd = sd(Margin))
 
 # Interleaved histograms
-score_data_lean %>%
-  filter(Margin != 999) %>% 
-ggplot(aes(x=Margin, color=pred_cat)) +
-  geom_histogram(aes(y = ..density..),fill="white", position="dodge")+
-  geom_density(alpha = 0.3)+
-  geom_vline(data=Sum_pred_cat, aes(xintercept=rating.mean,  colour=pred_cat),
-             linetype="dashed", size=1)+
-  labs(title = "Histogram of margins within prediction probability categories",
-       subtitle = "AFL",
-       color="Win Probability") +
-  theme(legend.position="top")+
-  facet_grid(pred_cat ~.)
+#score_data_lean %>%
+#  filter(Margin != 999) %>% 
+#ggplot(aes(x=Margin, color=pred_cat)) +
+#  geom_histogram(aes(y = ..density..),fill="white", position="dodge")+
+#  geom_density(alpha = 0.3)+
+#  geom_vline(data=Sum_pred_cat, aes(xintercept=rating.mean,  colour=pred_cat),
+#             linetype="dashed", size=1)+
+#  labs(title = "Histogram of margins within prediction probability categories",
+#       subtitle = "AFL",
+#       color="Win Probability") +
+#  theme(legend.position="top")+
+#  facet_grid(pred_cat ~.)
 
 # plot to see if home or away predictions are more effective
-plotly_build(score_data_lean%>%
-               filter(status == 2)%>%
-               mutate(pred_result = ifelse(pred_win_prob > 0.5, 1, 0)) %>% 
-               mutate(result = ifelse(Margin > 0, 1, ifelse(Margin < 0, 0, 0.5))) %>% 
-               mutate(outcome = ifelse(pred_result == result, "correct", "incorrect")) %>% 
-               ggplot(aes(x = outcome, fill = pred_result))+
-               geom_bar(aes(y = (..count..)/sum(..count..)))+
-               ggtitle('proportion of correct guesses when probabilities below 0.4')+
-               ylab("Percent predictions")+
-               xlab('Prediction result'))
+#plotly_build(score_data_lean%>%
+#               filter(status == 2)%>%
+#               mutate(pred_result = ifelse(pred_win_prob > 0.5, 1, 0)) %>% 
+#               mutate(result = ifelse(Margin > 0, 1, ifelse(Margin < 0, 0, 0.5))) %>% 
+#               mutate(outcome = ifelse(pred_result == result, "correct", "incorrect")) %>% 
+#               ggplot(aes(x = outcome, fill = pred_result))+
+#               geom_bar(aes(y = (..count..)/sum(..count..)))+
+#               ggtitle('proportion of correct guesses when probabilities below 0.4')+
+#               ylab("Percent predictions")+
+#               xlab('Prediction result'))
 
 
