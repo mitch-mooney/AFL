@@ -7,7 +7,7 @@ This repository makes use of the fitzRoy package in R https://cran.r-project.org
 AFL_data.R file is to pull data from footy_wire and reorganises it for models in other r files:
 Glicko Prediction.R is using Glicko2 ratings to predict matches note: glicko2 gets merged in AFL_data.R to be used as an input into other models but this file allows you to use Glicko2 model independently.
 prediction_model.R is used to run a keras classification model to predict outcome of matches
-DeepLearning_margin.R is used to predict the margin of the matches.
+margin_estimate.R is used to predict the margin of the matches.
 Store_predictions.R is used to tabulate the next match predictions.
 
 ## First
