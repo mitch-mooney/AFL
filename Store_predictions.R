@@ -1,5 +1,7 @@
-library(formattable)
 library(ggpubr)
+library(reactable)
+library(htmltools)
+library(sparkline)
 #bind guess with fixture
 prob_pred_df <- prob_pred_df%>%
   rename(Loss_prob = V1,
@@ -7,7 +9,7 @@ prob_pred_df <- prob_pred_df%>%
          #Draw_Prob = V3,
          Tips = V3)
 
-season_predictions <-read.csv('fixture_res.csv')
+season_predictions <-read.csv('csv_files/fixture_res.csv')
 
 new_predictions<-score_data_lean %>% 
   filter(Margin == 999) %>% 
@@ -28,33 +30,27 @@ table<-table %>%
     margin_estimate_1 = margin_est_linear,
     margin_estimate_2 = margin_est_rand
   )
-formattable(table, align = c("l", rep("c", NCOL(table) - 1)))
 
 #bind new with previous predictions
 new_season_pred<-plyr::rbind.fill(season_predictions, table)
 #rewrite csv with up to date predictions to keep tally
-write.csv(new_season_pred,'fixture_res.csv')
+#write.csv(new_season_pred,'csv_files/fixture_res.csv')
 
 table_final <- table %>% 
   filter(Status == "Home")
+
 table_final <- table_final %>% 
   select(Date, Season, Team, Opposition, Venue, Round, Loss_prob, Win_Prob, Team_predicted, margin_estimate_1) %>% 
   mutate(Loss_prob = round(Loss_prob, digits = 2))%>% 
   mutate(Win_Prob = round(Win_Prob, digits = 2))
-#display tips in table with probabilities
-formattable(table_final, align = c("l", rep("c", NCOL(table_final) - 1)))
 
 # generate table to merge with simulation plot
 t <- table_final %>% 
   select(Team, Opposition, Round, Loss_prob, Win_Prob, margin_estimate_1, Team_predicted) %>% 
   rename(Pred_Winner=Team_predicted,Pred_Margin = margin_estimate_1)
-#tbl<-ggtexttable(t, rows = NULL, theme = ttheme("light", tbody.style = tbody_style(fill ="white", size = 10)))
-# Plot chart and table into one object
-#ggarrange(plt, tbl, nrow = 2, ncol = 1, heights=c(2, 1))
 
 #use reactable to use team logos
-library(reactable)
-library(htmltools)
+
 react_table <- reactable(t, columns = list(
   Team = colDef(maxWidth = 150, align = "center", cell = function(value) {
     img_src <- knitr::image_uri(sprintf("images/%s.png", value))
@@ -114,8 +110,6 @@ team_rate<-team_rate %>%
 
 team_rate<-left_join(rating_history, team_rate, by = c("Player"))
 
-library(sparkline)
-
 spark_table <- glicko_clean %>%
   group_by(Team) %>%
   summarise(Rating = round(tail(value, n = 1), 0),sparkline = list(tail(value, n = round_num))) %>% 
@@ -123,10 +117,12 @@ spark_table <- glicko_clean %>%
 
 spark_table <- merge(team_rate,spark_table, by=c("Rating", "Player"), all.x=TRUE, all.y=TRUE)
 
+reactable_function(data = spark_table)
+
 col_order <- c("Rank", "change", "Player",
                "Rating", "sparkline")
 spark_table <- spark_table[, col_order]
-#spark_table <- spark_table %>% filter(Player == "Geelong" | Player == "Richmond")
+
 # Icon to indicate trend: unchanged, up, down, or new
 trend_indicator <- function(change = c("Unchanged", "Up", "Down")) {
   value <- match.arg(change)
@@ -167,7 +163,7 @@ reactable(spark_table, pagination = FALSE, defaultPageSize = 20, columns = list(
   }),
   Rating = colDef(maxWidth = 100, align = "center", format = colFormat(digits = 0)),
   
-  sparkline = colDef(name = "2020 Progress", cell = function(value, index) {
+  sparkline = colDef(name = "2021 Progress", cell = function(value, index) {
     sparkline(spark_table$sparkline[[index]], height = "50px", width = "150px")
   })
   

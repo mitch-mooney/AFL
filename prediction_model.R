@@ -1,6 +1,6 @@
 source("AFL_data.R")
-source("model_data_function.R")
-source("model_training_function.R")
+source("functions/model_data_function.R")
+source("functions/model_training_function.R")
 
 library(keras)
 
@@ -70,4 +70,7 @@ Sum_pred_cat<-score_data_lean %>%
   filter(Margin != 999) %>% 
   summarise(rating.mean=mean(Margin), rating.sd = sd(Margin))
 
+# linear formula for predicting margin from win probabolity
+formula <- lm(Margin ~ pred_win_prob, na.action=na.exclude, data= score_data_lean)
+score_data_lean %<>% mutate(margin_est_linear = predict(formula)) # add estimate of margin
 

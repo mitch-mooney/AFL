@@ -20,7 +20,7 @@ betting_odds<-get_footywire_betting_odds(
   end_season = lubridate::year(Sys.Date()))
 
 #read in betting odd .csv
-#betting_odds <- read.csv('betting_odds.csv')
+#betting_odds <- read.csv('csv_files/betting_odds.csv')
 ## Get match results
 results<-get_match_results()
 
@@ -90,9 +90,6 @@ ratings %<>%
 ratings$Match_id<-NULL
 
 glicko_rate<-glicko2(ratings, history = T)
-# plot ratings
-#plot(glicko_rate, players = glicko_rate$ratings$player)
-#print(glicko_rate) #print latest ratings
 
 #make dataframe with history ratings
 glicko <- as.data.frame(glicko_rate$history)
@@ -113,8 +110,8 @@ glicko %<>%
 #prepare data for merging with player stats
 glicko %<>% 
   group_by(Team) %>%
-  mutate(rate_change = (value) - lag(value)) %>%
-  mutate(rate_change = ifelse(is.na(rate_change), 2200 - value, rate_change)) %>% 
+  mutate(rate_change = (value) - lag(value),
+         rate_change = ifelse(is.na(rate_change), 2200 - value, rate_change)) %>% 
   ungroup()
 
 glicko_clean<-glicko[apply(glicko!=0, 1, all),]
@@ -179,7 +176,7 @@ match <- merge(match, bet, by=c("Date","Status", "Team"))
 ##########----- Add next round fixture to dataframe -----########## 
 
 # add new fixture to dataframe for prediction
-round <- readr::read_csv('fixture.csv')
+round <- readr::read_csv('csv_files/fixture.csv')
 
 round$Date<- as.Date(round$Date,format = "%Y-%m-%d %H:%M:%S")
 match<-as.data.frame(match)

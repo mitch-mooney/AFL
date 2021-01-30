@@ -1,0 +1,2199 @@
+Date,Venue,Home.Team,Away.Team,Home.Score,Away.Score,Home.Margin,Away.Margin,Home.Win.Odds,Away.Win.Odds,Home.Line.Odds,Away.Line.Odds,Round,Season
+25/3/10,M.C.G.,Richmond,Carlton,64,120,-56,56,2.89,1.42,16.5,-16.5,1,2010
+26/3/10,M.C.G.,Geelong,Essendon,125,94,31,-31,1.21,4.5,-28.5,28.5,1,2010
+27/3/10,M.C.G.,Melbourne,Hawthorn,61,117,-56,56,4.95,1.18,31.5,-31.5,1,2010
+27/3/10,ANZ,Sydney,St Kilda,88,96,-8,8,2.64,1.49,14.5,-14.5,1,2010
+27/3/10,Gabba,Brisbane,West Coast,114,82,32,-32,1.32,3.42,-21.5,21.5,1,2010
+28/3/10,AAMI,Port Adelaide,North Melbourne,96,82,14,-14,1.42,2.89,-16.5,16.5,1,2010
+28/3/10,Marvel,Western Bulldogs,Collingwood,93,129,-36,36,1.62,2.31,-8.5,8.5,1,2010
+28/3/10,Domain,Fremantle,Adelaide,118,62,56,-56,1.96,1.85,1.5,-1.5,1,2010
+1/4/10,Gabba,Brisbane,Carlton,107,88,19,-19,1.34,3.3,-19.5,19.5,2,2010
+3/4/10,M.C.G.,Collingwood,Melbourne,86,85,1,-1,1.05,10.45,-46.5,46.5,2,2010
+3/4/10,Domain,West Coast,Port Adelaide,86,89,-3,3,1.63,2.3,-10.5,10.5,2,2010
+3/4/10,Marvel,St Kilda,North Melbourne,143,39,104,-104,1.15,5.6,-34.5,34.5,2,2010
+4/4/10,AAMI,Adelaide,Sydney,75,118,-43,43,1.54,2.49,-12.5,12.5,2,2010
+4/4/10,Marvel,Essendon,Fremantle,69,113,-44,44,1.44,2.8,-16.5,16.5,2,2010
+4/4/10,M.C.G.,Richmond,Western Bulldogs,48,120,-72,72,10.15,1.05,46.5,-46.5,2,2010
+5/4/10,M.C.G.,Hawthorn,Geelong,91,100,-9,9,2.55,1.52,12.5,-12.5,2,2010
+9/4/10,Marvel,St Kilda,Collingwood,69,41,28,-28,1.33,3.37,-20.5,20.5,3,2010
+10/4/10,Marvel,North Melbourne,West Coast,116,91,25,-25,1.86,1.95,-1.5,1.5,3,2010
+10/4/10,AAMI,Port Adelaide,Brisbane,81,108,-27,27,1.91,1.91,0,0,3,2010
+10/4/10,S.C.G.,Sydney,Richmond,111,56,55,-55,1.08,8,-41.5,41.5,3,2010
+10/4/10,M.C.G.,Carlton,Essendon,75,95,-20,20,1.46,2.73,-15.5,15.5,3,2010
+11/4/10,M.C.G.,Melbourne,Adelaide,57,41,16,-16,2.55,1.52,13.5,-13.5,3,2010
+11/4/10,Marvel,Western Bulldogs,Hawthorn,100,84,16,-16,1.48,2.67,-14.5,14.5,3,2010
+11/4/10,Domain,Fremantle,Geelong,125,118,7,-7,2.31,1.62,9.5,-9.5,3,2010
+16/4/10,Domain,West Coast,Essendon,101,78,23,-23,1.58,2.41,-10.5,10.5,4,2010
+17/4/10,Marvel,North Melbourne,Sydney,60,100,-40,40,2.58,1.51,13.5,-13.5,4,2010
+17/4/10,AAMI,Adelaide,Carlton,55,103,-48,48,1.81,2.01,-2.5,2.5,4,2010
+17/4/10,M.C.G.,Collingwood,Hawthorn,123,59,64,-64,1.64,2.28,-8.5,8.5,4,2010
+17/4/10,Gabba,Brisbane,Western Bulldogs,101,79,22,-22,2.07,1.77,4.5,-4.5,4,2010
+18/4/10,M.C.G.,Richmond,Melbourne,78,133,-55,55,3.8,1.27,22.5,-22.5,4,2010
+18/4/10,GMHBA,Geelong,Port Adelaide,159,64,95,-95,1.12,6.35,-38.5,38.5,4,2010
+18/4/10,Marvel,St Kilda,Fremantle,108,93,15,-15,1.3,3.55,-22.5,22.5,4,2010
+23/4/10,Marvel,Western Bulldogs,Adelaide,121,72,49,-49,1.09,7.5,-40.5,40.5,5,2010
+24/4/10,S.C.G.,Sydney,West Coast,115,63,52,-52,1.15,5.55,-32.5,32.5,5,2010
+24/4/10,M.C.G.,Melbourne,Brisbane,103,53,50,-50,3.51,1.31,21.5,-21.5,5,2010
+24/4/10,AAMI,Port Adelaide,St Kilda,54,44,10,-10,3.44,1.32,21.5,-21.5,5,2010
+25/4/10,M.C.G.,Collingwood,Essendon,120,55,65,-65,1.28,3.72,-23.5,23.5,5,2010
+25/4/10,UTAS,Hawthorn,North Melbourne,70,82,-12,12,1.34,3.31,-20.5,20.5,5,2010
+25/4/10,Domain,Fremantle,Richmond,112,73,39,-39,1.05,10.45,-50.5,50.5,5,2010
+26/4/10,M.C.G.,Carlton,Geelong,104,68,36,-36,4.75,1.19,29.5,-29.5,5,2010
+30/4/10,Marvel,Western Bulldogs,St Kilda,46,49,-3,3,1.75,2.09,-4.5,4.5,6,2010
+1/5/10,Marvel,North Melbourne,Melbourne,104,78,26,-26,2.06,1.77,3.5,-3.5,6,2010
+1/5/10,AAMI,Adelaide,Port Adelaide,74,97,-23,23,2.55,1.52,12.5,-12.5,6,2010
+1/5/10,M.C.G.,Essendon,Hawthorn,106,63,43,-43,2.65,1.49,14.5,-14.5,6,2010
+1/5/10,S.C.G.,Sydney,Brisbane,107,87,20,-20,1.52,2.56,-12.5,12.5,6,2010
+2/5/10,GMHBA,Geelong,Richmond,161,53,108,-108,1.03,12.6,-60.5,60.5,6,2010
+2/5/10,M.C.G.,Carlton,Collingwood,102,155,-53,53,2.58,1.51,13.5,-13.5,6,2010
+2/5/10,Domain,West Coast,Fremantle,73,111,-38,38,2.99,1.4,17.5,-17.5,6,2010
+7/5/10,M.C.G.,Melbourne,Western Bulldogs,66,70,-4,4,4.22,1.23,26.5,-26.5,7,2010
+8/5/10,Domain,West Coast,Hawthorn,102,94,8,-8,1.54,2.51,-12.5,12.5,7,2010
+8/5/10,Marvel,Essendon,Port Adelaide,106,109,-3,3,1.75,2.1,-4.5,4.5,7,2010
+8/5/10,Gabba,Brisbane,Fremantle,100,113,-13,13,1.48,2.68,-14.5,14.5,7,2010
+8/5/10,M.C.G.,Collingwood,North Melbourne,157,91,66,-66,1.19,4.81,-30.5,30.5,7,2010
+9/5/10,GMHBA,Geelong,Sydney,126,59,67,-67,1.28,3.72,-23.5,23.5,7,2010
+9/5/10,AAMI,Adelaide,Richmond,104,54,50,-50,1.2,4.66,-29.5,29.5,7,2010
+10/5/10,Marvel,St Kilda,Carlton,68,129,-61,61,1.44,2.81,-16.5,16.5,7,2010
+14/5/10,Domain,Fremantle,Collingwood,97,133,-36,36,2.06,1.78,3.5,-3.5,8,2010
+15/5/10,Canberra,Western Bulldogs,Sydney,101,63,38,-38,1.6,2.35,-9.5,9.5,8,2010
+15/5/10,M.C.G.,Melbourne,West Coast,46,75,-29,29,1.35,3.23,-19.5,19.5,8,2010
+15/5/10,Gabba,Brisbane,Geelong,74,155,-81,81,3.38,1.33,20.5,-20.5,8,2010
+15/5/10,Marvel,North Melbourne,Adelaide,84,75,9,-9,1.59,2.38,-9.5,9.5,8,2010
+16/5/10,M.C.G.,Richmond,Hawthorn,86,89,-3,3,5.1,1.17,30.5,-30.5,8,2010
+16/5/10,AAMI,Port Adelaide,Carlton,92,118,-26,26,1.85,1.96,-1.5,1.5,8,2010
+16/5/10,Marvel,St Kilda,Essendon,81,93,-12,12,1.4,2.98,-17.5,17.5,8,2010
+21/5/10,M.C.G.,Collingwood,Geelong,50,86,-36,36,2.07,1.76,4.5,-4.5,9,2010
+22/5/10,S.C.G.,Sydney,Fremantle,63,100,-37,37,1.73,2.12,-5.5,5.5,9,2010
+22/5/10,Marvel,North Melbourne,Western Bulldogs,57,127,-70,70,4.22,1.23,26.5,-26.5,9,2010
+22/5/10,TIO,Melbourne,Port Adelaide,111,110,1,-1,2.48,1.55,11.5,-11.5,9,2010
+22/5/10,M.C.G.,Essendon,Richmond,130,95,35,-35,1.25,4.03,-24.5,24.5,9,2010
+23/5/10,AAMI,Adelaide,Brisbane,93,81,12,-12,2.14,1.72,5.5,-5.5,9,2010
+23/5/10,Marvel,Carlton,Hawthorn,60,110,-50,50,1.37,3.12,-19.5,19.5,9,2010
+23/5/10,Domain,West Coast,St Kilda,56,91,-35,35,2.02,1.8,3.5,-3.5,9,2010
+28/5/10,Marvel,Essendon,Western Bulldogs,99,90,9,-9,3.18,1.36,19.5,-19.5,10,2010
+29/5/10,GMHBA,Geelong,Melbourne,121,67,54,-54,1.04,11.25,-50.5,50.5,10,2010
+29/5/10,AAMI,Port Adelaide,Richmond,30,77,-47,47,1.18,4.93,-30.5,30.5,10,2010
+29/5/10,Marvel,St Kilda,Adelaide,123,76,47,-47,1.23,4.25,-26.5,26.5,10,2010
+29/5/10,Gabba,Brisbane,Collingwood,88,80,8,-8,3.66,1.29,22.5,-22.5,10,2010
+30/5/10,M.C.G.,Hawthorn,Sydney,79,77,2,-2,1.3,3.55,-21.5,21.5,10,2010
+30/5/10,Marvel,Carlton,West Coast,105,76,29,-29,1.19,4.75,-30.5,30.5,10,2010
+30/5/10,Domain,Fremantle,North Melbourne,139,78,61,-61,1.12,6.35,-38.5,38.5,10,2010
+4/6/10,Marvel,Richmond,St Kilda,59,97,-38,38,6.05,1.13,37.5,-37.5,11,2010
+5/6/10,M.C.G.,Carlton,Melbourne,101,60,41,-41,1.37,3.14,-19.5,19.5,11,2010
+5/6/10,AAMI,Adelaide,Fremantle,105,82,23,-23,2.89,1.42,17.5,-17.5,11,2010
+5/6/10,Domain,West Coast,Geelong,98,122,-24,24,6.8,1.11,39.5,-39.5,11,2010
+5/6/10,Marvel,North Melbourne,Brisbane,90,89,1,-1,2.53,1.53,12.5,-12.5,11,2010
+6/6/10,S.C.G.,Sydney,Essendon,89,80,9,-9,1.68,2.2,-7.5,7.5,11,2010
+6/6/10,M.C.G.,Hawthorn,Port Adelaide,74,63,11,-11,1.39,3.02,-18.5,18.5,11,2010
+6/6/10,Marvel,Collingwood,Western Bulldogs,113,103,10,-10,1.69,2.18,-6.5,6.5,11,2010
+11/6/10,Marvel,North Melbourne,Carlton,97,68,29,-29,3.8,1.27,23.5,-23.5,12,2010
+12/6/10,UTAS,Hawthorn,Adelaide,124,77,47,-47,1.38,3.07,-18.5,18.5,12,2010
+12/6/10,AAMI,Port Adelaide,Sydney,55,93,-38,38,1.85,1.97,-2.5,2.5,12,2010
+12/6/10,Marvel,Essendon,Geelong,83,154,-71,71,4.03,1.25,25.5,-25.5,12,2010
+13/6/10,M.C.G.,Richmond,West Coast,126,77,49,-49,1.82,2,-2.5,2.5,12,2010
+13/6/10,Marvel,Western Bulldogs,Brisbane,121,56,65,-65,1.26,3.9,-24.5,24.5,12,2010
+13/6/10,Domain,Fremantle,St Kilda,67,85,-18,18,1.66,2.23,-7.5,7.5,12,2010
+14/6/10,M.C.G.,Melbourne,Collingwood,76,76,0,0,5.32,1.16,32.5,-32.5,12,2010
+18/6/10,M.C.G.,Hawthorn,Essendon,102,86,16,-16,1.53,2.52,-11.5,11.5,13,2010
+19/6/10,Marvel,Carlton,Fremantle,87,96,-9,9,1.65,2.25,-7.5,7.5,13,2010
+19/6/10,Gabba,Brisbane,Richmond,86,105,-19,19,1.4,2.98,-17.5,17.5,13,2010
+20/6/10,Marvel,North Melbourne,Port Adelaide,129,93,36,-36,1.33,3.35,-20.5,20.5,13,2010
+20/6/10,Domain,West Coast,Western Bulldogs,59,119,-60,60,3.44,1.32,21.5,-21.5,13,2010
+25/6/10,M.C.G.,St Kilda,Geelong,70,46,24,-24,3.35,1.33,20.5,-20.5,13,2010
+26/6/10,ANZ,Sydney,Collingwood,71,96,-25,25,2.23,1.66,7.5,-7.5,13,2010
+27/6/10,AAMI,Adelaide,Melbourne,117,73,44,-44,1.62,2.31,-8.5,8.5,13,2010
+1/7/10,Marvel,Carlton,Brisbane,120,65,55,-55,1.25,4,-24.5,24.5,14,2010
+2/7/10,M.C.G.,Hawthorn,Western Bulldogs,79,76,3,-3,2.33,1.61,9.5,-9.5,14,2010
+3/7/10,Domain,Fremantle,Port Adelaide,115,58,57,-57,1.12,6.35,-38.5,38.5,14,2010
+3/7/10,AAMI,Adelaide,Essendon,124,40,84,-84,1.62,2.32,-8.5,8.5,14,2010
+3/7/10,Marvel,Collingwood,West Coast,135,52,83,-83,1.06,9.55,-48.5,48.5,14,2010
+4/7/10,GMHBA,Geelong,North Melbourne,98,63,35,-35,1.14,5.78,-35.5,35.5,14,2010
+4/7/10,M.C.G.,Richmond,Sydney,89,85,4,-4,2.24,1.66,7.5,-7.5,14,2010
+4/7/10,Marvel,St Kilda,Melbourne,100,65,35,-35,1.14,5.78,-35.5,35.5,14,2010
+9/7/10,AAMI,Port Adelaide,Collingwood,79,105,-26,26,5.17,1.17,31.5,-31.5,15,2010
+10/7/10,Domain,West Coast,Adelaide,95,117,-22,22,2.77,1.45,15.5,-15.5,15,2010
+10/7/10,M.C.G.,Geelong,Hawthorn,85,83,2,-2,1.34,3.29,-19.5,19.5,15,2010
+10/7/10,Marvel,Richmond,Fremantle,100,81,19,-19,2.62,1.5,14.5,-14.5,15,2010
+10/7/10,Gabba,Brisbane,St Kilda,65,79,-14,14,4.14,1.24,25.5,-25.5,15,2010
+11/7/10,S.C.G.,Sydney,North Melbourne,85,55,30,-30,1.45,2.77,-16.5,16.5,15,2010
+11/7/10,M.C.G.,Melbourne,Essendon,122,103,19,-19,1.87,1.95,-1.5,1.5,15,2010
+11/7/10,Marvel,Carlton,Western Bulldogs,58,126,-68,68,2.61,1.5,13.5,-13.5,15,2010
+16/7/10,AAMI,Adelaide,Geelong,74,63,11,-11,4.03,1.25,24.5,-24.5,16,2010
+17/7/10,M.C.G.,Collingwood,St Kilda,100,52,48,-48,2.1,1.74,5.5,-5.5,16,2010
+17/7/10,UTAS,Hawthorn,Brisbane,118,43,75,-75,1.29,3.66,-23.5,23.5,16,2010
+17/7/10,TIO,Western Bulldogs,Port Adelaide,83,47,36,-36,1.17,5.17,-31.5,31.5,16,2010
+17/7/10,Marvel,Essendon,West Coast,100,132,-32,32,1.4,3,-17.5,17.5,16,2010
+18/7/10,Marvel,Carlton,Sydney,68,107,-39,39,1.59,2.37,-10.5,10.5,16,2010
+18/7/10,M.C.G.,Richmond,North Melbourne,53,103,-50,50,1.8,2.02,-2.5,2.5,16,2010
+18/7/10,Domain,Fremantle,Melbourne,82,71,11,-11,1.2,4.62,-29.5,29.5,16,2010
+23/7/10,Marvel,St Kilda,Hawthorn,87,87,0,0,1.68,2.2,-6.5,6.5,17,2010
+24/7/10,GMHBA,Geelong,Brisbane,127,64,63,-63,1.05,10.25,-51.5,51.5,17,2010
+24/7/10,M.C.G.,Collingwood,Richmond,127,45,82,-82,1.1,7.1,-41.5,41.5,17,2010
+24/7/10,Domain,West Coast,Carlton,83,109,-26,26,1.95,1.87,1.5,-1.5,17,2010
+24/7/10,Marvel,North Melbourne,Essendon,119,122,-3,3,1.46,2.75,-15.5,15.5,17,2010
+25/7/10,Marvel,Western Bulldogs,Fremantle,158,76,82,-82,1.3,3.55,-22.5,22.5,17,2010
+25/7/10,M.C.G.,Melbourne,Sydney,142,69,73,-73,2.33,1.61,9.5,-9.5,17,2010
+25/7/10,AAMI,Port Adelaide,Adelaide,88,69,19,-19,3.29,1.34,20.5,-20.5,17,2010
+30/7/10,Marvel,Essendon,St Kilda,108,75,33,-33,5.12,1.17,31.5,-31.5,18,2010
+31/7/10,M.C.G.,Collingwood,Carlton,105,57,48,-48,1.19,4.77,-30.5,30.5,18,2010
+31/7/10,AAMI,Port Adelaide,Hawthorn,92,84,8,-8,3.12,1.37,19.5,-19.5,18,2010
+31/7/10,Gabba,Brisbane,Melbourne,64,74,-10,10,1.8,2.03,-3.5,3.5,18,2010
+31/7/10,ANZ,Sydney,Geelong,72,125,-53,53,4.14,1.24,25.5,-25.5,18,2010
+1/8/10,M.C.G.,Richmond,Adelaide,100,80,20,-20,2.27,1.64,8.5,-8.5,18,2010
+1/8/10,Marvel,Western Bulldogs,North Melbourne,143,72,71,-71,1.15,5.55,-33.5,33.5,18,2010
+1/8/10,Domain,Fremantle,West Coast,160,85,75,-75,1.38,3.07,-19.5,19.5,18,2010
+6/8/10,M.C.G.,Essendon,Carlton,73,149,-76,76,2.02,1.8,2.5,-2.5,19,2010
+7/8/10,Marvel,North Melbourne,Fremantle,123,69,54,-54,1.83,1.99,-2.5,2.5,19,2010
+7/8/10,S.C.G.,Sydney,Hawthorn,129,85,44,-44,2.09,1.75,5.5,-5.5,19,2010
+7/8/10,Domain,West Coast,Brisbane,65,70,-5,5,1.64,2.31,-8.5,8.5,19,2010
+7/8/10,M.C.G.,Geelong,Collingwood,85,107,-22,22,1.8,2.05,-3.5,3.5,19,2010
+8/8/10,Marvel,St Kilda,Port Adelaide,151,57,94,-94,1.2,4.6,-29.5,29.5,19,2010
+8/8/10,M.C.G.,Melbourne,Richmond,109,80,29,-29,1.51,2.58,-13.5,13.5,19,2010
+8/8/10,AAMI,Adelaide,Western Bulldogs,53,61,-8,8,3.42,1.32,21.5,-21.5,19,2010
+13/8/10,M.C.G.,Essendon,Collingwood,64,162,-98,98,7.1,1.1,40.5,-40.5,20,2010
+14/8/10,Domain,Fremantle,Sydney,87,96,-9,9,1.61,2.33,-9.5,9.5,20,2010
+14/8/10,M.C.G.,Carlton,Richmond,156,67,89,-89,1.31,3.49,-21.5,21.5,20,2010
+14/8/10,Marvel,Western Bulldogs,Geelong,60,161,-101,101,2.51,1.55,11.5,-11.5,20,2010
+14/8/10,AAMI,Port Adelaide,West Coast,61,60,1,-1,1.37,3.19,-19.5,19.5,20,2010
+15/8/10,Gabba,Brisbane,Adelaide,97,104,-7,7,2.05,1.78,3.5,-3.5,20,2010
+15/8/10,M.C.G.,Hawthorn,Melbourne,99,78,21,-21,1.67,2.21,-7.5,7.5,20,2010
+15/8/10,Marvel,North Melbourne,St Kilda,63,115,-52,52,4.1,1.24,25.5,-25.5,20,2010
+20/8/10,Marvel,Geelong,Carlton,121,79,42,-42,1.19,4.77,-29.5,29.5,21,2010
+21/8/10,UTAS,Hawthorn,Fremantle,155,39,116,-116,1.09,7.55,-42.5,42.5,21,2010
+21/8/10,Marvel,St Kilda,Richmond,115,94,21,-21,1.08,8,-44.5,44.5,21,2010
+21/8/10,S.C.G.,Sydney,Western Bulldogs,114,70,44,-44,2.23,1.68,6.5,-6.5,21,2010
+21/8/10,M.C.G.,Collingwood,Adelaide,54,51,3,-3,1.04,12.2,-54.5,54.5,21,2010
+22/8/10,AAMI,Port Adelaide,Melbourne,112,83,29,-29,2,1.82,2.5,-2.5,21,2010
+22/8/10,Marvel,Essendon,Brisbane,68,95,-27,27,1.63,2.29,-8.5,8.5,21,2010
+22/8/10,Domain,West Coast,North Melbourne,94,110,-16,16,2.1,1.74,4.5,-4.5,21,2010
+27/8/10,Domain,Fremantle,Carlton,93,87,6,-6,1.55,2.51,-11.5,11.5,22,2010
+28/8/10,GMHBA,Geelong,West Coast,112,68,44,-44,1.01,16.5,-71.5,71.5,22,2010
+28/8/10,M.C.G.,Hawthorn,Collingwood,98,95,3,-3,2.61,1.5,13.5,-13.5,22,2010
+28/8/10,AAMI,Adelaide,St Kilda,65,37,28,-28,2.47,1.55,12.5,-12.5,22,2010
+28/8/10,Marvel,Western Bulldogs,Essendon,107,78,29,-29,1.2,4.75,-29.5,29.5,22,2010
+28/8/10,Gabba,Brisbane,Sydney,68,106,-38,38,3.19,1.37,19.5,-19.5,22,2010
+29/8/10,Marvel,Richmond,Port Adelaide,112,122,-10,10,1.65,2.25,-8.5,8.5,22,2010
+29/8/10,M.C.G.,Melbourne,North Melbourne,103,113,-10,10,1.95,1.89,1.5,-1.5,22,2010
+3/9/10,M.C.G.,Geelong,St Kilda,79,83,-4,4,1.36,3.2,-18.5,18.5,23,2010
+4/9/10,Domain,Fremantle,Hawthorn,94,64,30,-30,2.23,1.67,6.5,-6.5,23,2010
+4/9/10,M.C.G.,Collingwood,Western Bulldogs,124,62,62,-62,1.25,4.11,-24.5,24.5,23,2010
+5/9/10,ANZ,Sydney,Carlton,99,94,5,-5,1.46,2.79,-15.5,15.5,23,2010
+10/9/10,M.C.G.,Geelong,Fremantle,135,66,69,-69,1.12,6.45,-38.5,38.5,24,2010
+11/9/10,M.C.G.,Western Bulldogs,Sydney,77,72,5,-5,1.97,1.86,1.5,-1.5,24,2010
+17/9/10,M.C.G.,Collingwood,Geelong,120,79,41,-41,1.85,1.97,-2.5,2.5,25,2010
+18/9/10,M.C.G.,St Kilda,Western Bulldogs,88,64,24,-24,1.2,4.7,-29.5,29.5,25,2010
+25/9/10,M.C.G.,Collingwood,St Kilda,68,68,0,0,1.41,2.97,-16.5,16.5,26,2010
+2/10/10,M.C.G.,Collingwood,St Kilda,108,52,56,-56,1.61,2.38,-9.5,9.5,26,2010
+24/3/11,M.C.G.,Carlton,Richmond,104,84,20,-20,1.36,3.45,-19.5,19.5,1,2011
+25/3/11,M.C.G.,Geelong,St Kilda,48,47,1,-1,2.24,1.72,6.5,-6.5,1,2011
+26/3/11,Marvel,Collingwood,Port Adelaide,155,80,75,-75,1.07,11,-46.5,46.5,1,2011
+26/3/11,AAMI,Adelaide,Hawthorn,105,85,20,-20,1.96,1.94,0,0,1,2011
+26/3/11,Gabba,Brisbane,Fremantle,92,94,-2,2,2,1.9,0,0,1,2011
+27/3/11,Marvel,Essendon,Western Bulldogs,113,58,55,-55,2.4,1.64,9.5,-9.5,1,2011
+27/3/11,M.C.G.,Melbourne,Sydney,84,84,0,0,1.82,2.1,-3.5,3.5,1,2011
+27/3/11,Domain,West Coast,North Melbourne,92,88,4,-4,1.65,2.38,-7.5,7.5,1,2011
+1/4/11,M.C.G.,St Kilda,Richmond,95,95,0,0,1.25,4,-25.5,25.5,2,2011
+2/4/11,Marvel,North Melbourne,Collingwood,56,143,-87,87,6.7,1.11,38.5,-38.5,2,2011
+2/4/11,AAMI,Port Adelaide,West Coast,98,116,-18,18,1.45,2.85,-15.5,15.5,2,2011
+2/4/11,Domain,Fremantle,Geelong,78,89,-11,11,1.7,2.21,-6.5,6.5,2,2011
+2/4/11,Gabba,Gold Coast,Carlton,52,171,-119,119,3.95,1.27,27.5,-27.5,2,2011
+3/4/11,Marvel,Western Bulldogs,Brisbane,123,45,78,-78,1.12,6.35,-38.5,38.5,2,2011
+3/4/11,ANZ,Sydney,Essendon,98,93,5,-5,1.8,2.02,-3.5,3.5,2,2011
+3/4/11,M.C.G.,Hawthorn,Melbourne,122,77,45,-45,1.41,2.93,-16.5,16.5,2,2011
+8/4/11,M.C.G.,Collingwood,Carlton,102,74,28,-28,1.25,4.15,-25.5,25.5,3,2011
+9/4/11,Marvel,Western Bulldogs,Gold Coast,122,51,71,-71,1.01,16,-70.5,70.5,3,2011
+9/4/11,AAMI,Adelaide,Fremantle,54,79,-25,25,1.49,2.63,-13.5,13.5,3,2011
+9/4/11,Domain,West Coast,Sydney,88,101,-13,13,1.94,1.9,0,0,3,2011
+9/4/11,M.C.G.,Richmond,Hawthorn,52,115,-63,63,3.75,1.29,23.5,-23.5,3,2011
+10/4/11,M.C.G.,Melbourne,Brisbane,82,71,11,-11,1.19,4.75,-31.5,31.5,3,2011
+10/4/11,GMHBA,Geelong,Port Adelaide,122,43,79,-79,1.08,8,-45.5,45.5,3,2011
+10/4/11,Marvel,St Kilda,Essendon,84,136,-52,52,1.82,2,-2.5,2.5,3,2011
+15/4/11,M.C.G.,Richmond,Collingwood,90,161,-71,71,8.6,1.07,47.5,-47.5,4,2011
+16/4/11,M.C.G.,Carlton,Essendon,79,79,0,0,1.89,1.93,0,0,4,2011
+16/4/11,UTAS,Hawthorn,West Coast,72,65,7,-7,1.12,6.3,-39.5,39.5,4,2011
+16/4/11,S.C.G.,Sydney,Geelong,54,81,-27,27,2.09,1.78,3.5,-3.5,4,2011
+16/4/11,AAMI,Port Adelaide,Adelaide,98,66,32,-32,2.95,1.42,15.5,-15.5,4,2011
+17/4/11,Gabba,Gold Coast,Melbourne,69,159,-90,90,8,1.08,45.5,-45.5,4,2011
+17/4/11,Domain,Fremantle,North Melbourne,127,98,29,-29,1.17,5.1,-32.5,32.5,4,2011
+21/4/11,Gabba,Brisbane,St Kilda,76,89,-13,13,3.55,1.3,22.5,-22.5,5,2011
+23/4/11,AAMI,Port Adelaide,Gold Coast,101,104,-3,3,1.03,14.4,-64.5,64.5,5,2011
+23/4/11,Marvel,Carlton,Adelaide,85,79,6,-6,1.27,3.95,-25.5,25.5,5,2011
+24/4/11,Marvel,North Melbourne,Richmond,103,112,-9,9,1.88,1.93,-1.5,1.5,5,2011
+25/4/11,M.C.G.,Essendon,Collingwood,77,107,-30,30,4.3,1.22,27.5,-27.5,5,2011
+25/4/11,Domain,Fremantle,Western Bulldogs,85,78,7,-7,1.65,2.3,-8.5,8.5,5,2011
+26/4/11,M.C.G.,Hawthorn,Geelong,98,117,-19,19,2.02,1.8,3.5,-3.5,5,2011
+28/4/11,Domain,West Coast,Melbourne,106,52,54,-54,1.49,2.7,-11.5,11.5,6,2011
+29/4/11,S.C.G.,Sydney,Carlton,71,87,-16,16,1.76,2.07,-4.5,4.5,6,2011
+30/4/11,Marvel,North Melbourne,Port Adelaide,133,73,60,-60,1.44,2.8,-16.5,16.5,6,2011
+30/4/11,M.C.G.,Richmond,Brisbane,124,98,26,-26,1.38,3.17,-17.5,17.5,6,2011
+30/4/11,AAMI,Adelaide,St Kilda,90,71,19,-19,1.77,2.1,-4.5,4.5,6,2011
+1/5/11,Marvel,Essendon,Gold Coast,197,58,139,-139,1.03,12.5,-66.5,66.5,6,2011
+1/5/11,M.C.G.,Collingwood,Western Bulldogs,105,57,48,-48,1.09,8.1,-36.5,36.5,6,2011
+6/5/11,AAMI,Port Adelaide,Hawthorn,72,104,-32,32,5.15,1.18,24.5,-24.5,7,2011
+7/5/11,Canberra,Western Bulldogs,Sydney,65,73,-8,8,1.69,2.18,-5.5,5.5,7,2011
+7/5/11,GMHBA,Geelong,North Melbourne,127,61,66,-66,1.06,9.25,-46.5,46.5,7,2011
+7/5/11,M.C.G.,Richmond,Fremantle,148,99,49,-49,2.21,1.67,6.5,-6.5,7,2011
+7/5/11,Gabba,Gold Coast,Brisbane,124,116,8,-8,5.85,1.15,47.5,-47.5,7,2011
+8/5/11,Marvel,Essendon,West Coast,106,90,16,-16,1.22,4.32,-30.5,30.5,7,2011
+8/5/11,M.C.G.,Melbourne,Adelaide,149,53,96,-96,1.85,1.96,-2.5,2.5,7,2011
+9/5/11,Marvel,St Kilda,Carlton,81,84,-3,3,2.77,1.45,15.5,-15.5,7,2011
+13/5/11,M.C.G.,Geelong,Collingwood,65,62,3,-3,2.65,1.49,13.5,-13.5,8,2011
+14/5/11,Marvel,North Melbourne,Melbourne,124,83,41,-41,1.85,1.96,-1.5,1.5,8,2011
+14/5/11,AAMI,Adelaide,Gold Coast,130,73,57,-57,1.15,5.5,-38.5,38.5,8,2011
+14/5/11,S.C.G.,Sydney,Port Adelaide,121,59,62,-62,1.13,6.4,-37.5,37.5,8,2011
+14/5/11,Gabba,Brisbane,Essendon,66,102,-36,36,5,1.19,28.5,-28.5,8,2011
+15/5/11,M.C.G.,Hawthorn,St Kilda,99,69,30,-30,1.43,2.85,-16.5,16.5,8,2011
+15/5/11,Marvel,Western Bulldogs,Richmond,153,118,35,-35,1.7,2.16,-7.5,7.5,8,2011
+15/5/11,Domain,West Coast,Fremantle,96,63,33,-33,1.93,1.89,1.5,-1.5,8,2011
+20/5/11,Marvel,Carlton,Geelong,100,102,-2,2,2.8,1.44,15.5,-15.5,9,2011
+21/5/11,Marvel,St Kilda,Melbourne,106,86,20,-20,1.38,3.05,-16.5,16.5,9,2011
+21/5/11,AAMI,Port Adelaide,Fremantle,90,142,-52,52,2.42,1.57,10.5,-10.5,9,2011
+21/5/11,Gabba,Brisbane,North Melbourne,73,59,14,-14,1.94,1.9,0,0,9,2011
+21/5/11,M.C.G.,Richmond,Essendon,105,89,16,-16,2.81,1.46,15.5,-15.5,9,2011
+22/5/11,Marvel,Collingwood,Adelaide,135,92,43,-43,1.05,10.25,-51.5,51.5,9,2011
+22/5/11,S.C.G.,Sydney,Hawthorn,60,106,-46,46,1.78,2.04,-3.5,3.5,9,2011
+22/5/11,Domain,West Coast,Western Bulldogs,175,52,123,-123,1.71,2.15,-5.5,5.5,9,2011
+27/5/11,M.C.G.,Melbourne,Carlton,46,93,-47,47,5.15,1.17,31.5,-31.5,10,2011
+28/5/11,Domain,Fremantle,St Kilda,56,102,-46,46,1.58,2.39,-9.5,9.5,10,2011
+28/5/11,Marvel,North Melbourne,Sydney,71,72,-1,1,2.02,1.8,3.5,-3.5,10,2011
+28/5/11,Metricon,Gold Coast,Geelong,73,139,-66,66,12.6,1.04,63.5,-63.5,10,2011
+28/5/11,TIO,Richmond,Port Adelaide,74,89,-15,15,1.25,4.15,-28.5,28.5,10,2011
+29/5/11,AAMI,Adelaide,Brisbane,61,101,-40,40,1.26,3.9,-24.5,24.5,10,2011
+29/5/11,M.C.G.,Collingwood,West Coast,105,53,52,-52,1.27,3.8,-29.5,29.5,10,2011
+29/5/11,Marvel,Western Bulldogs,Hawthorn,62,91,-29,29,3.55,1.3,22.5,-22.5,10,2011
+3/6/11,M.C.G.,Essendon,Melbourne,68,101,-33,33,1.22,4.3,-27.5,27.5,11,2011
+4/6/11,Domain,West Coast,Gold Coast,85,67,18,-18,1.07,8.6,-66.5,66.5,11,2011
+4/6/11,GMHBA,Geelong,Western Bulldogs,148,87,61,-61,1.1,7.05,-40.5,40.5,11,2011
+4/6/11,M.C.G.,Collingwood,St Kilda,108,51,57,-57,1.2,4.8,-32.5,32.5,11,2011
+4/6/11,Gabba,Brisbane,Sydney,51,116,-65,65,1.81,2.05,-3.5,3.5,11,2011
+5/6/11,M.C.G.,Hawthorn,Fremantle,111,89,22,-22,1.18,4.9,-32.5,32.5,11,2011
+5/6/11,Marvel,North Melbourne,Adelaide,115,68,47,-47,1.65,2.25,-8.5,8.5,11,2011
+5/6/11,AAMI,Port Adelaide,Carlton,49,111,-62,62,4.45,1.21,27.5,-27.5,11,2011
+10/6/11,Marvel,St Kilda,Western Bulldogs,81,57,24,-24,1.52,2.55,-11.5,11.5,12,2011
+11/6/11,AAMI,Adelaide,West Coast,67,106,-39,39,2.23,1.66,7.5,-7.5,12,2011
+11/6/11,M.C.G.,Geelong,Hawthorn,88,83,5,-5,1.46,2.81,-14.5,14.5,12,2011
+11/6/11,Metricon,Gold Coast,North Melbourne,63,122,-59,59,3.3,1.35,21.5,-21.5,12,2011
+12/6/11,Marvel,Carlton,Brisbane,124,63,61,-61,1.05,10.25,-48.5,48.5,12,2011
+12/6/11,S.C.G.,Sydney,Richmond,75,65,10,-10,1.26,3.9,-22.5,22.5,12,2011
+12/6/11,Domain,Fremantle,Essendon,98,64,34,-34,1.78,2.04,-3.5,3.5,12,2011
+13/6/11,M.C.G.,Melbourne,Collingwood,41,129,-88,88,4.6,1.2,29.5,-29.5,12,2011
+17/6/11,Marvel,Western Bulldogs,Adelaide,100,70,30,-30,1.23,4.2,-27.5,27.5,13,2011
+18/6/11,Marvel,Essendon,North Melbourne,90,111,-21,21,1.62,2.31,-8.5,8.5,13,2011
+18/6/11,UTAS,Hawthorn,Gold Coast,129,58,71,-71,1.03,12.6,-67.5,67.5,13,2011
+18/6/11,Gabba,Brisbane,Richmond,94,125,-31,31,2.23,1.69,5.5,-5.5,13,2011
+18/6/11,M.C.G.,St Kilda,Geelong,72,100,-28,28,3.75,1.29,21.5,-21.5,13,2011
+19/6/11,M.C.G.,Melbourne,Fremantle,149,60,89,-89,1.8,2.02,-3.5,3.5,13,2011
+19/6/11,Marvel,Carlton,Sydney,100,66,34,-34,1.26,3.9,-23.5,23.5,13,2011
+19/6/11,Domain,West Coast,Port Adelaide,110,88,22,-22,1.06,9.3,-48.5,48.5,13,2011
+24/6/11,M.C.G.,Hawthorn,Essendon,146,81,65,-65,1.6,2.35,-10.5,10.5,14,2011
+25/6/11,M.C.G.,Richmond,Melbourne,91,118,-27,27,1.95,1.89,0,0,14,2011
+25/6/11,Metricon,Gold Coast,Western Bulldogs,88,110,-22,22,5.5,1.15,35.5,-35.5,14,2011
+25/6/11,Domain,Fremantle,Brisbane,88,65,23,-23,1.15,5.85,-33.5,33.5,14,2011
+25/6/11,ANZ,Sydney,Collingwood,93,99,-6,6,5.85,1.15,34.5,-34.5,14,2011
+26/6/11,GMHBA,Geelong,Adelaide,125,73,52,-52,1.06,9.3,-47.5,47.5,14,2011
+26/6/11,Marvel,Carlton,West Coast,67,103,-36,36,1.23,4.2,-27.5,27.5,14,2011
+26/6/11,AAMI,Port Adelaide,North Melbourne,91,136,-45,45,2.62,1.49,13.5,-13.5,14,2011
+1/7/11,Marvel,Western Bulldogs,Melbourne,127,63,64,-64,2.03,1.79,3.5,-3.5,15,2011
+2/7/11,Domain,Fremantle,Gold Coast,112,62,50,-50,1.12,6.35,-39.5,39.5,15,2011
+2/7/11,M.C.G.,Richmond,Carlton,81,184,-103,103,4,1.25,24.5,-24.5,15,2011
+2/7/11,AAMI,Adelaide,Sydney,57,50,7,-7,2.95,1.42,15.5,-15.5,15,2011
+2/7/11,Marvel,Essendon,Geelong,115,111,4,-4,8.15,1.09,43.5,-43.5,15,2011
+3/7/11,Gabba,Brisbane,Port Adelaide,99,88,11,-11,1.4,2.95,-17.5,17.5,15,2011
+3/7/11,M.C.G.,Collingwood,Hawthorn,106,65,41,-41,1.31,3.45,-22.5,22.5,15,2011
+3/7/11,Marvel,North Melbourne,St Kilda,70,79,-9,9,2.02,1.8,2.5,-2.5,15,2011
+8/7/11,Domain,West Coast,Geelong,96,88,8,-8,2.45,1.58,8.5,-8.5,16,2011
+9/7/11,UTAS,Hawthorn,Brisbane,105,63,42,-42,1.1,7.05,-39.5,39.5,16,2011
+9/7/11,Metricon,Gold Coast,Sydney,36,106,-70,70,5.85,1.15,36.5,-36.5,16,2011
+9/7/11,M.C.G.,Essendon,Richmond,105,66,39,-39,1.51,2.64,-11.5,11.5,16,2011
+10/7/11,M.C.G.,Collingwood,North Melbourne,147,30,117,-117,1.08,8,-44.5,44.5,16,2011
+10/7/11,AAMI,Port Adelaide,St Kilda,53,109,-56,56,3.8,1.27,22.5,-22.5,16,2011
+10/7/11,Marvel,Western Bulldogs,Carlton,96,69,27,-27,3.55,1.3,22.5,-22.5,16,2011
+15/7/11,AAMI,Adelaide,Essendon,73,84,-11,11,2.09,1.78,4.5,-4.5,17,2011
+16/7/11,Cazaly's,Richmond,Gold Coast,70,85,-15,15,1.16,5.6,-37.5,37.5,17,2011
+16/7/11,M.C.G.,Carlton,Collingwood,79,98,-19,19,5.15,1.18,35.5,-35.5,17,2011
+16/7/11,Marvel,St Kilda,West Coast,82,61,21,-21,1.78,2.09,-5.5,5.5,17,2011
+16/7/11,TIO,Melbourne,Port Adelaide,113,92,21,-21,1.25,4.15,-27.5,27.5,17,2011
+17/7/11,S.C.G.,Sydney,Fremantle,87,98,-11,11,1.27,3.8,-24.5,24.5,17,2011
+17/7/11,Gabba,Brisbane,Geelong,104,133,-29,29,8.05,1.08,41.5,-41.5,17,2011
+17/7/11,Marvel,North Melbourne,Western Bulldogs,142,111,31,-31,3,1.39,17.5,-17.5,17,2011
+22/7/11,Marvel,St Kilda,Adelaide,127,24,103,-103,1.1,7.05,-38.5,38.5,18,2011
+23/7/11,Marvel,North Melbourne,Brisbane,122,77,45,-45,1.12,6.35,-40.5,40.5,18,2011
+23/7/11,S.C.G.,Sydney,Western Bulldogs,114,75,39,-39,1.51,2.57,-11.5,11.5,18,2011
+23/7/11,Metricon,Gold Coast,Collingwood,75,129,-54,54,16.75,1.02,77.5,-77.5,18,2011
+23/7/11,M.C.G.,Essendon,Carlton,79,153,-74,74,3,1.41,16.5,-16.5,18,2011
+24/7/11,Marvel,Geelong,Richmond,113,51,62,-62,1.07,8.65,-46.5,46.5,18,2011
+24/7/11,M.C.G.,Melbourne,Hawthorn,78,132,-54,54,4.3,1.22,27.5,-27.5,18,2011
+24/7/11,Domain,Fremantle,West Coast,64,65,-1,1,2.7,1.47,14.5,-14.5,18,2011
+29/7/11,Marvel,North Melbourne,Carlton,62,80,-18,18,3.75,1.28,22.5,-22.5,19,2011
+30/7/11,Marvel,Western Bulldogs,West Coast,95,103,-8,8,2.31,1.62,8.5,-8.5,19,2011
+30/7/11,GMHBA,Geelong,Melbourne,233,47,186,-186,1.07,8.65,-45.5,45.5,19,2011
+30/7/11,Domain,Fremantle,Hawthorn,44,95,-51,51,2.48,1.57,12.5,-12.5,19,2011
+30/7/11,Metricon,Gold Coast,St Kilda,54,74,-20,20,7.6,1.1,41.5,-41.5,19,2011
+31/7/11,M.C.G.,Collingwood,Essendon,166,92,74,-74,1.07,8.65,-46.5,46.5,19,2011
+31/7/11,AAMI,Adelaide,Port Adelaide,111,79,32,-32,1.64,2.27,-7.5,7.5,19,2011
+5/8/11,Marvel,St Kilda,Fremantle,113,72,41,-41,1.12,6.35,-36.5,36.5,20,2011
+6/8/11,M.C.G.,Carlton,Melbourne,134,58,76,-76,1.11,6.7,-41.5,41.5,20,2011
+6/8/11,GMHBA,Geelong,Gold Coast,188,38,150,-150,1.01,16.5,-89.5,89.5,20,2011
+6/8/11,AAMI,Port Adelaide,Collingwood,21,159,-138,138,20,1.01,70.5,-70.5,20,2011
+6/8/11,Marvel,Essendon,Sydney,100,99,1,-1,1.91,1.93,0,0,20,2011
+7/8/11,Gabba,Brisbane,Adelaide,105,110,-5,5,1.67,2.21,-6.5,6.5,20,2011
+7/8/11,UTAS,Hawthorn,North Melbourne,103,86,17,-17,1.21,4.45,-30.5,30.5,20,2011
+7/8/11,Domain,West Coast,Richmond,147,90,57,-57,1.09,7.5,-42.5,42.5,20,2011
+12/8/11,Marvel,St Kilda,Collingwood,70,89,-19,19,6.35,1.12,37.5,-37.5,21,2011
+13/8/11,Domain,Fremantle,Carlton,85,115,-30,30,3,1.39,17.5,-17.5,21,2011
+13/8/11,M.C.G.,Hawthorn,Port Adelaide,197,32,165,-165,1.01,16.65,-78.5,78.5,21,2011
+13/8/11,Marvel,Western Bulldogs,Essendon,101,150,-49,49,2.3,1.65,7.5,-7.5,21,2011
+13/8/11,Gabba,Brisbane,Gold Coast,123,61,62,-62,1.38,3.15,-18.5,18.5,21,2011
+14/8/11,Marvel,Melbourne,West Coast,62,110,-48,48,4.2,1.23,26.5,-26.5,21,2011
+14/8/11,M.C.G.,Richmond,Sydney,99,56,43,-43,3.55,1.3,20.5,-20.5,21,2011
+14/8/11,AAMI,Adelaide,Geelong,85,96,-11,11,10.2,1.05,50.5,-50.5,21,2011
+19/8/11,Marvel,Carlton,Hawthorn,66,78,-12,12,2.25,1.65,7.5,-7.5,22,2011
+20/8/11,Domain,West Coast,Essendon,134,77,57,-57,1.24,4.1,-26.5,26.5,22,2011
+20/8/11,Metricon,Gold Coast,Adelaide,64,125,-61,61,4.9,1.18,34.5,-34.5,22,2011
+20/8/11,M.C.G.,Collingwood,Brisbane,102,84,18,-18,1.01,20,-81.5,81.5,22,2011
+20/8/11,Marvel,North Melbourne,Fremantle,143,45,98,-98,1.37,3.2,-19.5,19.5,22,2011
+21/8/11,ANZ,Sydney,St Kilda,83,68,15,-15,2.19,1.68,8.5,-8.5,22,2011
+21/8/11,AAMI,Port Adelaide,Western Bulldogs,97,157,-60,60,4.75,1.19,32.5,-32.5,22,2011
+21/8/11,M.C.G.,Melbourne,Richmond,110,117,-7,7,2.07,1.76,4.5,-4.5,22,2011
+26/8/11,Domain,Fremantle,Collingwood,52,132,-80,80,14.45,1.03,71.5,-71.5,23,2011
+27/8/11,GMHBA,Geelong,Sydney,86,99,-13,13,1.07,8.65,-46.5,46.5,23,2011
+27/8/11,M.C.G.,Hawthorn,Western Bulldogs,113,67,46,-46,1.1,7.05,-42.5,42.5,23,2011
+27/8/11,Gabba,Brisbane,West Coast,81,89,-8,8,3.65,1.3,20.5,-20.5,23,2011
+27/8/11,Marvel,St Kilda,North Melbourne,135,70,65,-65,1.75,2.13,-4.5,4.5,23,2011
+28/8/11,AAMI,Adelaide,Richmond,99,121,-22,22,1.37,3.1,-18.5,18.5,23,2011
+28/8/11,M.C.G.,Melbourne,Gold Coast,112,82,30,-30,1.11,6.7,-45.5,45.5,23,2011
+28/8/11,Marvel,Essendon,Port Adelaide,120,113,7,-7,1.01,16.65,-70.5,70.5,23,2011
+2/9/11,M.C.G.,Collingwood,Geelong,53,149,-96,96,1.31,3.45,-20.5,20.5,24,2011
+3/9/11,Metricon,Gold Coast,Hawthorn,97,106,-9,9,4.9,1.18,32.5,-32.5,24,2011
+3/9/11,Marvel,Western Bulldogs,Fremantle,107,61,46,-46,1.08,8.05,-46.5,46.5,24,2011
+3/9/11,S.C.G.,Sydney,Brisbane,119,67,52,-52,1.14,5.75,-35.5,35.5,24,2011
+3/9/11,Domain,West Coast,Adelaide,145,50,95,-95,1.13,6.45,-35.5,35.5,24,2011
+3/9/11,M.C.G.,Carlton,St Kilda,66,86,-20,20,1.74,2.14,-5.5,5.5,24,2011
+4/9/11,Adelaide,Port Adelaide,Melbourne,112,104,8,-8,2.13,1.72,6.5,-6.5,24,2011
+4/9/11,Marvel,Richmond,North Melbourne,91,104,-13,13,2.29,1.63,8.5,-8.5,24,2011
+9/9/11,M.C.G.,Geelong,Hawthorn,98,67,31,-31,1.68,2.19,-6.5,6.5,25,2011
+10/9/11,M.C.G.,Collingwood,West Coast,82,62,20,-20,1.19,4.75,-30.5,30.5,25,2011
+10/9/11,Marvel,St Kilda,Sydney,57,82,-25,25,1.37,3.1,-17.5,17.5,25,2011
+11/9/11,M.C.G.,Carlton,Essendon,149,87,62,-62,1.36,3.15,-18.5,18.5,25,2011
+16/9/11,M.C.G.,Hawthorn,Sydney,122,86,36,-36,1.45,2.77,-14.5,14.5,26,2011
+17/9/11,Domain,West Coast,Carlton,101,98,3,-3,1.43,2.85,-16.5,16.5,26,2011
+23/9/11,M.C.G.,Collingwood,Hawthorn,68,65,3,-3,1.28,3.7,-23.5,23.5,27,2011
+24/9/11,M.C.G.,Geelong,West Coast,117,69,48,-48,1.23,4.2,-28.5,28.5,27,2011
+1/10/11,M.C.G.,Collingwood,Geelong,81,119,-38,38,2.06,1.8,2.5,-2.5,28,2011
+24/3/12,ANZ,GWS,Sydney,37,100,-63,63,26,1.01,88.5,-88.5,1,2012
+29/3/12,M.C.G.,Richmond,Carlton,81,125,-44,44,2.57,1.55,13.5,-13.5,1,2012
+30/3/12,M.C.G.,Hawthorn,Collingwood,137,115,22,-22,1.65,2.32,-7.5,7.5,1,2012
+31/3/12,M.C.G.,Melbourne,Brisbane,78,119,-41,41,1.45,2.9,-15.5,15.5,1,2012
+31/3/12,Metricon,Gold Coast,Adelaide,68,137,-69,69,4.6,1.22,27.5,-27.5,1,2012
+31/3/12,Domain,Fremantle,Geelong,105,101,4,-4,2.2,1.72,6.5,-6.5,1,2012
+31/3/12,Marvel,North Melbourne,Essendon,102,104,-2,2,2.1,1.8,3.5,-3.5,1,2012
+1/4/12,Marvel,Western Bulldogs,West Coast,87,136,-49,49,2.32,1.65,8.5,-8.5,1,2012
+1/4/12,AAMI,Port Adelaide,St Kilda,89,85,4,-4,3.05,1.4,17.5,-17.5,1,2012
+5/4/12,Gabba,Brisbane,Carlton,63,154,-91,91,3.5,1.3,20.5,-20.5,2,2012
+7/4/12,Marvel,Essendon,Port Adelaide,111,86,25,-25,1.24,4.35,-25.5,25.5,2,2012
+7/4/12,S.C.G.,Sydney,Fremantle,94,81,13,-13,1.67,2.3,-6.5,6.5,2,2012
+7/4/12,Domain,West Coast,Melbourne,166,58,108,-108,1.05,12,-53.5,53.5,2,2012
+7/4/12,AAMI,Adelaide,Western Bulldogs,82,64,18,-18,1.25,4.25,-28.5,28.5,2,2012
+7/4/12,M.C.G.,Collingwood,Richmond,85,64,21,-21,1.14,6.35,-34.5,34.5,2,2012
+8/4/12,Blundstone,North Melbourne,GWS,183,54,129,-129,1.02,19,-76.5,76.5,2,2012
+8/4/12,Marvel,St Kilda,Gold Coast,139,47,92,-92,1.06,11,-52.5,52.5,2,2012
+9/4/12,M.C.G.,Geelong,Hawthorn,92,90,2,-2,2.5,1.55,12.5,-12.5,2,2012
+13/4/12,M.C.G.,Carlton,Collingwood,122,62,60,-60,1.8,2.05,-3.5,3.5,3,2012
+14/4/12,AAMI,Port Adelaide,Sydney,83,105,-22,22,2.67,1.47,13.5,-13.5,3,2012
+14/4/12,M.C.G.,Richmond,Melbourne,133,74,59,-59,1.17,5,-30.5,30.5,3,2012
+14/4/12,Domain,Fremantle,Brisbane,64,35,29,-29,1.08,8,-44.5,44.5,3,2012
+14/4/12,Metricon,Gold Coast,Essendon,88,105,-17,17,9.5,1.06,53.5,-53.5,3,2012
+14/4/12,Marvel,Western Bulldogs,St Kilda,40,103,-63,63,2.6,1.5,12.5,-12.5,3,2012
+15/4/12,Blacktown,GWS,West Coast,69,150,-81,81,26,1.01,97.5,-97.5,3,2012
+15/4/12,M.C.G.,Hawthorn,Adelaide,140,84,56,-56,1.2,4.75,-29.5,29.5,3,2012
+15/4/12,Marvel,North Melbourne,Geelong,131,114,17,-17,4.35,1.21,27.5,-27.5,3,2012
+20/4/12,Marvel,St Kilda,Fremantle,79,92,-13,13,1.44,2.85,-16.5,16.5,4,2012
+21/4/12,M.C.G.,Carlton,Essendon,79,109,-30,30,1.1,7,-40.5,40.5,4,2012
+21/4/12,Marvel,Collingwood,Port Adelaide,97,73,24,-24,1.22,4.3,-28.5,28.5,4,2012
+21/4/12,AAMI,Adelaide,GWS,96,50,46,-46,1.01,26,-90.5,90.5,4,2012
+21/4/12,Domain,West Coast,Hawthorn,51,46,5,-5,1.68,2.2,-6.5,6.5,4,2012
+21/4/12,Gabba,Brisbane,Gold Coast,111,46,65,-65,1.35,3.2,-20.5,20.5,4,2012
+22/4/12,GMHBA,Geelong,Richmond,75,65,10,-10,1.18,5,-32.5,32.5,4,2012
+22/4/12,S.C.G.,Sydney,North Melbourne,113,77,36,-36,1.97,1.83,1.5,-1.5,4,2012
+22/4/12,M.C.G.,Melbourne,Western Bulldogs,67,88,-21,21,3,1.4,19.5,-19.5,4,2012
+25/4/12,M.C.G.,Collingwood,Essendon,80,79,1,-1,1.8,2,-3.5,3.5,5,2012
+27/4/12,Domain,Fremantle,Carlton,57,65,-8,8,2.35,1.62,7.5,-7.5,5,2012
+28/4/12,Canberra,GWS,Western Bulldogs,62,104,-42,42,10,1.05,62.5,-62.5,5,2012
+28/4/12,Marvel,North Melbourne,Gold Coast,127,93,34,-34,1.02,15,-84.5,84.5,5,2012
+28/4/12,M.C.G.,Melbourne,St Kilda,66,84,-18,18,7.75,1.09,40.5,-40.5,5,2012
+28/4/12,Gabba,Brisbane,Geelong,41,79,-38,38,3.55,1.3,19.5,-19.5,5,2012
+29/4/12,UTAS,Hawthorn,Sydney,69,106,-37,37,1.3,3.55,-19.5,19.5,5,2012
+29/4/12,Marvel,Richmond,West Coast,97,107,-10,10,3.25,1.35,18.5,-18.5,5,2012
+29/4/12,AAMI,Adelaide,Port Adelaide,110,91,19,-19,1.55,2.45,-10.5,10.5,5,2012
+4/5/12,Marvel,Western Bulldogs,Collingwood,77,98,-21,21,6.75,1.11,38.5,-38.5,6,2012
+5/5/12,Marvel,Essendon,Brisbane,129,62,67,-67,1.12,6.5,-35.5,35.5,6,2012
+5/5/12,GMHBA,Geelong,Melbourne,119,76,43,-43,1.04,12,-54.5,54.5,6,2012
+5/5/12,Metricon,Gold Coast,Fremantle,87,94,-7,7,7.5,1.1,36.5,-36.5,6,2012
+5/5/12,S.C.G.,Sydney,Adelaide,94,99,-5,5,1.27,3.9,-24.5,24.5,6,2012
+5/5/12,M.C.G.,St Kilda,Hawthorn,88,123,-35,35,3.65,1.3,22.5,-22.5,6,2012
+6/5/12,Marvel,Carlton,GWS,110,43,67,-67,1.01,26,-85.5,85.5,6,2012
+6/5/12,Domain,West Coast,North Melbourne,120,95,25,-25,1.28,3.8,-23.5,23.5,6,2012
+6/5/12,AAMI,Port Adelaide,Richmond,54,91,-37,37,2.1,1.75,4.5,-4.5,6,2012
+11/5/12,M.C.G.,Melbourne,Hawthorn,49,115,-66,66,13,1.03,51.5,-51.5,7,2012
+12/5/12,AAMI,Adelaide,Geelong,122,72,50,-50,2.25,1.67,7.5,-7.5,7,2012
+12/5/12,Canberra,GWS,Gold Coast,94,67,27,-27,3.8,1.27,24.5,-24.5,7,2012
+12/5/12,M.C.G.,Richmond,Sydney,91,62,29,-29,1.8,2.05,-2.5,2.5,7,2012
+12/5/12,Marvel,Essendon,West Coast,113,52,61,-61,1.55,2.5,-10.5,10.5,7,2012
+12/5/12,Gabba,Brisbane,Collingwood,58,116,-58,58,5.25,1.17,25.5,-25.5,7,2012
+13/5/12,Marvel,North Melbourne,Western Bulldogs,83,101,-18,18,1.35,3.2,-18.5,18.5,7,2012
+13/5/12,Domain,Fremantle,Port Adelaide,87,47,40,-40,1.14,6,-32.5,32.5,7,2012
+14/5/12,Marvel,St Kilda,Carlton,122,98,24,-24,4.05,1.24,25.5,-25.5,7,2012
+18/5/12,M.C.G.,Collingwood,Geelong,96,84,12,-12,1.7,2.15,-5.5,5.5,8,2012
+19/5/12,AAMI,Port Adelaide,North Melbourne,95,93,2,-2,2.65,1.48,13.5,-13.5,8,2012
+19/5/12,UTAS,Hawthorn,Fremantle,119,63,56,-56,1.18,4.9,-29.5,29.5,8,2012
+19/5/12,S.C.G.,Sydney,Melbourne,138,37,101,-101,1.08,8,-41.5,41.5,8,2012
+19/5/12,TIO,Western Bulldogs,Gold Coast,72,34,38,-38,1.14,6,-36.5,36.5,8,2012
+19/5/12,M.C.G.,Essendon,Richmond,128,109,19,-19,1.45,2.85,-14.5,14.5,8,2012
+20/5/12,Gabba,Brisbane,GWS,132,40,92,-92,1.15,5.75,-35.5,35.5,8,2012
+20/5/12,Domain,West Coast,St Kilda,121,91,30,-30,1.4,2.95,-17.5,17.5,8,2012
+20/5/12,Marvel,Carlton,Adelaide,55,124,-69,69,1.45,2.75,-14.5,14.5,8,2012
+25/5/12,Marvel,Western Bulldogs,Geelong,75,95,-20,20,5.25,1.16,29.5,-29.5,9,2012
+26/5/12,M.C.G.,Richmond,Hawthorn,137,75,62,-62,3.65,1.28,22.5,-22.5,9,2012
+26/5/12,Metricon,Gold Coast,Port Adelaide,70,118,-48,48,2.5,1.55,13.5,-13.5,9,2012
+26/5/12,Marvel,St Kilda,Sydney,111,83,28,-28,2,1.8,2.5,-2.5,9,2012
+26/5/12,AAMI,Adelaide,Collingwood,49,75,-26,26,1.45,2.8,-14.5,14.5,9,2012
+26/5/12,GIANTS,GWS,Essendon,53,119,-66,66,26,1.01,68.5,-68.5,9,2012
+27/5/12,Marvel,North Melbourne,Brisbane,112,96,16,-16,1.24,4.15,-26.5,26.5,9,2012
+27/5/12,Domain,West Coast,Fremantle,84,36,48,-48,1.38,3.05,-18.5,18.5,9,2012
+27/5/12,M.C.G.,Carlton,Melbourne,107,49,58,-58,1.06,9.5,-49.5,49.5,9,2012
+1/6/12,Marvel,St Kilda,Richmond,113,121,-8,8,1.8,2,-2.5,2.5,10,2012
+2/6/12,GMHBA,Geelong,GWS,126,61,65,-65,1.01,17,-80.5,80.5,10,2012
+2/6/12,UTAS,Hawthorn,North Melbourne,174,59,115,-115,1.25,4,-25.5,25.5,10,2012
+2/6/12,Domain,Fremantle,Adelaide,82,111,-29,29,2.4,1.58,9.5,-9.5,10,2012
+2/6/12,AAMI,Port Adelaide,Carlton,99,45,54,-54,3,1.4,17.5,-17.5,10,2012
+2/6/12,M.C.G.,Essendon,Melbourne,52,58,-6,6,1.04,12,-55.5,55.5,10,2012
+3/6/12,Gabba,Brisbane,West Coast,102,100,2,-2,4.9,1.18,27.5,-27.5,10,2012
+3/6/12,S.C.G.,Sydney,Western Bulldogs,132,40,92,-92,1.26,3.95,-21.5,21.5,10,2012
+3/6/12,M.C.G.,Collingwood,Gold Coast,149,52,97,-97,1.01,17,-69.5,69.5,10,2012
+8/6/12,Marvel,Carlton,Geelong,85,97,-12,12,2.8,1.45,14.5,-14.5,11,2012
+9/6/12,M.C.G.,Richmond,Fremantle,66,78,-12,12,1.2,4.6,-31.5,31.5,11,2012
+9/6/12,Metricon,Gold Coast,St Kilda,49,144,-95,95,7.5,1.1,43.5,-43.5,11,2012
+9/6/12,Marvel,Essendon,Sydney,82,86,-4,4,1.5,2.65,-12.5,12.5,11,2012
+10/6/12,AAMI,Port Adelaide,Hawthorn,62,108,-46,46,4,1.25,26.5,-26.5,11,2012
+11/6/12,M.C.G.,Melbourne,Collingwood,87,129,-42,42,8.25,1.08,46.5,-46.5,11,2012
+14/6/12,Domain,West Coast,Carlton,79,69,10,-10,1.3,3.7,-22.5,22.5,12,2012
+15/6/12,AAMI,Adelaide,St Kilda,115,111,4,-4,1.5,2.65,-11.5,11.5,12,2012
+16/6/12,GIANTS,GWS,Richmond,74,86,-12,12,11,1.05,52.5,-52.5,12,2012
+16/6/12,Metricon,Gold Coast,North Melbourne,80,87,-7,7,5.25,1.17,36.5,-36.5,12,2012
+17/6/12,M.C.G.,Hawthorn,Brisbane,135,70,65,-65,1.07,9,-50.5,50.5,12,2012
+17/6/12,Marvel,Western Bulldogs,Port Adelaide,95,57,38,-38,1.43,2.95,-16.5,16.5,12,2012
+22/6/12,S.C.G.,Sydney,Geelong,80,74,6,-6,1.65,2.3,-8.5,8.5,13,2012
+23/6/12,Marvel,Western Bulldogs,Brisbane,56,114,-58,58,1.38,3.05,-18.5,18.5,13,2012
+23/6/12,M.C.G.,Collingwood,West Coast,85,82,3,-3,1.38,3.15,-16.5,16.5,13,2012
+23/6/12,Domain,Fremantle,Essendon,89,113,-24,24,2.35,1.62,9.5,-9.5,13,2012
+24/6/12,M.C.G.,Melbourne,GWS,135,57,78,-78,1.28,3.85,-26.5,26.5,13,2012
+24/6/12,Marvel,North Melbourne,Adelaide,121,89,32,-32,3.3,1.35,19.5,-19.5,13,2012
+29/6/12,M.C.G.,Carlton,Hawthorn,70,120,-50,50,3.7,1.3,23.5,-23.5,14,2012
+30/6/12,AAMI,Adelaide,Richmond,106,87,19,-19,1.4,3.05,-17.5,17.5,14,2012
+30/6/12,M.C.G.,Collingwood,Fremantle,107,78,29,-29,1.1,7.5,-38.5,38.5,14,2012
+30/6/12,Domain,West Coast,Gold Coast,166,40,126,-126,1.01,21,-71.5,71.5,14,2012
+30/6/12,ANZ,Sydney,GWS,132,38,94,-94,1.01,21,-69.5,69.5,14,2012
+30/6/12,Marvel,Essendon,Western Bulldogs,140,56,84,-84,1.18,4.95,-29.5,29.5,14,2012
+1/7/12,GMHBA,Geelong,Port Adelaide,99,61,38,-38,1.04,11,-51.5,51.5,14,2012
+1/7/12,Gabba,Brisbane,Melbourne,122,61,61,-61,1.25,4.1,-28.5,28.5,14,2012
+1/7/12,Marvel,St Kilda,North Melbourne,103,136,-33,33,1.37,3.1,-19.5,19.5,14,2012
+6/7/12,M.C.G.,Collingwood,Carlton,62,85,-23,23,1.19,4.9,-28.5,28.5,15,2012
+7/7/12,Blundstone,North Melbourne,West Coast,84,86,-2,2,2.65,1.5,14.5,-14.5,15,2012
+7/7/12,M.C.G.,Melbourne,Richmond,78,101,-23,23,4.1,1.24,31.5,-31.5,15,2012
+7/7/12,S.C.G.,Sydney,Brisbane,110,63,47,-47,1.17,5.1,-34.5,34.5,15,2012
+7/7/12,AAMI,Port Adelaide,Adelaide,58,116,-58,58,4.1,1.25,26.5,-26.5,15,2012
+7/7/12,Marvel,St Kilda,Essendon,133,62,71,-71,3.2,1.37,19.5,-19.5,15,2012
+8/7/12,M.C.G.,Hawthorn,GWS,193,31,162,-162,1.01,21,-92.5,92.5,15,2012
+8/7/12,Domain,Fremantle,Western Bulldogs,95,57,38,-38,1.18,5.2,-32.5,32.5,15,2012
+8/7/12,Metricon,Gold Coast,Geelong,96,110,-14,14,14,1.03,55.5,-55.5,15,2012
+13/7/12,Marvel,North Melbourne,Carlton,149,96,53,-53,2.15,1.72,4.5,-4.5,16,2012
+14/7/12,AAMI,Port Adelaide,Essendon,77,127,-50,50,2.7,1.47,13.5,-13.5,16,2012
+14/7/12,Marvel,Melbourne,Fremantle,83,117,-34,34,3.4,1.33,21.5,-21.5,16,2012
+14/7/12,Cazaly's,Richmond,Gold Coast,88,90,-2,2,1.17,5.15,-37.5,37.5,16,2012
+14/7/12,Gabba,Brisbane,St Kilda,92,105,-13,13,2.45,1.57,9.5,-9.5,16,2012
+14/7/12,M.C.G.,Geelong,Collingwood,79,110,-31,31,2.75,1.48,12.5,-12.5,16,2012
+15/7/12,GIANTS,GWS,Adelaide,59,178,-119,119,17,1.02,70.5,-70.5,16,2012
+15/7/12,Domain,West Coast,Sydney,69,121,-52,52,1.72,2.18,-5.5,5.5,16,2012
+15/7/12,Marvel,Western Bulldogs,Hawthorn,44,116,-72,72,10,1.06,49.5,-49.5,16,2012
+20/7/12,Marvel,Geelong,Essendon,134,67,67,-67,2.05,1.8,3.5,-3.5,17,2012
+21/7/12,AAMI,Adelaide,West Coast,124,75,49,-49,1.42,2.95,-16.5,16.5,17,2012
+21/7/12,M.C.G.,Collingwood,Hawthorn,91,138,-47,47,1.87,2,-2.5,2.5,17,2012
+21/7/12,Gabba,Gold Coast,Brisbane,48,59,-11,11,3.8,1.28,26.5,-26.5,17,2012
+21/7/12,TIO,Melbourne,Port Adelaide,56,84,-28,28,2.25,1.67,7.5,-7.5,17,2012
+21/7/12,Marvel,Western Bulldogs,Carlton,84,102,-18,18,2.4,1.6,9.5,-9.5,17,2012
+22/7/12,S.C.G.,Sydney,St Kilda,105,76,29,-29,1.35,3.3,-18.5,18.5,17,2012
+22/7/12,Domain,Fremantle,GWS,132,37,95,-95,1.01,26,-94.5,94.5,17,2012
+22/7/12,M.C.G.,Richmond,North Melbourne,99,103,-4,4,2.05,1.8,3.5,-3.5,17,2012
+27/7/12,Marvel,Essendon,Hawthorn,86,180,-94,94,6,1.14,36.5,-36.5,18,2012
+28/7/12,GMHBA,Geelong,Adelaide,102,75,27,-27,1.62,2.35,-8.5,8.5,18,2012
+28/7/12,Marvel,North Melbourne,Melbourne,127,73,54,-54,1.09,8,-44.5,44.5,18,2012
+28/7/12,GIANTS,GWS,Collingwood,54,174,-120,120,26,1.01,85.5,-85.5,18,2012
+28/7/12,M.C.G.,Carlton,Richmond,95,91,4,-4,2.6,1.52,12.5,-12.5,18,2012
+28/7/12,Metricon,Gold Coast,Sydney,54,126,-72,72,11,1.05,50.5,-50.5,18,2012
+29/7/12,AAMI,Port Adelaide,Fremantle,48,75,-27,27,2.75,1.47,12.5,-12.5,18,2012
+29/7/12,Domain,West Coast,Brisbane,175,77,98,-98,1.14,6,-37.5,37.5,18,2012
+29/7/12,Marvel,St Kilda,Western Bulldogs,118,42,76,-76,1.14,6,-36.5,36.5,18,2012
+3/8/12,M.C.G.,Hawthorn,Geelong,116,118,-2,2,1.28,3.8,-26.5,26.5,19,2012
+4/8/12,Marvel,Western Bulldogs,North Melbourne,61,115,-54,54,9.5,1.07,50.5,-50.5,19,2012
+4/8/12,GIANTS,GWS,Port Adelaide,107,73,34,-34,6.25,1.13,45.5,-45.5,19,2012
+4/8/12,Domain,Fremantle,West Coast,113,48,65,-65,2.65,1.5,15.5,-15.5,19,2012
+4/8/12,M.C.G.,Collingwood,St Kilda,91,85,6,-6,1.38,3.15,-17.5,17.5,19,2012
+4/8/12,Gabba,Brisbane,Richmond,84,132,-48,48,2.3,1.65,7.5,-7.5,19,2012
+5/8/12,M.C.G.,Melbourne,Gold Coast,108,66,42,-42,1.33,3.4,-21.5,21.5,19,2012
+5/8/12,Marvel,Carlton,Sydney,71,93,-22,22,3.05,1.4,16.5,-16.5,19,2012
+5/8/12,AAMI,Adelaide,Essendon,104,100,4,-4,1.12,6.4,-38.5,38.5,19,2012
+10/8/12,Domain,West Coast,Geelong,102,97,5,-5,1.7,2.22,-6.5,6.5,20,2012
+11/8/12,AAMI,Adelaide,Fremantle,119,91,28,-28,1.38,3.15,-18.5,18.5,20,2012
+11/8/12,M.C.G.,St Kilda,Melbourne,107,82,25,-25,1.05,11,-50.5,50.5,20,2012
+11/8/12,Metricon,Gold Coast,GWS,109,79,30,-30,1.38,3.15,-20.5,20.5,20,2012
+11/8/12,ANZ,Sydney,Collingwood,70,78,-8,8,1.6,2.4,-10.5,10.5,20,2012
+11/8/12,Marvel,Carlton,Brisbane,113,77,36,-36,1.19,5,-32.5,32.5,20,2012
+12/8/12,UTAS,Hawthorn,Port Adelaide,159,87,72,-72,1.02,16,-75.5,75.5,20,2012
+12/8/12,M.C.G.,Richmond,Western Bulldogs,150,80,70,-70,1.14,6,-39.5,39.5,20,2012
+12/8/12,Marvel,Essendon,North Melbourne,76,100,-24,24,2.2,1.7,6.5,-6.5,20,2012
+17/8/12,Marvel,Geelong,St Kilda,123,81,42,-42,1.3,3.7,-18.5,18.5,21,2012
+18/8/12,M.C.G.,Essendon,Carlton,60,156,-96,96,2.05,1.8,3.5,-3.5,21,2012
+18/8/12,Canberra,GWS,Melbourne,59,84,-25,25,5,1.18,34.5,-34.5,21,2012
+18/8/12,Domain,Fremantle,Richmond,94,72,22,-22,1.37,3.15,-16.5,16.5,21,2012
+18/8/12,Marvel,Collingwood,North Melbourne,61,91,-30,30,1.28,3.8,-21.5,21.5,21,2012
+18/8/12,Gabba,Brisbane,Adelaide,95,85,10,-10,4.8,1.2,29.5,-29.5,21,2012
+19/8/12,AAMI,Port Adelaide,West Coast,50,98,-48,48,6.4,1.13,37.5,-37.5,21,2012
+19/8/12,Marvel,Western Bulldogs,Sydney,85,167,-82,82,10,1.06,47.5,-47.5,21,2012
+19/8/12,M.C.G.,Hawthorn,Gold Coast,129,65,64,-64,1.01,26,-100.5,100.5,21,2012
+24/8/12,M.C.G.,Richmond,Essendon,102,57,45,-45,1.62,2.4,-9.5,9.5,22,2012
+25/8/12,AAMI,Port Adelaide,Brisbane,93,104,-11,11,2.35,1.62,8.5,-8.5,22,2012
+25/8/12,Marvel,St Kilda,GWS,163,35,128,-128,1.02,15,-80.5,80.5,22,2012
+25/8/12,S.C.G.,Sydney,Hawthorn,95,102,-7,7,2,1.85,2.5,-2.5,22,2012
+25/8/12,Domain,West Coast,Collingwood,107,58,49,-49,1.68,2.22,-5.5,5.5,22,2012
+25/8/12,Metricon,Gold Coast,Carlton,98,86,12,-12,15,1.02,68.5,-68.5,22,2012
+26/8/12,GMHBA,Geelong,Western Bulldogs,107,73,34,-34,1.02,15,-70.5,70.5,22,2012
+26/8/12,Marvel,North Melbourne,Fremantle,79,132,-53,53,1.25,4.05,-25.5,25.5,22,2012
+26/8/12,M.C.G.,Melbourne,Adelaide,81,150,-69,69,6.75,1.11,38.5,-38.5,22,2012
+31/8/12,M.C.G.,Hawthorn,West Coast,95,70,25,-25,1.24,4.25,-27.5,27.5,23,2012
+1/9/12,AAMI,Adelaide,Gold Coast,153,62,91,-91,1.01,21,-66.5,66.5,23,2012
+1/9/12,GMHBA,Geelong,Sydney,112,78,34,-34,1.62,2.35,-8.5,8.5,23,2012
+1/9/12,GIANTS,GWS,North Melbourne,77,105,-28,28,21,1.01,82.5,-82.5,23,2012
+1/9/12,Domain,Fremantle,Melbourne,101,40,61,-61,1.06,10,-50.5,50.5,23,2012
+1/9/12,M.C.G.,Essendon,Collingwood,72,104,-32,32,5.75,1.15,38.5,-38.5,23,2012
+2/9/12,Marvel,Carlton,St Kilda,91,106,-15,15,1.87,1.97,-5.5,-3.5,23,2012
+2/9/12,M.C.G.,Richmond,Port Adelaide,106,106,0,0,1.08,8.5,-46.5,46.5,23,2012
+2/9/12,Gabba,Brisbane,Western Bulldogs,128,61,67,-67,1.17,5.3,-34.5,34.5,23,2012
+7/9/12,M.C.G.,Hawthorn,Collingwood,135,97,38,-38,1.3,3.6,-22.5,22.5,24,2012
+8/9/12,AAMI,Adelaide,Sydney,42,71,-29,29,1.58,2.45,-9.5,9.5,24,2012
+8/9/12,M.C.G.,Geelong,Fremantle,80,96,-16,16,1.28,3.85,-22.5,22.5,24,2012
+9/9/12,Domain,West Coast,North Melbourne,162,66,96,-96,1.19,5,-29.5,29.5,24,2012
+14/9/12,AAMI,Adelaide,Fremantle,81,71,10,-10,1.65,2.28,-9.5,9.5,25,2012
+15/9/12,M.C.G.,Collingwood,West Coast,73,60,13,-13,1.96,1.88,-2.5,-4.5,25,2012
+21/9/12,ANZ,Sydney,Collingwood,96,70,26,-26,1.48,2.7,-10.5,10.5,26,2012
+22/9/12,M.C.G.,Hawthorn,Adelaide,97,92,5,-5,1.16,5.75,-37.5,37.5,26,2012
+29/9/12,M.C.G.,Hawthorn,Sydney,81,91,-10,10,1.55,2.55,-11.5,11.5,27,2012
+22/3/13,AAMI,Adelaide,Essendon,82,117,-35,35,1.5,2.6,-13.5,13.5,1,2013
+23/3/13,Domain,Fremantle,West Coast,108,80,28,-28,1.78,2.08,-3.5,3.5,1,2013
+28/3/13,M.C.G.,Carlton,Richmond,101,106,-5,5,1.94,1.9,-3.5,-3.5,1,2013
+30/3/13,Marvel,Western Bulldogs,Brisbane,127,59,68,-68,4.4,1.22,26.5,-26.5,1,2013
+30/3/13,ANZ,GWS,Sydney,76,106,-30,30,12,1.04,54.5,-54.5,1,2013
+30/3/13,Metricon,Gold Coast,St Kilda,90,77,13,-13,3.25,1.35,20.5,-20.5,1,2013
+31/3/13,M.C.G.,Melbourne,Port Adelaide,54,133,-79,79,1.83,2,-2.5,2.5,1,2013
+31/3/13,Marvel,North Melbourne,Collingwood,87,103,-16,16,2.3,1.65,7.5,-7.5,1,2013
+1/4/13,M.C.G.,Hawthorn,Geelong,86,93,-7,7,1.62,2.35,-7.5,7.5,1,2013
+5/4/13,M.C.G.,St Kilda,Richmond,82,99,-17,17,3.05,1.38,18.5,-18.5,2,2013
+6/4/13,S.C.G.,Sydney,Gold Coast,114,73,41,-41,1.08,8.25,-42.5,42.5,2,2013
+6/4/13,Marvel,Western Bulldogs,Fremantle,78,106,-28,28,3.25,1.35,20.5,-20.5,2,2013
+6/4/13,Gabba,Brisbane,Adelaide,77,96,-19,19,2.02,1.82,3.5,-3.5,2,2013
+6/4/13,AAMI,Port Adelaide,GWS,134,78,56,-56,1.14,6,-37.5,37.5,2,2013
+6/4/13,M.C.G.,Essendon,Melbourne,184,36,148,-148,1.08,8.25,-43.5,43.5,2,2013
+7/4/13,Marvel,Geelong,North Melbourne,112,108,4,-4,1.44,2.86,-15.5,15.5,2,2013
+7/4/13,Domain,West Coast,Hawthorn,98,148,-50,50,2,1.84,2.5,-2.5,2,2013
+7/4/13,M.C.G.,Collingwood,Carlton,117,100,17,-17,1.44,2.85,-15.5,15.5,2,2013
+12/4/13,Domain,Fremantle,Essendon,68,72,-4,4,1.4,3,-15.5,15.5,3,2013
+13/4/13,Blundstone,North Melbourne,Sydney,92,131,-39,39,2.17,1.72,5.5,-5.5,3,2013
+13/4/13,M.C.G.,Melbourne,West Coast,83,177,-94,94,12,1.04,62.5,-62.5,3,2013
+13/4/13,Canberra,GWS,St Kilda,68,140,-72,72,5,1.19,34.5,-34.5,3,2013
+13/4/13,Marvel,Geelong,Carlton,119,103,16,-16,1.52,2.6,-12.5,12.5,3,2013
+13/4/13,Metricon,Gold Coast,Brisbane,92,94,-2,2,2.65,1.5,13.5,-13.5,3,2013
+14/4/13,Marvel,Richmond,Western Bulldogs,135,68,67,-67,1.26,4,-27.5,27.5,3,2013
+14/4/13,M.C.G.,Collingwood,Hawthorn,90,145,-55,55,2.45,1.58,9.5,-9.5,3,2013
+14/4/13,AAMI,Port Adelaide,Adelaide,118,109,9,-9,2.8,1.45,15.5,-15.5,3,2013
+19/4/13,S.C.G.,Sydney,Geelong,103,124,-21,21,1.58,2.45,-8.5,8.5,4,2013
+20/4/13,UTAS,Hawthorn,Fremantle,118,76,42,-42,1.15,5.7,-34.5,34.5,4,2013
+20/4/13,M.C.G.,Richmond,Collingwood,79,113,-34,34,1.91,1.91,-1.5,-1.5,4,2013
+20/4/13,Marvel,St Kilda,Essendon,91,128,-37,37,2.55,1.53,12.5,-12.5,4,2013
+20/4/13,Domain,West Coast,Carlton,65,89,-24,24,1.44,2.9,-17.5,17.5,4,2013
+20/4/13,Metricon,Gold Coast,Port Adelaide,66,104,-38,38,3.05,1.4,17.5,-17.5,4,2013
+21/4/13,M.C.G.,Melbourne,GWS,144,103,41,-41,1.48,2.65,-14.5,14.5,4,2013
+21/4/13,AAMI,Adelaide,Western Bulldogs,80,28,52,-52,1.11,6.75,-40.5,40.5,4,2013
+21/4/13,Marvel,North Melbourne,Brisbane,125,62,63,-63,1.28,3.65,-23.5,23.5,4,2013
+25/4/13,M.C.G.,Essendon,Collingwood,121,75,46,-46,2.25,1.67,7.5,-7.5,5,2013
+25/4/13,Westpac,St Kilda,Sydney,63,79,-16,16,5.35,1.17,28.5,-28.5,5,2013
+26/4/13,Domain,Fremantle,Richmond,81,80,1,-1,1.4,3.05,-17.5,17.5,5,2013
+27/4/13,Canberra,GWS,Gold Coast,104,148,-44,44,3.6,1.31,19.5,-19.5,5,2013
+27/4/13,M.C.G.,Carlton,Adelaide,115,83,32,-32,1.4,3,-15.5,15.5,5,2013
+27/4/13,AAMI,Port Adelaide,West Coast,84,79,5,-5,2,1.85,2.5,-2.5,5,2013
+27/4/13,Marvel,Western Bulldogs,Geelong,86,107,-21,21,19,1.01,65.5,-65.5,5,2013
+28/4/13,Gabba,Brisbane,Melbourne,122,94,28,-28,1.21,4.65,-33.5,33.5,5,2013
+28/4/13,M.C.G.,Hawthorn,North Melbourne,99,96,3,-3,1.16,5.5,-32.5,32.5,5,2013
+3/5/13,Marvel,Collingwood,St Kilda,103,77,26,-26,1.24,4.2,-23.5,23.5,6,2013
+4/5/13,Marvel,Essendon,GWS,120,81,39,-39,1.01,21,-92.5,92.5,6,2013
+4/5/13,Blundstone,North Melbourne,Port Adelaide,93,83,10,-10,1.37,3.17,-16.5,16.5,6,2013
+4/5/13,AAMI,Adelaide,Hawthorn,78,89,-11,11,4.85,1.2,24.5,-24.5,6,2013
+4/5/13,M.C.G.,Richmond,Geelong,87,131,-44,44,3.05,1.4,16.5,-16.5,6,2013
+4/5/13,Metricon,Gold Coast,Fremantle,54,99,-45,45,2.75,1.46,13.5,-13.5,6,2013
+5/5/13,S.C.G.,Sydney,Brisbane,115,55,60,-60,1.05,11,-43.5,43.5,6,2013
+5/5/13,Domain,West Coast,Western Bulldogs,137,67,70,-70,1.03,14,-56.5,56.5,6,2013
+5/5/13,M.C.G.,Carlton,Melbourne,121,60,61,-61,1.02,16,-66.5,66.5,6,2013
+10/5/13,Marvel,Geelong,Essendon,113,85,28,-28,1.68,2.25,-7.5,7.5,7,2013
+11/5/13,AAMI,Port Adelaide,Richmond,73,114,-41,41,1.58,2.45,-10.5,10.5,7,2013
+11/5/13,Gabba,Brisbane,West Coast,82,108,-26,26,4.45,1.22,23.5,-23.5,7,2013
+11/5/13,Marvel,Western Bulldogs,North Melbourne,97,151,-54,54,8.5,1.08,37.5,-37.5,7,2013
+11/5/13,Domain,Fremantle,Collingwood,100,73,27,-27,2.45,1.58,9.5,-9.5,7,2013
+11/5/13,M.C.G.,Hawthorn,Sydney,119,82,37,-37,1.46,2.8,-14.5,14.5,7,2013
+12/5/13,GIANTS,GWS,Adelaide,52,187,-135,135,11,1.05,49.5,-49.5,7,2013
+12/5/13,M.C.G.,Melbourne,Gold Coast,54,114,-60,60,2.18,1.72,5.5,-5.5,7,2013
+13/5/13,Marvel,St Kilda,Carlton,77,68,9,-9,4.25,1.24,24.5,-24.5,7,2013
+17/5/13,Domain,West Coast,North Melbourne,90,88,2,-2,1.4,3.05,-18.5,18.5,8,2013
+18/5/13,Marvel,Essendon,Brisbane,86,96,-10,10,1.04,12,-50.5,50.5,8,2013
+18/5/13,UTAS,Hawthorn,GWS,140,57,83,-83,1.01,21,-102.5,102.5,8,2013
+18/5/13,Metricon,Gold Coast,Western Bulldogs,93,61,32,-32,1.65,2.3,-9.5,9.5,8,2013
+18/5/13,S.C.G.,Sydney,Fremantle,70,70,0,0,1.36,3.25,-18.5,18.5,8,2013
+18/5/13,M.C.G.,Collingwood,Geelong,102,96,6,-6,3.25,1.36,20.5,-20.5,8,2013
+19/5/13,Marvel,Carlton,Port Adelaide,109,91,18,-18,1.41,3,-17.5,17.5,8,2013
+19/5/13,M.C.G.,Richmond,Melbourne,106,72,34,-34,1.03,13.5,-71.5,71.5,8,2013
+19/5/13,AAMI,Adelaide,St Kilda,87,47,40,-40,1.34,3.4,-21.5,21.5,8,2013
+24/5/13,M.C.G.,Collingwood,Sydney,55,102,-47,47,1.65,2.3,-7.5,7.5,9,2013
+25/5/13,AAMI,Port Adelaide,Geelong,68,116,-48,48,5.15,1.18,26.5,-26.5,9,2013
+25/5/13,GIANTS,GWS,West Coast,55,155,-100,100,11,1.05,67.5,-67.5,9,2013
+25/5/13,Marvel,St Kilda,Western Bulldogs,101,110,-9,9,1.2,4.5,-31.5,31.5,9,2013
+25/5/13,Gabba,Brisbane,Carlton,85,98,-13,13,2.9,1.43,15.5,-15.5,9,2013
+25/5/13,M.C.G.,Richmond,Essendon,62,91,-29,29,2.08,1.78,3.5,-3.5,9,2013
+26/5/13,M.C.G.,Hawthorn,Gold Coast,118,92,26,-26,1.02,15,-64.5,64.5,9,2013
+26/5/13,Domain,Fremantle,Melbourne,130,40,90,-90,1.02,15,-62.5,62.5,9,2013
+26/5/13,Marvel,North Melbourne,Adelaide,124,125,-1,1,1.46,2.8,-14.5,14.5,9,2013
+31/5/13,Gabba,Brisbane,Collingwood,51,100,-49,49,4.75,1.2,28.5,-28.5,10,2013
+1/6/13,AAMI,Adelaide,Fremantle,59,66,-7,7,1.85,2,-2.5,2.5,10,2013
+1/6/13,Marvel,Carlton,GWS,148,54,94,-94,1.01,21,-80.5,80.5,10,2013
+1/6/13,S.C.G.,Sydney,Essendon,115,71,44,-44,1.56,2.5,-10.5,10.5,10,2013
+1/6/13,TIO,Western Bulldogs,Port Adelaide,67,58,9,-9,2.8,1.46,14.5,-14.5,10,2013
+1/6/13,GMHBA,Geelong,Gold Coast,123,71,52,-52,1.03,14,-52.5,52.5,10,2013
+2/6/13,M.C.G.,Melbourne,Hawthorn,48,143,-95,95,18,1.01,88.5,-88.5,10,2013
+2/6/13,Marvel,North Melbourne,St Kilda,133,65,68,-68,1.2,4.75,-29.5,29.5,10,2013
+3/6/13,Domain,West Coast,Richmond,62,103,-41,41,1.26,4,-23.5,23.5,10,2013
+7/6/13,M.C.G.,Essendon,Carlton,77,72,5,-5,1.83,2.02,-2.5,2.5,11,2013
+8/6/13,GIANTS,GWS,Geelong,98,157,-59,59,21,1.01,83.5,-83.5,11,2013
+8/6/13,AAMI,Adelaide,Sydney,50,127,-77,77,2.65,1.5,9.5,-9.5,11,2013
+8/6/13,Metricon,Gold Coast,North Melbourne,66,51,15,-15,3.6,1.31,19.5,-19.5,11,2013
+9/6/13,Marvel,St Kilda,West Coast,80,84,-4,4,2.8,1.46,15.5,-15.5,11,2013
+10/6/13,M.C.G.,Melbourne,Collingwood,39,122,-83,83,14,1.03,70.5,-70.5,11,2013
+14/6/13,Marvel,Carlton,Hawthorn,87,102,-15,15,4.25,1.24,25.5,-25.5,12,2013
+15/6/13,M.C.G.,Richmond,Adelaide,110,72,38,-38,1.38,3.15,-17.5,17.5,12,2013
+15/6/13,Domain,Fremantle,Brisbane,86,46,40,-40,1.07,9.25,-46.5,46.5,12,2013
+15/6/13,Marvel,Essendon,Gold Coast,115,72,43,-43,1.15,5.8,-36.5,36.5,12,2013
+16/6/13,GIANTS,GWS,Port Adelaide,50,125,-75,75,4,1.26,28.5,-28.5,12,2013
+16/6/13,Marvel,Collingwood,Western Bulldogs,99,65,34,-34,1.11,7,-35.5,35.5,12,2013
+21/6/13,Marvel,Hawthorn,West Coast,123,103,20,-20,1.18,5.15,-30.5,30.5,13,2013
+22/6/13,AAMI,Port Adelaide,Sydney,72,54,18,-18,8.25,1.08,37.5,-37.5,13,2013
+22/6/13,M.C.G.,St Kilda,Melbourne,104,69,35,-35,1.13,6.4,-38.5,38.5,13,2013
+22/6/13,Marvel,Western Bulldogs,Richmond,61,121,-60,60,7.5,1.1,39.5,-39.5,13,2013
+23/6/13,Domain,Fremantle,North Melbourne,67,29,38,-38,1.38,3.15,-16.5,16.5,13,2013
+23/6/13,Gabba,Brisbane,Geelong,103,98,5,-5,5.5,1.16,27.5,-27.5,13,2013
+27/6/13,Domain,West Coast,Essendon,91,98,-7,7,2.2,1.7,6.5,-6.5,14,2013
+28/6/13,S.C.G.,Sydney,Carlton,65,43,22,-22,1.42,2.95,-15.5,15.5,14,2013
+29/6/13,Metricon,Gold Coast,Adelaide,83,111,-28,28,2.4,1.6,10.5,-10.5,14,2013
+29/6/13,AAMI,Port Adelaide,Collingwood,86,51,35,-35,2.95,1.42,14.5,-14.5,14,2013
+29/6/13,GMHBA,Geelong,Fremantle,85,44,41,-41,1.36,3.25,-16.5,16.5,14,2013
+29/6/13,M.C.G.,Melbourne,Western Bulldogs,103,100,3,-3,4,1.26,27.5,-27.5,14,2013
+30/6/13,UTAS,Hawthorn,Brisbane,143,85,58,-58,1.07,9.25,-44.5,44.5,14,2013
+30/6/13,Marvel,North Melbourne,GWS,130,44,86,-86,1.01,21,-82.5,82.5,14,2013
+30/6/13,M.C.G.,Richmond,St Kilda,119,55,64,-64,1.18,5,-33.5,33.5,14,2013
+5/7/13,M.C.G.,Carlton,Collingwood,77,118,-41,41,1.57,2.45,-9.5,9.5,15,2013
+6/7/13,Canberra,GWS,Western Bulldogs,83,87,-4,4,4.5,1.22,33.5,-33.5,15,2013
+6/7/13,Marvel,North Melbourne,Richmond,128,66,62,-62,2.7,1.48,13.5,-13.5,15,2013
+6/7/13,Gabba,Brisbane,Gold Coast,116,83,33,-33,1.28,3.75,-22.5,22.5,15,2013
+6/7/13,AAMI,Adelaide,West Coast,69,75,-6,6,1.55,2.5,-9.5,9.5,15,2013
+6/7/13,M.C.G.,Geelong,Hawthorn,82,72,10,-10,2.4,1.6,7.5,-7.5,15,2013
+7/7/13,M.C.G.,Melbourne,Sydney,85,116,-31,31,15,1.02,59.5,-59.5,15,2013
+7/7/13,Domain,Fremantle,St Kilda,100,70,30,-30,1.03,14,-57.5,57.5,15,2013
+7/7/13,Marvel,Essendon,Port Adelaide,118,88,30,-30,1.33,3.4,-21.5,21.5,15,2013
+12/7/13,M.C.G.,Collingwood,Adelaide,111,84,27,-27,1.16,5.5,-30.5,30.5,16,2013
+13/7/13,AAMI,Port Adelaide,Hawthorn,79,124,-45,45,3.2,1.37,17.5,-17.5,16,2013
+13/7/13,GMHBA,Geelong,Melbourne,98,30,68,-68,1.01,21,-63.5,63.5,16,2013
+13/7/13,Cazaly's,Richmond,Gold Coast,53,44,9,-9,1.23,4.3,-26.5,26.5,16,2013
+13/7/13,Marvel,Carlton,St Kilda,110,74,36,-36,1.38,3.15,-18.5,18.5,16,2013
+13/7/13,Gabba,Brisbane,North Melbourne,117,105,12,-12,2.95,1.42,15.5,-15.5,16,2013
+14/7/13,S.C.G.,Sydney,GWS,171,42,129,-129,1.01,17,-80.5,80.5,16,2013
+14/7/13,Domain,West Coast,Fremantle,93,121,-28,28,2.9,1.43,15.5,-15.5,16,2013
+14/7/13,Marvel,Western Bulldogs,Essendon,90,121,-31,31,7.5,1.1,41.5,-41.5,16,2013
+19/7/13,Marvel,North Melbourne,Carlton,108,109,-1,1,1.62,2.35,-7.5,7.5,17,2013
+20/7/13,UTAS,Hawthorn,Western Bulldogs,95,76,19,-19,1.04,12,-56.5,56.5,17,2013
+20/7/13,GIANTS,GWS,Essendon,77,116,-39,39,15,1.02,69.5,-69.5,17,2013
+20/7/13,Metricon,Gold Coast,Collingwood,85,78,7,-7,5.25,1.17,27.5,-27.5,17,2013
+20/7/13,TIO,Melbourne,Brisbane,75,94,-19,19,3.65,1.3,24.5,-24.5,17,2013
+20/7/13,Marvel,St Kilda,Port Adelaide,92,97,-5,5,2.22,1.68,4.5,-4.5,17,2013
+21/7/13,M.C.G.,Richmond,Fremantle,84,57,27,-27,1.72,2.15,-5.5,5.5,17,2013
+21/7/13,Domain,West Coast,Sydney,79,113,-34,34,2.6,1.52,11.5,-11.5,17,2013
+21/7/13,AAMI,Adelaide,Geelong,94,92,2,-2,4.25,1.23,24.5,-24.5,17,2013
+26/7/13,Marvel,Essendon,Hawthorn,87,143,-56,56,3.45,1.32,22.5,-22.5,18,2013
+27/7/13,Metricon,Gold Coast,Carlton,77,120,-43,43,3,1.41,16.5,-16.5,18,2013
+27/7/13,Marvel,Melbourne,North Melbourne,28,150,-122,122,15,1.02,62.5,-62.5,18,2013
+27/7/13,M.C.G.,Collingwood,GWS,106,66,40,-40,1.01,21,-86.5,86.5,18,2013
+27/7/13,Domain,Fremantle,Adelaide,75,53,22,-22,1.26,4,-24.5,24.5,18,2013
+27/7/13,GMHBA,Geelong,St Kilda,137,36,101,-101,1.07,9,-43.5,43.5,18,2013
+28/7/13,AAMI,Port Adelaide,Brisbane,71,62,9,-9,1.35,3.3,-19.5,19.5,18,2013
+28/7/13,Marvel,Western Bulldogs,West Coast,111,89,22,-22,2.55,1.54,11.5,-11.5,18,2013
+28/7/13,S.C.G.,Sydney,Richmond,110,63,47,-47,1.28,3.8,-22.5,22.5,18,2013
+2/8/13,Marvel,North Melbourne,Geelong,96,86,10,-10,3.5,1.32,21.5,-21.5,19,2013
+3/8/13,GIANTS,GWS,Melbourne,124,87,37,-37,1.6,2.4,-7.5,7.5,19,2013
+3/8/13,M.C.G.,Hawthorn,Richmond,66,107,-41,41,1.2,4.6,-28.5,28.5,19,2013
+3/8/13,Domain,West Coast,Gold Coast,130,113,17,-17,1.42,2.9,-15.5,15.5,19,2013
+3/8/13,Gabba,Brisbane,St Kilda,108,77,31,-31,1.24,4.25,-25.5,25.5,19,2013
+3/8/13,Marvel,Carlton,Fremantle,80,116,-36,36,1.85,2,-2.5,2.5,19,2013
+4/8/13,Marvel,Western Bulldogs,Sydney,99,134,-35,35,8,1.09,44.5,-44.5,19,2013
+4/8/13,AAMI,Adelaide,Port Adelaide,103,107,-4,4,2,1.83,2.5,-2.5,19,2013
+4/8/13,M.C.G.,Collingwood,Essendon,133,54,79,-79,1.83,2,-2.5,2.5,19,2013
+9/8/13,Marvel,St Kilda,Hawthorn,56,102,-46,46,14,1.03,54.5,-54.5,20,2013
+10/8/13,M.C.G.,Richmond,Brisbane,97,74,23,-23,1.17,5.2,-33.5,33.5,20,2013
+10/8/13,GMHBA,Geelong,Port Adelaide,129,104,25,-25,1.11,7.25,-42.5,42.5,20,2013
+10/8/13,Marvel,Carlton,Western Bulldogs,89,117,-28,28,1.4,3.05,-18.5,18.5,20,2013
+10/8/13,Metricon,Gold Coast,Melbourne,90,77,13,-13,1.1,7.5,-42.5,42.5,20,2013
+10/8/13,ANZ,Sydney,Collingwood,71,100,-29,29,1.42,2.95,-17.5,17.5,20,2013
+11/8/13,Marvel,Essendon,West Coast,67,120,-53,53,1.43,2.9,-16.5,16.5,20,2013
+11/8/13,Domain,Fremantle,GWS,157,44,113,-113,1.01,19,-78.5,78.5,20,2013
+11/8/13,AAMI,Adelaide,North Melbourne,79,70,9,-9,2.05,1.8,3.5,-3.5,20,2013
+16/8/13,M.C.G.,Hawthorn,Collingwood,119,84,35,-35,1.52,2.6,-12.5,12.5,21,2013
+17/8/13,AAMI,Port Adelaide,Gold Coast,113,96,17,-17,1.18,5,-30.5,30.5,21,2013
+17/8/13,M.C.G.,Richmond,Carlton,96,106,-10,10,1.26,4,-25.5,25.5,21,2013
+17/8/13,Marvel,Essendon,North Melbourne,70,115,-45,45,3.25,1.35,22.5,-22.5,21,2013
+17/8/13,Domain,West Coast,Geelong,41,107,-66,66,2.75,1.46,14.5,-14.5,21,2013
+17/8/13,Gabba,Brisbane,GWS,123,63,60,-60,1.06,10,-61.5,61.5,21,2013
+18/8/13,M.C.G.,Melbourne,Fremantle,38,133,-95,95,17,1.01,66.5,-66.5,21,2013
+18/8/13,S.C.G.,Sydney,St Kilda,118,59,59,-59,1.02,16,-60.5,60.5,21,2013
+18/8/13,Marvel,Western Bulldogs,Adelaide,131,114,17,-17,2.05,1.8,3.5,-3.5,21,2013
+23/8/13,M.C.G.,Collingwood,West Coast,101,39,62,-62,1.14,6,-34.5,34.5,22,2013
+24/8/13,AAMI,Adelaide,Melbourne,120,52,68,-68,1.02,17,-61.5,61.5,22,2013
+24/8/13,Marvel,North Melbourne,Hawthorn,103,117,-14,14,3.6,1.3,20.5,-20.5,22,2013
+24/8/13,GMHBA,Geelong,Sydney,92,48,44,-44,1.43,2.9,-14.5,14.5,22,2013
+24/8/13,Domain,Fremantle,Port Adelaide,134,60,74,-74,1.15,5.75,-35.5,35.5,22,2013
+24/8/13,M.C.G.,Carlton,Essendon,76,82,-6,6,1.45,2.85,-18.5,18.5,22,2013
+25/8/13,Marvel,St Kilda,Gold Coast,116,70,46,-46,1.72,2.17,-5.5,5.5,22,2013
+25/8/13,GIANTS,GWS,Richmond,42,163,-121,121,15,1.02,62.5,-62.5,22,2013
+25/8/13,Gabba,Brisbane,Western Bulldogs,100,93,7,-7,1.6,2.4,-10.5,10.5,22,2013
+30/8/13,ANZ,Sydney,Hawthorn,100,112,-12,12,2.6,1.5,12.5,-12.5,23,2013
+31/8/13,Marvel,St Kilda,Fremantle,112,41,71,-71,1.67,2.25,-5.5,5.5,23,2013
+31/8/13,GMHBA,Geelong,Brisbane,112,111,1,-1,1.03,14,-57.5,57.5,23,2013
+31/8/13,AAMI,Port Adelaide,Carlton,103,104,-1,1,1.89,1.93,-1.5,-1.5,23,2013
+31/8/13,Domain,West Coast,Adelaide,43,129,-86,86,1.91,1.91,-1.5,-1.5,23,2013
+31/8/13,M.C.G.,Essendon,Richmond,65,104,-39,39,2.8,1.45,18.5,-18.5,23,2013
+1/9/13,Metricon,Gold Coast,GWS,146,63,83,-83,1.07,9,-48.5,48.5,23,2013
+1/9/13,M.C.G.,Collingwood,North Melbourne,114,125,-11,11,1.6,2.4,-8.5,8.5,23,2013
+1/9/13,Marvel,Western Bulldogs,Melbourne,107,87,20,-20,1.07,9,-46.5,46.5,23,2013
+6/9/13,M.C.G.,Hawthorn,Sydney,105,51,54,-54,1.6,2.4,-10.5,10.5,24,2013
+7/9/13,GMHBA,Geelong,Fremantle,72,87,-15,15,1.38,3.15,-16.5,16.5,24,2013
+7/9/13,M.C.G.,Collingwood,Port Adelaide,63,87,-24,24,1.21,4.6,-29.5,29.5,24,2013
+8/9/13,M.C.G.,Richmond,Carlton,96,116,-20,20,1.47,2.8,-13.5,13.5,24,2013
+13/9/13,M.C.G.,Geelong,Port Adelaide,96,80,16,-16,1.2,4.8,-28.5,28.5,25,2013
+14/9/13,ANZ,Sydney,Carlton,86,62,24,-24,1.38,3.15,-18.5,18.5,25,2013
+20/9/13,M.C.G.,Hawthorn,Geelong,102,97,5,-5,1.48,2.6,-11.5,11.5,26,2013
+21/9/13,Domain,Fremantle,Sydney,99,74,25,-25,1.3,3.65,-22.5,22.5,26,2013
+28/9/13,M.C.G.,Hawthorn,Fremantle,77,62,15,-15,1.62,2.3,-8.5,8.5,27,2013
+14/3/14,Marvel,Collingwood,Fremantle,46,116,-70,70,2.5,1.56,9.5,-9.5,1,2014
+15/3/14,GIANTS,GWS,Sydney,99,67,32,-32,12,1.04,44.5,-44.5,1,2014
+15/3/14,Metricon,Gold Coast,Richmond,87,69,18,-18,2.8,1.45,14.5,-14.5,1,2014
+16/3/14,Marvel,Carlton,Port Adelaide,87,120,-33,33,1.7,2.2,-6.5,6.5,1,2014
+20/3/14,GMHBA,Geelong,Adelaide,119,81,38,-38,1.36,3.25,-19.5,19.5,1,2014
+21/3/14,Marvel,North Melbourne,Essendon,60,99,-39,39,1.5,2.65,-13.5,13.5,1,2014
+22/3/14,UTAS,Hawthorn,Brisbane,139,91,48,-48,1.09,8,-45.5,45.5,1,2014
+22/3/14,Marvel,St Kilda,Melbourne,68,51,17,-17,2.2,1.7,6.5,-6.5,1,2014
+23/3/14,Domain,West Coast,Western Bulldogs,134,69,65,-65,1.18,5.25,-31.5,31.5,1,2014
+27/3/14,M.C.G.,Richmond,Carlton,98,86,12,-12,1.51,2.65,-11.5,11.5,2,2014
+28/3/14,Marvel,Essendon,Hawthorn,86,90,-4,4,2.65,1.5,14.5,-14.5,2,2014
+29/3/14,Marvel,St Kilda,GWS,95,88,7,-7,1.8,2.05,-3.5,3.5,2,2014
+29/3/14,Adelaide,Port Adelaide,Adelaide,127,73,54,-54,1.74,2.15,-4.5,4.5,2,2014
+29/3/14,Domain,Fremantle,Gold Coast,87,39,48,-48,1.09,8,-41.5,41.5,2,2014
+29/3/14,ANZ,Sydney,Collingwood,69,89,-20,20,1.45,2.85,-15.5,15.5,2,2014
+30/3/14,Gabba,Brisbane,Geelong,68,93,-25,25,3.8,1.28,22.5,-22.5,2,2014
+30/3/14,M.C.G.,Melbourne,West Coast,30,123,-93,93,9,1.07,46.5,-46.5,2,2014
+30/3/14,Marvel,Western Bulldogs,North Melbourne,54,83,-29,29,3.35,1.33,21.5,-21.5,2,2014
+4/4/14,M.C.G.,Hawthorn,Fremantle,137,79,58,-58,1.72,2.15,-5.5,5.5,3,2014
+5/4/14,Adelaide,Adelaide,Sydney,71,134,-63,63,2.05,1.8,3.5,-3.5,3,2014
+5/4/14,Marvel,Western Bulldogs,Richmond,100,98,2,-2,3.15,1.38,15.5,-15.5,3,2014
+5/4/14,Metricon,Gold Coast,Brisbane,114,61,53,-53,1.73,2.15,-5.5,5.5,3,2014
+5/4/14,Domain,West Coast,St Kilda,83,58,25,-25,1.05,11,-56.5,56.5,3,2014
+5/4/14,M.C.G.,Collingwood,Geelong,76,87,-11,11,2.5,1.56,10.5,-10.5,3,2014
+6/4/14,GIANTS,GWS,Melbourne,79,47,32,-32,1.33,3.3,-20.5,20.5,3,2014
+6/4/14,Marvel,North Melbourne,Port Adelaide,97,90,7,-7,2,1.82,2.5,-2.5,3,2014
+6/4/14,M.C.G.,Essendon,Carlton,138,57,81,-81,1.52,2.55,-11.5,11.5,3,2014
+11/4/14,M.C.G.,Richmond,Collingwood,72,110,-38,38,2.8,1.47,12.5,-12.5,4,2014
+12/4/14,Adelaide,Port Adelaide,Brisbane,159,46,113,-113,1.14,6,-35.5,35.5,4,2014
+12/4/14,M.C.G.,Carlton,Melbourne,58,81,-23,23,1.17,5.25,-33.5,33.5,4,2014
+12/4/14,Canberra,GWS,Western Bulldogs,83,110,-27,27,2.45,1.58,9.5,-9.5,4,2014
+12/4/14,Metricon,Gold Coast,Hawthorn,49,148,-99,99,4.8,1.2,27.5,-27.5,4,2014
+12/4/14,GMHBA,Geelong,West Coast,107,32,75,-75,1.18,5.25,-32.5,32.5,4,2014
+13/4/14,S.C.G.,Sydney,North Melbourne,48,91,-43,43,1.38,3.15,-15.5,15.5,4,2014
+13/4/14,Domain,Fremantle,Essendon,113,60,53,-53,1.92,1.92,-1.5,-1.5,4,2014
+13/4/14,Marvel,St Kilda,Adelaide,50,136,-86,86,2.13,1.74,5.5,-5.5,4,2014
+17/4/14,Gabba,Brisbane,Richmond,63,106,-43,43,4.85,1.2,29.5,-29.5,5,2014
+19/4/14,M.C.G.,Collingwood,North Melbourne,93,58,35,-35,1.92,1.92,-1.5,-1.5,5,2014
+19/4/14,S.C.G.,Sydney,Fremantle,92,75,17,-17,2.5,1.56,8.5,-8.5,5,2014
+19/4/14,Domain,West Coast,Port Adelaide,56,70,-14,14,1.85,2,-2.5,2.5,5,2014
+19/4/14,Marvel,Essendon,St Kilda,65,81,-16,16,1.13,6.4,-38.5,38.5,5,2014
+20/4/14,Adelaide,Adelaide,GWS,137,72,65,-65,1.11,7,-43.5,43.5,5,2014
+20/4/14,M.C.G.,Melbourne,Gold Coast,78,86,-8,8,3.05,1.4,18.5,-18.5,5,2014
+20/4/14,Marvel,Western Bulldogs,Carlton,91,119,-28,28,1.8,2.05,-3.5,3.5,5,2014
+21/4/14,M.C.G.,Geelong,Hawthorn,106,87,19,-19,2.45,1.58,10.5,-10.5,5,2014
+25/4/14,M.C.G.,Collingwood,Essendon,83,60,23,-23,1.52,2.6,-11.5,11.5,6,2014
+25/4/14,Domain,Fremantle,North Melbourne,61,74,-13,13,1.26,4.05,-23.5,23.5,6,2014
+25/4/14,Westpac,St Kilda,Brisbane,79,82,-3,3,1.38,3.15,-18.5,18.5,6,2014
+26/4/14,Metricon,Gold Coast,GWS,134,94,40,-40,1.18,5.25,-32.5,32.5,6,2014
+26/4/14,Marvel,Carlton,West Coast,92,89,3,-3,2.08,1.78,3.5,-3.5,6,2014
+26/4/14,M.C.G.,Melbourne,Sydney,38,69,-31,31,7.5,1.1,40.5,-40.5,6,2014
+27/4/14,Marvel,Western Bulldogs,Adelaide,83,92,-9,9,2.5,1.56,10.5,-10.5,6,2014
+27/4/14,M.C.G.,Richmond,Hawthorn,52,118,-66,66,5.3,1.17,34.5,-34.5,6,2014
+27/4/14,Adelaide,Port Adelaide,Geelong,107,67,40,-40,2.15,1.73,5.5,-5.5,6,2014
+2/5/14,M.C.G.,Carlton,Collingwood,70,104,-34,34,4.2,1.25,26.5,-26.5,7,2014
+3/5/14,M.C.G.,Hawthorn,St Kilda,175,30,145,-145,1.04,13,-54.5,54.5,7,2014
+3/5/14,Canberra,GWS,Port Adelaide,97,132,-35,35,9.5,1.07,45.5,-45.5,7,2014
+3/5/14,Adelaide,Adelaide,Melbourne,67,70,-3,3,1.06,10,-48.5,48.5,7,2014
+3/5/14,Marvel,Essendon,Western Bulldogs,73,65,8,-8,1.28,3.85,-23.5,23.5,7,2014
+3/5/14,Gabba,Brisbane,Sydney,44,123,-79,79,5.3,1.17,31.5,-31.5,7,2014
+4/5/14,Marvel,North Melbourne,Gold Coast,77,120,-43,43,1.3,3.65,-24.5,24.5,7,2014
+4/5/14,Domain,West Coast,Fremantle,54,73,-19,19,2.75,1.47,12.5,-12.5,7,2014
+4/5/14,M.C.G.,Geelong,Richmond,81,76,5,-5,1.2,4.75,-28.5,28.5,7,2014
+9/5/14,ANZ,Sydney,Hawthorn,107,88,19,-19,2.2,1.7,6.5,-6.5,8,2014
+10/5/14,Adelaide,Port Adelaide,Fremantle,94,76,18,-18,1.5,2.65,-10.5,10.5,8,2014
+10/5/14,Gabba,Brisbane,Essendon,57,65,-8,8,4.15,1.25,24.5,-24.5,8,2014
+10/5/14,M.C.G.,Melbourne,Western Bulldogs,83,99,-16,16,2.58,1.53,13.5,-13.5,8,2014
+11/5/14,Domain,West Coast,GWS,188,77,111,-111,1.06,10,-56.5,56.5,8,2014
+12/5/14,Marvel,St Kilda,Carlton,69,101,-32,32,3.15,1.38,19.5,-19.5,8,2014
+15/5/14,Adelaide,Adelaide,Collingwood,76,55,21,-21,2.95,1.42,15.5,-15.5,9,2014
+16/5/14,Marvel,Essendon,Sydney,64,114,-50,50,3.3,1.36,18.5,-18.5,9,2014
+17/5/14,M.C.G.,Richmond,Melbourne,74,91,-17,17,1.16,5.5,-31.5,31.5,9,2014
+17/5/14,Marvel,North Melbourne,Brisbane,125,38,87,-87,1.05,11.5,-57.5,57.5,9,2014
+17/5/14,Domain,Fremantle,Geelong,96,64,32,-32,1.8,2.05,-2.5,2.5,9,2014
+18/5/14,Marvel,St Kilda,Gold Coast,87,125,-38,38,4.45,1.22,30.5,-30.5,9,2014
+23/5/14,GMHBA,Geelong,North Melbourne,111,91,20,-20,1.46,2.7,-13.5,13.5,10,2014
+24/5/14,GIANTS,GWS,Richmond,41,154,-113,113,2.95,1.4,18.5,-18.5,10,2014
+24/5/14,M.C.G.,Collingwood,West Coast,109,101,8,-8,1.3,3.5,-22.5,22.5,10,2014
+24/5/14,Adelaide,Port Adelaide,Hawthorn,100,86,14,-14,1.55,2.5,-12.5,12.5,10,2014
+25/5/14,Metricon,Gold Coast,Western Bulldogs,119,74,45,-45,1.17,5.3,-27.5,27.5,10,2014
+25/5/14,M.C.G.,Carlton,Adelaide,81,76,5,-5,2.4,1.6,8.5,-8.5,10,2014
+29/5/14,S.C.G.,Sydney,Geelong,148,38,110,-110,1.38,3.15,-17.5,17.5,11,2014
+30/5/14,Marvel,St Kilda,Collingwood,54,140,-86,86,9.5,1.05,45.5,-45.5,11,2014
+31/5/14,TIO,Melbourne,Port Adelaide,75,95,-20,20,7,1.1,36.5,-36.5,11,2014
+31/5/14,Gabba,Brisbane,Carlton,98,91,7,-7,2.9,1.43,13.5,-13.5,11,2014
+31/5/14,M.C.G.,Essendon,Richmond,104,54,50,-50,1.63,2.35,-7.5,7.5,11,2014
+1/6/14,Adelaide,Adelaide,Gold Coast,109,77,32,-32,1.6,2.4,-10.5,10.5,11,2014
+1/6/14,Marvel,Western Bulldogs,Fremantle,51,89,-38,38,5.35,1.17,32.5,-32.5,11,2014
+1/6/14,M.C.G.,Hawthorn,GWS,94,87,7,-7,1.01,18,-78.5,78.5,11,2014
+1/6/14,Domain,West Coast,North Melbourne,44,82,-38,38,1.58,2.45,-8.5,8.5,11,2014
+6/6/14,Marvel,Geelong,Carlton,107,102,5,-5,1.17,5.2,-31.5,31.5,12,2014
+7/6/14,UTAS,Hawthorn,West Coast,123,79,44,-44,1.18,4.9,-32.5,32.5,12,2014
+7/6/14,Adelaide,Port Adelaide,St Kilda,129,59,70,-70,1.02,14,-59.5,59.5,12,2014
+7/6/14,GIANTS,GWS,Essendon,66,81,-15,15,6.25,1.12,36.5,-36.5,12,2014
+7/6/14,Marvel,Western Bulldogs,Brisbane,87,95,-8,8,1.36,3.15,-19.5,19.5,12,2014
+8/6/14,Domain,Fremantle,Adelaide,90,50,40,-40,1.2,4.6,-29.5,29.5,12,2014
+8/6/14,Metricon,Gold Coast,Sydney,74,109,-35,35,4.25,1.23,26.5,-26.5,12,2014
+8/6/14,Marvel,North Melbourne,Richmond,116,88,28,-28,1.27,3.8,-23.5,23.5,12,2014
+9/6/14,M.C.G.,Melbourne,Collingwood,28,61,-33,33,4.8,1.2,28.5,-28.5,12,2014
+13/6/14,M.C.G.,Carlton,Hawthorn,90,118,-28,28,4.8,1.2,31.5,-31.5,13,2014
+14/6/14,M.C.G.,Richmond,Fremantle,85,105,-20,20,3.8,1.28,21.5,-21.5,13,2014
+14/6/14,S.C.G.,Sydney,Port Adelaide,98,94,4,-4,1.43,2.9,-15.5,15.5,13,2014
+14/6/14,Domain,West Coast,Gold Coast,103,100,3,-3,1.64,2.3,-8.5,8.5,13,2014
+14/6/14,Adelaide,Adelaide,North Melbourne,109,73,36,-36,1.85,2,-2.5,2.5,13,2014
+14/6/14,Gabba,Brisbane,GWS,80,125,-45,45,1.41,3,-16.5,16.5,13,2014
+15/6/14,GMHBA,Geelong,St Kilda,133,37,96,-96,1.02,16,-56.5,56.5,13,2014
+15/6/14,Marvel,Collingwood,Western Bulldogs,98,106,-8,8,1.11,7,-35.5,35.5,13,2014
+15/6/14,M.C.G.,Essendon,Melbourne,77,78,-1,1,1.4,3.05,-16.5,16.5,13,2014
+20/6/14,M.C.G.,Richmond,Sydney,51,62,-11,11,5,1.19,28.5,-28.5,14,2014
+21/6/14,Adelaide,Port Adelaide,Western Bulldogs,128,56,72,-72,1.07,8.5,-45.5,45.5,14,2014
+21/6/14,M.C.G.,Hawthorn,Collingwood,115,86,29,-29,1.35,3.2,-19.5,19.5,14,2014
+21/6/14,Metricon,Gold Coast,Geelong,118,78,40,-40,2.65,1.48,13.5,-13.5,14,2014
+21/6/14,Domain,Fremantle,Brisbane,105,22,83,-83,1.03,13,-55.5,55.5,14,2014
+21/6/14,Marvel,Essendon,Adelaide,101,92,9,-9,2.4,1.6,8.5,-8.5,14,2014
+22/6/14,GIANTS,GWS,Carlton,100,92,8,-8,3.65,1.3,23.5,-23.5,14,2014
+22/6/14,Marvel,St Kilda,West Coast,70,103,-33,33,5.5,1.16,35.5,-35.5,14,2014
+22/6/14,M.C.G.,Melbourne,North Melbourne,66,107,-41,41,3.8,1.28,23.5,-23.5,14,2014
+27/6/14,Marvel,Geelong,Essendon,89,80,9,-9,1.37,3.2,-18.5,18.5,15,2014
+28/6/14,UTAS,Hawthorn,Gold Coast,116,63,53,-53,1.15,5.75,-35.5,35.5,15,2014
+28/6/14,Marvel,St Kilda,Richmond,73,117,-44,44,6,1.14,38.5,-38.5,15,2014
+28/6/14,Domain,Fremantle,West Coast,88,81,7,-7,1.22,4.5,-25.5,25.5,15,2014
+28/6/14,Gabba,Brisbane,North Melbourne,70,66,4,-4,6.15,1.13,37.5,-37.5,15,2014
+28/6/14,S.C.G.,Sydney,GWS,106,60,46,-46,1.06,10,-49.5,49.5,15,2014
+29/6/14,Marvel,Western Bulldogs,Melbourne,91,85,6,-6,1.75,2.1,-4.5,4.5,15,2014
+29/6/14,Adelaide,Adelaide,Port Adelaide,99,76,23,-23,3.1,1.38,17.5,-17.5,15,2014
+29/6/14,M.C.G.,Collingwood,Carlton,91,76,15,-15,1.26,4.05,-23.5,23.5,15,2014
+4/7/14,Marvel,North Melbourne,Hawthorn,108,88,20,-20,4,1.26,25.5,-25.5,16,2014
+5/7/14,M.C.G.,Richmond,Brisbane,79,54,25,-25,1.12,6.75,-43.5,43.5,16,2014
+5/7/14,GIANTS,GWS,Adelaide,72,140,-68,68,4.15,1.25,28.5,-28.5,16,2014
+5/7/14,Metricon,Gold Coast,Collingwood,80,75,5,-5,1.93,1.9,-1.5,-1.5,16,2014
+5/7/14,TIO,Melbourne,Fremantle,34,97,-63,63,6.75,1.11,37.5,-37.5,16,2014
+5/7/14,Adelaide,Port Adelaide,Essendon,60,62,-2,2,1.21,4.65,-30.5,30.5,16,2014
+6/7/14,Marvel,Carlton,St Kilda,151,66,85,-85,1.18,5.2,-33.5,33.5,16,2014
+6/7/14,Domain,West Coast,Sydney,51,79,-28,28,3.15,1.38,16.5,-16.5,16,2014
+6/7/14,GMHBA,Geelong,Western Bulldogs,69,56,13,-13,1.14,6,-36.5,36.5,16,2014
+11/7/14,Adelaide,Adelaide,Hawthorn,92,104,-12,12,2.15,1.72,5.5,-5.5,17,2014
+12/7/14,M.C.G.,Melbourne,Geelong,36,102,-66,66,6.25,1.12,35.5,-35.5,17,2014
+12/7/14,Blundstone,North Melbourne,St Kilda,92,33,59,-59,1.02,14,-59.5,59.5,17,2014
+12/7/14,Cazaly's,Western Bulldogs,Gold Coast,94,66,28,-28,2.3,1.62,8.5,-8.5,17,2014
+12/7/14,Gabba,Brisbane,West Coast,64,76,-12,12,2.7,1.47,14.5,-14.5,17,2014
+12/7/14,S.C.G.,Sydney,Carlton,122,51,71,-71,1.12,6.5,-37.5,37.5,17,2014
+13/7/14,Marvel,Richmond,Port Adelaide,126,106,20,-20,2.6,1.5,12.5,-12.5,17,2014
+13/7/14,Domain,Fremantle,GWS,136,60,76,-76,1.01,17,-69.5,69.5,17,2014
+13/7/14,M.C.G.,Essendon,Collingwood,103,39,64,-64,2.55,1.52,12.5,-12.5,17,2014
+18/7/14,Marvel,Carlton,North Melbourne,109,86,23,-23,4,1.25,27.5,-27.5,18,2014
+19/7/14,Marvel,St Kilda,Fremantle,118,60,58,-58,12,1.03,56.5,-56.5,18,2014
+19/7/14,GIANTS,GWS,Geelong,87,94,-7,7,8,1.08,41.5,-41.5,18,2014
+20/7/14,Adelaide,Port Adelaide,Melbourne,72,69,3,-3,1.07,8.5,-43.5,43.5,18,2014
+20/7/14,Marvel,Western Bulldogs,Essendon,94,101,-7,7,3.1,1.38,18.5,-18.5,18,2014
+25/7/14,Domain,West Coast,Richmond,42,59,-17,17,1.56,2.45,-10.5,10.5,18,2014
+26/7/14,Gabba,Brisbane,Gold Coast,110,56,54,-54,2.6,1.5,12.5,-12.5,18,2014
+26/7/14,M.C.G.,Hawthorn,Sydney,104,94,10,-10,2,1.83,2.5,-2.5,18,2014
+27/7/14,M.C.G.,Collingwood,Adelaide,82,98,-16,16,1.83,2,-2.5,2.5,18,2014
+31/7/14,Domain,Fremantle,Carlton,83,78,5,-5,1.13,6.5,-39.5,39.5,19,2014
+1/8/14,S.C.G.,Sydney,Essendon,79,57,22,-22,1.27,3.85,-26.5,26.5,19,2014
+2/8/14,Adelaide,Adelaide,West Coast,105,136,-31,31,1.2,4.6,-31.5,31.5,19,2014
+2/8/14,M.C.G.,Richmond,GWS,89,62,27,-27,1.07,8.5,-45.5,45.5,19,2014
+2/8/14,Marvel,North Melbourne,Geelong,79,111,-32,32,2.3,1.62,8.5,-8.5,19,2014
+2/8/14,Metricon,Gold Coast,St Kilda,117,64,53,-53,1.35,3.15,-19.5,19.5,19,2014
+3/8/14,Marvel,Melbourne,Brisbane,51,74,-23,23,1.72,2.12,-5.5,5.5,19,2014
+3/8/14,UTAS,Hawthorn,Western Bulldogs,107,45,62,-62,1.12,6.25,-38.5,38.5,19,2014
+3/8/14,M.C.G.,Collingwood,Port Adelaide,76,70,6,-6,2.2,1.68,6.5,-6.5,19,2014
+8/8/14,M.C.G.,Richmond,Essendon,95,77,18,-18,2.4,1.58,8.5,-8.5,20,2014
+9/8/14,Canberra,GWS,North Melbourne,51,126,-75,75,6,1.14,34.5,-34.5,20,2014
+9/8/14,Marvel,Carlton,Gold Coast,97,58,39,-39,1.5,2.65,-14.5,14.5,20,2014
+9/8/14,M.C.G.,Hawthorn,Melbourne,115,65,50,-50,1.03,14,-56.5,56.5,20,2014
+9/8/14,Adelaide,Port Adelaide,Sydney,58,84,-26,26,3.15,1.38,16.5,-16.5,20,2014
+9/8/14,GMHBA,Geelong,Fremantle,81,79,2,-2,1.43,2.95,-14.5,14.5,20,2014
+10/8/14,Gabba,Brisbane,Adelaide,63,168,-105,105,3,1.41,15.5,-15.5,20,2014
+10/8/14,Domain,West Coast,Collingwood,126,66,60,-60,1.7,2.2,-6.5,6.5,20,2014
+10/8/14,Marvel,St Kilda,Western Bulldogs,99,122,-23,23,3.3,1.35,22.5,-22.5,20,2014
+15/8/14,Marvel,Carlton,Geelong,76,82,-6,6,2.6,1.5,12.5,-12.5,21,2014
+16/8/14,S.C.G.,Sydney,St Kilda,127,56,71,-71,1.01,17,-67.5,67.5,21,2014
+16/8/14,Metricon,Gold Coast,Port Adelaide,47,56,-9,9,2.95,1.4,16.5,-16.5,21,2014
+16/8/14,Marvel,Essendon,West Coast,77,74,3,-3,1.57,2.45,-9.5,9.5,21,2014
+16/8/14,Adelaide,Adelaide,Richmond,69,79,-10,10,1.45,2.75,-15.5,15.5,21,2014
+16/8/14,M.C.G.,Collingwood,Brisbane,56,123,-67,67,1.14,5.75,-37.5,37.5,21,2014
+17/8/14,Marvel,North Melbourne,Western Bulldogs,111,61,50,-50,1.37,3.1,-20.5,20.5,21,2014
+17/8/14,Domain,Fremantle,Hawthorn,110,91,19,-19,1.63,2.3,-7.5,7.5,21,2014
+17/8/14,M.C.G.,Melbourne,GWS,34,98,-64,64,1.5,2.6,-12.5,12.5,21,2014
+22/8/14,Adelaide,Port Adelaide,Carlton,140,37,103,-103,1.32,3.35,-21.5,21.5,22,2014
+23/8/14,Blundstone,North Melbourne,Adelaide,101,94,7,-7,1.72,2.12,-5.5,5.5,22,2014
+23/8/14,Marvel,Essendon,Gold Coast,108,89,19,-19,1.16,5.25,-32.5,32.5,22,2014
+23/8/14,GIANTS,GWS,Collingwood,67,75,-8,8,2.55,1.52,11.5,-11.5,22,2014
+23/8/14,Domain,West Coast,Melbourne,119,53,66,-66,1.03,12,-60.5,60.5,22,2014
+23/8/14,M.C.G.,Hawthorn,Geelong,94,71,23,-23,1.55,2.45,-10.5,10.5,22,2014
+24/8/14,Gabba,Brisbane,Fremantle,48,106,-58,58,4,1.25,26.5,-26.5,22,2014
+24/8/14,Marvel,Western Bulldogs,Sydney,67,130,-63,63,5.5,1.15,34.5,-34.5,22,2014
+24/8/14,M.C.G.,Richmond,St Kilda,98,72,26,-26,1.1,7,-43.5,43.5,22,2014
+29/8/14,M.C.G.,Collingwood,Hawthorn,56,121,-65,65,9.5,1.07,49.5,-49.5,23,2014
+30/8/14,Domain,Fremantle,Port Adelaide,105,97,8,-8,1.45,2.75,-14.5,14.5,23,2014
+30/8/14,M.C.G.,Carlton,Essendon,90,90,0,0,2.75,1.45,15.5,-15.5,23,2014
+30/8/14,ANZ,Sydney,Richmond,65,68,-3,3,1.33,3.35,-22.5,22.5,23,2014
+30/8/14,Marvel,North Melbourne,Melbourne,123,93,30,-30,1.08,8,-44.5,44.5,23,2014
+30/8/14,GMHBA,Geelong,Brisbane,143,81,62,-62,1.11,6.5,-38.5,38.5,23,2014
+31/8/14,Metricon,Gold Coast,West Coast,99,151,-52,52,2.9,1.42,17.5,-17.5,23,2014
+31/8/14,Adelaide,Adelaide,St Kilda,141,62,79,-79,1.02,13,-58.5,58.5,23,2014
+31/8/14,Marvel,Western Bulldogs,GWS,109,115,-6,6,1.28,3.6,-24.5,24.5,23,2014
+5/9/14,M.C.G.,Hawthorn,Geelong,104,68,36,-36,1.52,2.6,-13.5,13.5,24,2014
+6/9/14,ANZ,Sydney,Fremantle,93,69,24,-24,1.55,2.45,-10.5,10.5,24,2014
+6/9/14,M.C.G.,North Melbourne,Essendon,93,81,12,-12,1.75,2.12,-5.5,5.5,24,2014
+7/9/14,Adelaide,Port Adelaide,Richmond,132,75,57,-57,1.44,2.9,-15.5,15.5,24,2014
+12/9/14,M.C.G.,Geelong,North Melbourne,92,98,-6,6,1.75,2.15,-5,5,25,2014
+13/9/14,Domain,Fremantle,Port Adelaide,83,105,-22,22,1.63,2.3,-7.5,7.5,25,2014
+19/9/14,ANZ,Sydney,North Melbourne,136,65,71,-71,1.2,4.8,-30.5,30.5,26,2014
+20/9/14,M.C.G.,Hawthorn,Port Adelaide,97,94,3,-3,1.3,3.7,-21.5,21.5,26,2014
+27/9/14,M.C.G.,Sydney,Hawthorn,74,137,-63,63,1.65,2.3,-7.5,7.5,27,2014
+2/4/15,M.C.G.,Carlton,Richmond,78,105,-27,27,2.55,1.54,10.5,-10.5,1,2015
+4/4/15,M.C.G.,Melbourne,Gold Coast,115,89,26,-26,3.15,1.38,15.5,-15.5,1,2015
+4/4/15,ANZ,Sydney,Essendon,72,60,12,-12,1.35,3.3,-22.5,22.5,1,2015
+4/4/15,Gabba,Brisbane,Collingwood,74,86,-12,12,1.48,2.7,-12.5,12.5,1,2015
+4/4/15,Marvel,Western Bulldogs,West Coast,97,87,10,-10,2.65,1.5,12.5,-12.5,1,2015
+5/4/15,Marvel,St Kilda,GWS,78,87,-9,9,3.6,1.3,20.5,-20.5,1,2015
+5/4/15,Adelaide,Adelaide,North Melbourne,140,63,77,-77,1.72,2.15,-5.5,5.5,1,2015
+5/4/15,Domain,Fremantle,Port Adelaide,75,68,7,-7,1.7,2.2,-4.5,4.5,1,2015
+6/4/15,M.C.G.,Hawthorn,Geelong,123,61,62,-62,1.37,3.2,-18.5,18.5,1,2015
+10/4/15,Domain,West Coast,Carlton,131,62,69,-69,1.5,2.6,-12.5,12.5,2,2015
+11/4/15,M.C.G.,Richmond,Western Bulldogs,66,85,-19,19,1.38,3.05,-18.5,18.5,2,2015
+11/4/15,Canberra,GWS,Melbourne,101,56,45,-45,1.45,2.75,-16.5,16.5,2,2015
+11/4/15,Marvel,Collingwood,Adelaide,63,90,-27,27,2.65,1.48,12.5,-12.5,2,2015
+11/4/15,Adelaide,Port Adelaide,Sydney,44,92,-48,48,1.7,2.15,-5.5,5.5,2,2015
+11/4/15,Metricon,Gold Coast,St Kilda,76,104,-28,28,1.2,4.5,-30.5,30.5,2,2015
+12/4/15,GMHBA,Geelong,Fremantle,60,104,-44,44,1.95,1.85,-5.5,-5.5,2,2015
+12/4/15,M.C.G.,Essendon,Hawthorn,78,76,2,-2,4.5,1.2,28.5,-28.5,2,2015
+12/4/15,Marvel,North Melbourne,Brisbane,133,51,82,-82,1.15,5.5,-35.5,35.5,2,2015
+17/4/15,M.C.G.,Collingwood,St Kilda,140,66,74,-74,1.4,3,-16.5,16.5,3,2015
+18/4/15,Adelaide,Adelaide,Melbourne,80,55,25,-25,1.08,8,-48.5,48.5,3,2015
+18/4/15,M.C.G.,Carlton,Essendon,84,105,-21,21,4,1.25,26.5,-26.5,3,2015
+18/4/15,S.C.G.,Sydney,GWS,111,90,21,-21,1.15,5.5,-35.5,35.5,3,2015
+18/4/15,Gabba,Brisbane,Richmond,58,137,-79,79,2.65,1.48,13.5,-13.5,3,2015
+18/4/15,Marvel,North Melbourne,Port Adelaide,105,113,-8,8,2,1.83,1.5,-1.5,3,2015
+19/4/15,UTAS,Hawthorn,Western Bulldogs,127,57,70,-70,1.1,7,-45.5,45.5,3,2015
+19/4/15,Domain,West Coast,Fremantle,81,111,-30,30,3.4,1.32,19.5,-19.5,3,2015
+19/4/15,GMHBA,Geelong,Gold Coast,105,96,9,-9,1.14,5.75,-37.5,37.5,3,2015
+24/4/15,M.C.G.,Richmond,Melbourne,51,83,-32,32,1.32,3.55,-21.5,21.5,4,2015
+25/4/15,Westpac,St Kilda,Carlton,81,121,-40,40,3.05,1.4,20.5,-20.5,4,2015
+25/4/15,M.C.G.,Essendon,Collingwood,49,69,-20,20,1.42,2.95,-15.5,15.5,4,2015
+25/4/15,Canberra,GWS,Gold Coast,119,53,66,-66,1.36,3.25,-20.5,20.5,4,2015
+25/4/15,Domain,Fremantle,Sydney,74,60,14,-14,1.57,2.45,-9.5,9.5,4,2015
+25/4/15,Adelaide,Port Adelaide,Hawthorn,99,91,8,-8,2.55,1.53,12.5,-12.5,4,2015
+26/4/15,Gabba,Brisbane,West Coast,65,118,-53,53,2.65,1.5,14.5,-14.5,4,2015
+26/4/15,GMHBA,Geelong,North Melbourne,67,83,-16,16,2.25,1.67,6.5,-6.5,4,2015
+26/4/15,Marvel,Western Bulldogs,Adelaide,125,68,57,-57,4,1.25,25.5,-25.5,4,2015
+1/5/15,M.C.G.,Carlton,Collingwood,45,120,-75,75,2.3,1.63,8.5,-8.5,5,2015
+2/5/15,M.C.G.,Richmond,Geelong,76,85,-9,9,1.63,2.3,-7.5,7.5,5,2015
+2/5/15,S.C.G.,Sydney,Western Bulldogs,73,77,-4,4,1.17,5,-34.5,34.5,5,2015
+2/5/15,Metricon,Gold Coast,Brisbane,118,54,64,-64,1.81,2,-2.5,2.5,5,2015
+2/5/15,Domain,West Coast,GWS,120,33,87,-87,1.6,2.35,-8.5,8.5,5,2015
+2/5/15,Marvel,North Melbourne,Hawthorn,70,130,-60,60,3.15,1.35,20.5,-20.5,5,2015
+3/5/15,M.C.G.,Melbourne,Fremantle,50,118,-68,68,5,1.17,30.5,-30.5,5,2015
+3/5/15,Marvel,St Kilda,Essendon,80,82,-2,2,5.5,1.15,37.5,-37.5,5,2015
+3/5/15,Adelaide,Adelaide,Port Adelaide,91,115,-24,24,2.3,1.62,8.5,-8.5,5,2015
+8/5/15,M.C.G.,Collingwood,Geelong,59,100,-41,41,1.62,2.35,-8.5,8.5,6,2015
+9/5/15,Blundstone,North Melbourne,Richmond,109,74,35,-35,1.5,2.6,-12.5,12.5,6,2015
+9/5/15,Marvel,Western Bulldogs,St Kilda,87,94,-7,7,1.38,3.05,-17.5,17.5,6,2015
+9/5/15,GIANTS,GWS,Hawthorn,108,98,10,-10,3.75,1.27,25.5,-25.5,6,2015
+9/5/15,Metricon,Gold Coast,Adelaide,78,119,-41,41,6.25,1.12,38.5,-38.5,6,2015
+9/5/15,Domain,Fremantle,Essendon,80,52,28,-28,1.2,4.5,-27.5,27.5,6,2015
+9/5/15,M.C.G.,Melbourne,Sydney,50,88,-38,38,5,1.17,30.5,-30.5,6,2015
+10/5/15,Marvel,Carlton,Brisbane,75,84,-9,9,1.25,4,-26.5,26.5,6,2015
+10/5/15,Adelaide,Port Adelaide,West Coast,68,78,-10,10,1.2,4.5,-30.5,30.5,6,2015
+15/5/15,Marvel,Essendon,North Melbourne,82,93,-11,11,2.75,1.45,14.5,-14.5,7,2015
+16/5/15,Adelaide,Adelaide,St Kilda,119,73,46,-46,1.24,4,-29.5,29.5,7,2015
+16/5/15,M.C.G.,Hawthorn,Melbourne,155,50,105,-105,1.1,6.75,-42.5,42.5,7,2015
+16/5/15,Marvel,Carlton,GWS,57,135,-78,78,2.6,1.5,12.5,-12.5,7,2015
+16/5/15,Domain,West Coast,Gold Coast,135,43,92,-92,1.1,7,-39.5,39.5,7,2015
+16/5/15,ANZ,Sydney,Geelong,120,77,43,-43,1.27,3.7,-25.5,25.5,7,2015
+17/5/15,Marvel,Western Bulldogs,Fremantle,88,101,-13,13,3.65,1.28,23.5,-23.5,7,2015
+17/5/15,M.C.G.,Richmond,Collingwood,105,100,5,-5,2.1,1.72,5.5,-5.5,7,2015
+17/5/15,Gabba,Brisbane,Port Adelaide,102,65,37,-37,4.5,1.2,32.5,-32.5,7,2015
+22/5/15,Marvel,Geelong,Carlton,140,63,77,-77,1.22,4.5,-28.5,28.5,8,2015
+23/5/15,Marvel,St Kilda,West Coast,78,131,-53,53,5.15,1.18,34.5,-34.5,8,2015
+23/5/15,GIANTS,GWS,Adelaide,108,84,24,-24,1.55,2.5,-11.5,11.5,8,2015
+23/5/15,Metricon,Gold Coast,Collingwood,63,132,-69,69,3.8,1.28,24.5,-24.5,8,2015
+23/5/15,Domain,Fremantle,North Melbourne,115,42,73,-73,1.2,4.75,-30.5,30.5,8,2015
+23/5/15,M.C.G.,Hawthorn,Sydney,69,73,-4,4,1.5,2.65,-13.5,13.5,8,2015
+24/5/15,Marvel,Essendon,Brisbane,136,78,58,-58,1.23,4.4,-29.5,29.5,8,2015
+24/5/15,M.C.G.,Melbourne,Western Bulldogs,103,64,39,-39,3.1,1.39,17.5,-17.5,8,2015
+24/5/15,Adelaide,Port Adelaide,Richmond,43,76,-33,33,1.33,3.4,-22.5,22.5,8,2015
+29/5/15,S.C.G.,Sydney,Carlton,122,62,60,-60,1.02,17,-72.5,72.5,9,2015
+30/5/15,TIO,Melbourne,Port Adelaide,54,115,-61,61,2.75,1.47,15.5,-15.5,9,2015
+30/5/15,UTAS,Hawthorn,Gold Coast,93,40,53,-53,1.01,19,-68.5,68.5,9,2015
+30/5/15,Marvel,Western Bulldogs,GWS,113,68,45,-45,2.55,1.53,12.5,-12.5,9,2015
+30/5/15,Adelaide,Adelaide,Fremantle,57,68,-11,11,3.85,1.28,23.5,-23.5,9,2015
+30/5/15,M.C.G.,Richmond,Essendon,72,59,13,-13,1.8,2.05,-4.5,4.5,9,2015
+31/5/15,Gabba,Brisbane,St Kilda,86,108,-22,22,1.62,2.35,-8.5,8.5,9,2015
+31/5/15,Domain,West Coast,Geelong,120,64,56,-56,1.43,2.9,-15.5,15.5,9,2015
+31/5/15,M.C.G.,Collingwood,North Melbourne,112,95,17,-17,2,1.84,2.5,-2.5,9,2015
+5/6/15,Domain,Fremantle,Richmond,70,97,-27,27,1.25,4.25,-26.5,26.5,10,2015
+6/6/15,M.C.G.,Carlton,Adelaide,90,99,-9,9,3.5,1.32,23.5,-23.5,10,2015
+6/6/15,Metricon,Gold Coast,Sydney,41,93,-52,52,15,1.02,61.5,-61.5,10,2015
+6/6/15,Adelaide,Port Adelaide,Western Bulldogs,100,62,38,-38,1.26,4,-28.5,28.5,10,2015
+6/6/15,Marvel,Essendon,Geelong,53,122,-69,69,2.05,1.8,2.5,-2.5,10,2015
+7/6/15,GIANTS,GWS,Brisbane,97,67,30,-30,1.08,8.5,-45.5,45.5,10,2015
+7/6/15,Blundstone,North Melbourne,West Coast,85,75,10,-10,2.1,1.77,4.5,-4.5,10,2015
+7/6/15,Marvel,St Kilda,Hawthorn,69,132,-63,63,14,1.03,57.5,-57.5,10,2015
+8/6/15,M.C.G.,Melbourne,Collingwood,85,110,-25,25,4,1.26,26.5,-26.5,10,2015
+12/6/15,Adelaide,Port Adelaide,Geelong,69,92,-23,23,1.46,2.8,-14.5,14.5,11,2015
+13/6/15,Metricon,Gold Coast,Fremantle,46,53,-7,7,10,1.06,45.5,-45.5,11,2015
+13/6/15,Domain,West Coast,Essendon,96,46,50,-50,1.15,5.75,-39.5,39.5,11,2015
+13/6/15,Marvel,North Melbourne,Sydney,75,91,-16,16,2.65,1.5,14.5,-14.5,11,2015
+14/6/15,M.C.G.,Collingwood,GWS,119,77,42,-42,1.67,2.25,-7.5,7.5,11,2015
+14/6/15,Marvel,St Kilda,Melbourne,85,83,2,-2,1.7,2.2,-5.5,5.5,11,2015
+18/6/15,Adelaide,Adelaide,Hawthorn,85,114,-29,29,3.15,1.38,18.5,-18.5,12,2015
+19/6/15,M.C.G.,Richmond,West Coast,70,90,-20,20,1.8,2.05,-2.5,2.5,12,2015
+20/6/15,M.C.G.,Carlton,Port Adelaide,110,106,4,-4,3.1,1.39,16.5,-16.5,12,2015
+20/6/15,GIANTS,GWS,North Melbourne,61,117,-56,56,3.15,1.38,17.5,-17.5,12,2015
+20/6/15,Marvel,Western Bulldogs,Brisbane,146,74,72,-72,1.28,3.8,-25.5,25.5,12,2015
+21/6/15,GMHBA,Geelong,Melbourne,89,113,-24,24,1.11,7,-42.5,42.5,12,2015
+25/6/15,Domain,Fremantle,Collingwood,80,73,7,-7,1.33,3.5,-22.5,22.5,13,2015
+26/6/15,S.C.G.,Sydney,Richmond,77,95,-18,18,1.35,3.25,-20.5,20.5,13,2015
+27/6/15,M.C.G.,Hawthorn,Essendon,114,76,38,-38,1.08,9,-52.5,52.5,13,2015
+27/6/15,Gabba,Brisbane,Adelaide,69,82,-13,13,3.5,1.32,24.5,-24.5,13,2015
+27/6/15,Marvel,St Kilda,Western Bulldogs,56,62,-6,6,2.6,1.52,13.5,-13.5,13,2015
+28/6/15,Marvel,Carlton,Gold Coast,103,69,34,-34,1.43,2.9,-17.5,17.5,13,2015
+2/7/15,S.C.G.,Sydney,Port Adelaide,94,84,10,-10,1.47,2.75,-14.5,14.5,14,2015
+3/7/15,M.C.G.,Collingwood,Hawthorn,91,101,-10,10,3.45,1.33,22.5,-22.5,14,2015
+4/7/15,M.C.G.,Richmond,GWS,78,69,9,-9,1.18,5,-34.5,34.5,14,2015
+4/7/15,Metricon,Gold Coast,North Melbourne,125,70,55,-55,4,1.26,25.5,-25.5,14,2015
+4/7/15,TIO,Melbourne,West Coast,60,114,-54,54,4.4,1.22,29.5,-29.5,14,2015
+4/7/15,Marvel,Western Bulldogs,Carlton,64,53,11,-11,1.42,2.9,-16.5,16.5,14,2015
+5/7/15,Marvel,Essendon,St Kilda,52,162,-110,110,1.73,2.15,-5.5,5.5,14,2015
+5/7/15,Domain,Fremantle,Brisbane,84,48,36,-36,1.02,15,-56.5,56.5,14,2015
+9/7/15,Adelaide,Port Adelaide,Collingwood,66,63,3,-3,1.84,2,-2.5,2.5,15,2015
+10/7/15,M.C.G.,Richmond,Carlton,71,41,30,-30,1.33,3.4,-21.5,21.5,15,2015
+11/7/15,M.C.G.,Essendon,Melbourne,69,60,9,-9,2.7,1.48,12.5,-12.5,15,2015
+11/7/15,Cazaly's,Western Bulldogs,Gold Coast,95,73,22,-22,1.65,2.3,-5.5,5.5,15,2015
+11/7/15,Domain,West Coast,Adelaide,147,91,56,-56,1.18,4.8,-34.5,34.5,15,2015
+11/7/15,Marvel,North Melbourne,Geelong,120,79,41,-41,2.1,1.77,3.5,-3.5,15,2015
+12/7/15,GIANTS,GWS,St Kilda,84,49,35,-35,1.75,2.12,-5.5,5.5,15,2015
+12/7/15,UTAS,Hawthorn,Fremantle,115,43,72,-72,1.39,3.1,-18.5,18.5,15,2015
+12/7/15,Gabba,Brisbane,Sydney,49,70,-21,21,6,1.14,38.5,-38.5,15,2015
+17/7/15,Marvel,North Melbourne,Essendon,93,68,25,-25,1.22,4.6,-30.5,30.5,16,2015
+18/7/15,GMHBA,Geelong,Western Bulldogs,72,64,8,-8,1.6,2.4,-8.5,8.5,16,2015
+18/7/15,Metricon,Gold Coast,GWS,79,94,-15,15,2.25,1.68,5.5,-5.5,16,2015
+18/7/15,Marvel,Collingwood,West Coast,56,87,-31,31,2.55,1.53,10.5,-10.5,16,2015
+18/7/15,Domain,Fremantle,Carlton,95,53,42,-42,1.14,6.25,-39.5,39.5,16,2015
+18/7/15,ANZ,Sydney,Hawthorn,57,146,-89,89,2.45,1.57,10.5,-10.5,16,2015
+19/7/15,M.C.G.,Melbourne,Brisbane,60,36,24,-24,1.62,2.35,-8.5,8.5,16,2015
+19/7/15,Adelaide,Port Adelaide,Adelaide,113,116,-3,3,1.55,2.5,-10.5,10.5,16,2015
+19/7/15,Marvel,St Kilda,Richmond,73,89,-16,16,2.95,1.42,16.5,-16.5,16,2015
+24/7/15,Marvel,Carlton,Hawthorn,35,173,-138,138,15,1.02,65.5,-65.5,17,2015
+25/7/15,Adelaide,Adelaide,Gold Coast,125,80,45,-45,1.22,4.5,-30.5,30.5,17,2015
+25/7/15,Canberra,GWS,Geelong,42,69,-27,27,1.83,2,-2.5,2.5,17,2015
+25/7/15,M.C.G.,Richmond,Fremantle,78,82,-4,4,1.75,2.1,-2.5,2.5,17,2015
+25/7/15,Gabba,Brisbane,North Melbourne,38,110,-72,72,4.5,1.22,30.5,-30.5,17,2015
+25/7/15,Marvel,Essendon,Port Adelaide,116,129,-13,13,3.3,1.35,18.5,-18.5,17,2015
+26/7/15,Marvel,Western Bulldogs,Collingwood,104,86,18,-18,2.2,1.7,5.5,-5.5,17,2015
+26/7/15,Domain,West Coast,Sydney,103,51,52,-52,1.33,3.45,-20.5,20.5,17,2015
+26/7/15,M.C.G.,Melbourne,St Kilda,46,83,-37,37,2.1,1.77,3.5,-3.5,17,2015
+31/7/15,M.C.G.,Hawthorn,Richmond,53,71,-18,18,1.22,4.5,-34.5,34.5,18,2015
+1/8/15,GMHBA,Geelong,Brisbane,113,57,56,-56,1.12,6.75,-40.5,40.5,18,2015
+1/8/15,M.C.G.,Collingwood,Melbourne,54,91,-37,37,1.33,3.4,-22.5,22.5,18,2015
+1/8/15,S.C.G.,Sydney,Adelaide,117,65,52,-52,1.43,2.9,-16.5,16.5,18,2015
+1/8/15,Metricon,Gold Coast,West Coast,83,83,0,0,8.5,1.08,49.5,-49.5,18,2015
+1/8/15,Marvel,Carlton,North Melbourne,54,118,-64,64,5.75,1.15,36.5,-36.5,18,2015
+2/8/15,Adelaide,Port Adelaide,St Kilda,112,49,63,-63,1.2,4.75,-30.5,30.5,18,2015
+2/8/15,Domain,Fremantle,GWS,84,63,21,-21,1.22,4.5,-27.5,27.5,18,2015
+2/8/15,Marvel,Essendon,Western Bulldogs,40,127,-87,87,2.95,1.42,16.5,-16.5,18,2015
+7/8/15,Adelaide,Adelaide,Richmond,88,52,36,-36,2.2,1.7,5.5,-5.5,19,2015
+8/8/15,M.C.G.,Collingwood,Carlton,105,87,18,-18,1.23,4.4,-28.5,28.5,19,2015
+8/8/15,Marvel,Western Bulldogs,Port Adelaide,128,64,64,-64,1.75,2.1,-5.5,5.5,19,2015
+8/8/15,Gabba,Brisbane,Gold Coast,100,114,-14,14,2.45,1.58,9.5,-9.5,19,2015
+8/8/15,Domain,West Coast,Hawthorn,74,88,-14,14,2.5,1.55,9.5,-9.5,19,2015
+8/8/15,GMHBA,Geelong,Sydney,95,63,32,-32,1.98,1.86,-1.5,-4.5,19,2015
+9/8/15,M.C.G.,Melbourne,North Melbourne,92,127,-35,35,3.5,1.32,21.5,-21.5,19,2015
+9/8/15,GIANTS,GWS,Essendon,93,61,32,-32,1.26,4,-27.5,27.5,19,2015
+9/8/15,Marvel,St Kilda,Fremantle,59,96,-37,37,2.65,1.5,12.5,-12.5,19,2015
+14/8/15,S.C.G.,Sydney,Collingwood,87,76,11,-11,1.35,3.3,-19.5,19.5,20,2015
+15/8/15,Marvel,Essendon,Adelaide,59,171,-112,112,3.85,1.28,25.5,-25.5,20,2015
+15/8/15,Blundstone,North Melbourne,St Kilda,120,83,37,-37,1.17,5.3,-34.5,34.5,20,2015
+15/8/15,Adelaide,Port Adelaide,GWS,111,90,21,-21,1.26,4,-25.5,25.5,20,2015
+15/8/15,Gabba,Brisbane,Carlton,131,67,64,-64,1.67,2.25,-6.5,6.5,20,2015
+15/8/15,M.C.G.,Geelong,Hawthorn,85,121,-36,36,4.1,1.25,27.5,-27.5,20,2015
+16/8/15,M.C.G.,Richmond,Gold Coast,138,55,83,-83,1.1,7.5,-41.5,41.5,20,2015
+16/8/15,Domain,Fremantle,West Coast,80,104,-24,24,1.67,2.25,-6.5,6.5,20,2015
+16/8/15,Marvel,Western Bulldogs,Melbourne,153,55,98,-98,1.2,4.75,-28.5,28.5,20,2015
+21/8/15,Marvel,Hawthorn,Port Adelaide,86,108,-22,22,1.08,8.75,-49.5,49.5,21,2015
+22/8/15,M.C.G.,Collingwood,Richmond,56,147,-91,91,2.82,1.45,14.5,-14.5,21,2015
+22/8/15,GIANTS,GWS,Sydney,44,133,-89,89,2.6,1.52,11.5,-11.5,21,2015
+22/8/15,Metricon,Gold Coast,Essendon,97,95,2,-2,1.55,2.5,-10.5,10.5,21,2015
+22/8/15,Adelaide,Adelaide,Brisbane,131,44,87,-87,1.07,9.25,-48.5,48.5,21,2015
+22/8/15,Marvel,St Kilda,Geelong,97,97,0,0,4.75,1.2,29.5,-29.5,21,2015
+23/8/15,Marvel,North Melbourne,Fremantle,94,83,11,-11,1.73,2.15,-5.5,5.5,21,2015
+23/8/15,Domain,West Coast,Western Bulldogs,162,85,77,-77,1.31,3.6,-23.5,23.5,21,2015
+23/8/15,M.C.G.,Carlton,Melbourne,78,55,23,-23,3.25,1.36,17.5,-17.5,21,2015
+28/8/15,M.C.G.,Geelong,Collingwood,62,110,-48,48,1.43,2.9,-15.5,15.5,22,2015
+29/8/15,GIANTS,GWS,Carlton,132,51,81,-81,1.22,4.5,-30.5,30.5,22,2015
+29/8/15,UTAS,Hawthorn,Brisbane,134,62,72,-72,1.01,17,-68.5,68.5,22,2015
+29/8/15,Marvel,North Melbourne,Western Bulldogs,73,96,-23,23,1.63,2.3,-6.5,6.5,22,2015
+29/8/15,M.C.G.,Essendon,Richmond,47,74,-27,27,6.3,1.13,38.5,-38.5,22,2015
+29/8/15,Metricon,Gold Coast,Port Adelaide,51,88,-37,37,3.25,1.35,19.5,-19.5,22,2015
+30/8/15,Adelaide,Adelaide,West Coast,126,69,57,-57,2.05,1.8,3.5,-3.5,22,2015
+30/8/15,Domain,Fremantle,Melbourne,108,54,54,-54,1.08,8.5,-43.5,43.5,22,2015
+30/8/15,Marvel,St Kilda,Sydney,38,135,-97,97,4.5,1.22,28.5,-28.5,22,2015
+4/9/15,Marvel,Richmond,North Melbourne,108,67,41,-41,1.07,9,-48.5,48.5,23,2015
+5/9/15,GMHBA,Geelong,Adelaide,119,80,39,-39,2.25,1.68,8.5,-8.5,23,2015
+5/9/15,Gabba,Brisbane,Western Bulldogs,130,122,8,-8,4.5,1.22,28.5,-28.5,23,2015
+5/9/15,Adelaide,Port Adelaide,Fremantle,122,53,69,-69,1.08,8.5,-58.5,58.5,23,2015
+5/9/15,M.C.G.,Hawthorn,Carlton,113,56,57,-57,1.01,17,-72.5,72.5,23,2015
+5/9/15,Domain,West Coast,St Kilda,125,30,95,-95,1.04,12,-53.5,53.5,23,2015
+5/9/15,S.C.G.,Sydney,Gold Coast,127,64,63,-63,1.03,13,-55.5,55.5,23,2015
+6/9/15,Marvel,Melbourne,GWS,103,77,26,-26,2.4,1.58,10.5,-10.5,23,2015
+6/9/15,M.C.G.,Collingwood,Essendon,92,95,-3,3,1.3,3.5,-23.5,23.5,23,2015
+11/9/15,Domain,West Coast,Hawthorn,96,64,32,-32,2.42,1.6,7.5,-7.5,24,2015
+12/9/15,Domain,Fremantle,Sydney,69,60,9,-9,1.36,3.2,-16.5,16.5,24,2015
+12/9/15,M.C.G.,Western Bulldogs,Adelaide,102,109,-7,7,1.93,1.93,-1.5,-1.5,24,2015
+13/9/15,M.C.G.,Richmond,North Melbourne,88,105,-17,17,1.65,2.3,-8.5,8.5,24,2015
+18/9/15,M.C.G.,Hawthorn,Adelaide,135,61,74,-74,1.37,3.25,-24.5,24.5,25,2015
+19/9/15,ANZ,Sydney,North Melbourne,51,77,-26,26,1.53,2.55,-10.5,10.5,25,2015
+25/9/15,Domain,Fremantle,Hawthorn,67,94,-27,27,2.15,1.74,6.5,-6.5,26,2015
+26/9/15,Domain,West Coast,North Melbourne,80,55,25,-25,1.24,4.2,-30.5,30.5,26,2015
+3/10/15,M.C.G.,Hawthorn,West Coast,107,61,46,-46,1.63,2.4,-9.5,9.5,27,2015
+24/3/16,M.C.G.,Richmond,Carlton,92,83,9,-9,1.24,4.25,-27.5,27.5,1,2016
+26/3/16,M.C.G.,Melbourne,GWS,80,78,2,-2,2.5,1.55,7.5,-7.5,1,2016
+26/3/16,Metricon,Gold Coast,Essendon,121,60,61,-61,1.16,5.5,-40.5,40.5,1,2016
+26/3/16,ANZ,Sydney,Collingwood,133,53,80,-80,1.6,2.4,-10.5,10.5,1,2016
+26/3/16,Marvel,North Melbourne,Adelaide,107,97,10,-10,1.44,2.85,-13.5,13.5,1,2016
+27/3/16,Marvel,Western Bulldogs,Fremantle,103,38,65,-65,1.65,2.25,-7.5,7.5,1,2016
+27/3/16,Adelaide,Port Adelaide,St Kilda,133,100,33,-33,1.15,5.5,-38.5,38.5,1,2016
+27/3/16,Domain,West Coast,Brisbane,166,102,64,-64,1.05,10,-57.5,57.5,1,2016
+28/3/16,M.C.G.,Geelong,Hawthorn,116,86,30,-30,2.2,1.7,6.5,-6.5,1,2016
+1/4/16,M.C.G.,Collingwood,Richmond,87,86,1,-1,2.05,1.8,3.5,-3.5,2,2016
+2/4/16,Adelaide,Adelaide,Port Adelaide,144,86,58,-58,1.95,1.91,1.5,-1.5,2,2016
+2/4/16,M.C.G.,Essendon,Melbourne,80,67,13,-13,5.5,1.15,38.5,-38.5,2,2016
+2/4/16,Gabba,Brisbane,North Melbourne,83,117,-34,34,3.9,1.27,25.5,-25.5,2,2016
+2/4/16,Domain,Fremantle,Gold Coast,100,126,-26,26,1.23,4.25,-26.5,26.5,2,2016
+2/4/16,Marvel,St Kilda,Western Bulldogs,36,93,-57,57,3.95,1.25,25.5,-25.5,2,2016
+3/4/16,Canberra,GWS,Geelong,89,76,13,-13,2.75,1.47,13.5,-13.5,2,2016
+3/4/16,M.C.G.,Hawthorn,West Coast,99,53,46,-46,2.15,1.72,4.5,-4.5,2,2016
+3/4/16,Marvel,Carlton,Sydney,71,131,-60,60,4.5,1.22,29.5,-29.5,2,2016
+8/4/16,Adelaide,Port Adelaide,Essendon,112,51,61,-61,1.13,6.25,-45.5,45.5,3,2016
+9/4/16,M.C.G.,St Kilda,Collingwood,119,90,29,-29,2.4,1.6,9.5,-9.5,3,2016
+9/4/16,Marvel,Richmond,Adelaide,92,128,-36,36,2,1.83,2.5,-2.5,3,2016
+9/4/16,S.C.G.,Sydney,GWS,93,68,25,-25,1.37,3.15,-17.5,17.5,3,2016
+9/4/16,Domain,West Coast,Fremantle,92,59,33,-33,1.35,3.3,-20.5,20.5,3,2016
+9/4/16,Metricon,Gold Coast,Carlton,95,41,54,-54,1.15,5.75,-36.5,36.5,3,2016
+10/4/16,Blundstone,North Melbourne,Melbourne,136,131,5,-5,1.14,6,-38.5,38.5,3,2016
+10/4/16,Marvel,Western Bulldogs,Hawthorn,90,93,-3,3,1.96,1.88,1.5,-1.5,3,2016
+10/4/16,GMHBA,Geelong,Brisbane,125,56,69,-69,1.06,10,-54.5,54.5,3,2016
+15/4/16,Domain,West Coast,Richmond,125,57,68,-68,1.24,4.15,-28.5,28.5,4,2016
+16/4/16,M.C.G.,Essendon,Geelong,42,72,-30,30,11,1.05,55.5,-55.5,4,2016
+16/4/16,UTAS,Hawthorn,St Kilda,87,84,3,-3,1.11,7,-42.5,42.5,4,2016
+16/4/16,Gabba,Brisbane,Gold Coast,107,94,13,-13,2.95,1.42,16.5,-16.5,4,2016
+16/4/16,Adelaide,Adelaide,Sydney,113,103,10,-10,1.92,1.92,-1.5,-1.5,4,2016
+16/4/16,Marvel,Carlton,Western Bulldogs,49,85,-36,36,8,1.08,49.5,-49.5,4,2016
+17/4/16,Canberra,GWS,Port Adelaide,151,65,86,-86,1.95,1.9,0.5,-0.5,4,2016
+17/4/16,M.C.G.,Collingwood,Melbourne,67,102,-35,35,1.4,3,-17.5,17.5,4,2016
+17/4/16,Marvel,North Melbourne,Fremantle,132,101,31,-31,1.23,4.3,-30.5,30.5,4,2016
+22/4/16,M.C.G.,Hawthorn,Adelaide,112,109,3,-3,1.4,3.05,-19.5,19.5,5,2016
+23/4/16,S.C.G.,Sydney,West Coast,88,49,39,-39,1.58,2.45,-8.5,8.5,5,2016
+23/4/16,Metricon,Gold Coast,North Melbourne,81,119,-38,38,3.05,1.4,19.5,-19.5,5,2016
+23/4/16,Adelaide,Port Adelaide,Geelong,59,107,-48,48,2.1,1.77,3.5,-3.5,5,2016
+23/4/16,Marvel,Western Bulldogs,Brisbane,120,67,53,-53,1.13,6.25,-42.5,42.5,5,2016
+24/4/16,Marvel,St Kilda,GWS,79,126,-47,47,2.45,1.58,9.5,-9.5,5,2016
+24/4/16,Domain,Fremantle,Carlton,68,72,-4,4,1.16,5.5,-35.5,35.5,5,2016
+24/4/16,M.C.G.,Melbourne,Richmond,129,96,33,-33,2.2,1.7,6.5,-6.5,5,2016
+25/4/16,M.C.G.,Collingwood,Essendon,142,73,69,-69,1.36,3.2,-23.5,23.5,5,2016
+29/4/16,Marvel,North Melbourne,Western Bulldogs,61,45,16,-16,1.81,2.05,-2.5,2.5,6,2016
+30/4/16,Adelaide,Adelaide,Fremantle,97,64,33,-33,1.08,8.25,-47.5,47.5,6,2016
+30/4/16,Marvel,Melbourne,St Kilda,96,135,-39,39,1.68,2.25,-5.5,5.5,6,2016
+30/4/16,GIANTS,GWS,Hawthorn,158,83,75,-75,2.05,1.8,3.5,-3.5,6,2016
+30/4/16,M.C.G.,Richmond,Port Adelaide,59,94,-35,35,1.38,3.15,-19.5,19.5,6,2016
+30/4/16,GMHBA,Geelong,Gold Coast,168,48,120,-120,1.1,7.5,-48.5,48.5,6,2016
+1/5/16,Gabba,Brisbane,Sydney,94,97,-3,3,5.25,1.17,35.5,-35.5,6,2016
+1/5/16,Domain,West Coast,Collingwood,124,62,62,-62,1.1,7.5,-45.5,45.5,6,2016
+1/5/16,M.C.G.,Carlton,Essendon,72,57,15,-15,1.47,2.75,-14.5,14.5,6,2016
+6/5/16,M.C.G.,Richmond,Hawthorn,90,136,-46,46,4,1.26,28.5,-28.5,7,2016
+7/5/16,M.C.G.,Collingwood,Carlton,84,99,-15,15,1.56,2.5,-10.5,10.5,7,2016
+7/5/16,GMHBA,Geelong,West Coast,123,79,44,-44,1.52,2.6,-11.5,11.5,7,2016
+7/5/16,ANZ,Sydney,Essendon,135,54,81,-81,1.01,17,-70.5,70.5,7,2016
+7/5/16,Metricon,Gold Coast,Melbourne,87,160,-73,73,1.83,2,-2.5,2.5,7,2016
+7/5/16,Domain,Fremantle,GWS,77,95,-18,18,3.4,1.33,23.5,-23.5,7,2016
+7/5/16,Marvel,Western Bulldogs,Adelaide,123,108,15,-15,1.72,2.15,-4.5,4.5,7,2016
+8/5/16,Marvel,St Kilda,North Melbourne,75,82,-7,7,3.5,1.32,22.5,-22.5,7,2016
+8/5/16,Adelaide,Port Adelaide,Brisbane,136,59,77,-77,1.38,3.15,-18.5,18.5,7,2016
+13/5/16,Adelaide,Adelaide,Geelong,72,98,-26,26,2,1.85,2.5,-2.5,8,2016
+14/5/16,Marvel,Essendon,North Melbourne,60,74,-14,14,10,1.06,51.5,-51.5,8,2016
+14/5/16,UTAS,Hawthorn,Fremantle,116,75,41,-41,1.09,8,-45.5,45.5,8,2016
+14/5/16,GIANTS,GWS,Gold Coast,149,58,91,-91,1.05,11,-55.5,55.5,8,2016
+14/5/16,Gabba,Brisbane,Collingwood,65,143,-78,78,1.72,2.15,-6.5,6.5,8,2016
+14/5/16,M.C.G.,Richmond,Sydney,101,100,1,-1,3.5,1.32,22.5,-22.5,8,2016
+15/5/16,Marvel,Carlton,Port Adelaide,93,91,2,-2,2.45,1.58,11.5,-11.5,8,2016
+15/5/16,Domain,West Coast,St Kilda,132,29,103,-103,1.14,6,-39.5,39.5,8,2016
+15/5/16,M.C.G.,Melbourne,Western Bulldogs,82,114,-32,32,2.95,1.42,16.5,-16.5,8,2016
+20/5/16,M.C.G.,Hawthorn,Sydney,55,69,-14,14,1.77,2.1,-4.5,4.5,9,2016
+21/5/16,M.C.G.,Collingwood,Geelong,104,80,24,-24,5.75,1.15,39.5,-39.5,9,2016
+21/5/16,Metricon,Gold Coast,Adelaide,74,149,-75,75,11,1.05,55.5,-55.5,9,2016
+21/5/16,Adelaide,Port Adelaide,West Coast,86,94,-8,8,2.6,1.52,10.5,-10.5,9,2016
+21/5/16,Domain,Fremantle,Richmond,45,83,-38,38,2.3,1.65,8.5,-8.5,9,2016
+21/5/16,Marvel,North Melbourne,Carlton,113,46,67,-67,1.25,4.1,-27.5,27.5,9,2016
+22/5/16,M.C.G.,Melbourne,Brisbane,131,68,63,-63,1.15,5.7,-38.5,38.5,9,2016
+22/5/16,GIANTS,GWS,Western Bulldogs,98,73,25,-25,1.38,3.1,-18.5,18.5,9,2016
+22/5/16,Marvel,St Kilda,Essendon,109,63,46,-46,1.22,4.4,-30.5,30.5,9,2016
+27/5/16,S.C.G.,Sydney,North Melbourne,91,65,26,-26,1.42,2.95,-17.5,17.5,10,2016
+28/5/16,TIO,Melbourne,Port Adelaide,76,121,-45,45,2.1,1.77,4.5,-4.5,10,2016
+28/5/16,Gabba,Brisbane,Hawthorn,87,135,-48,48,9,1.07,48.5,-48.5,10,2016
+28/5/16,Marvel,St Kilda,Fremantle,101,67,34,-34,1.32,3.5,-22.5,22.5,10,2016
+28/5/16,Adelaide,Adelaide,GWS,107,85,22,-22,1.96,1.88,1.5,-1.5,10,2016
+28/5/16,M.C.G.,Essendon,Richmond,67,105,-38,38,5.25,1.17,34.5,-34.5,10,2016
+29/5/16,Marvel,Carlton,Geelong,104,85,19,-19,7.5,1.1,46.5,-46.5,10,2016
+29/5/16,Domain,West Coast,Gold Coast,132,55,77,-77,1.01,19,-67.5,67.5,10,2016
+29/5/16,M.C.G.,Collingwood,Western Bulldogs,53,74,-21,21,2.7,1.48,13.5,-13.5,10,2016
+3/6/16,Blundstone,North Melbourne,Richmond,124,54,70,-70,1.58,2.45,-10.5,10.5,11,2016
+4/6/16,M.C.G.,Hawthorn,Melbourne,82,64,18,-18,1.26,4,-25.5,25.5,11,2016
+4/6/16,Marvel,Carlton,Brisbane,102,64,38,-38,1.27,3.95,-26.5,26.5,11,2016
+4/6/16,GMHBA,Geelong,GWS,98,88,10,-10,1.5,2.65,-13.5,13.5,11,2016
+4/6/16,Domain,Fremantle,Essendon,126,47,79,-79,1.3,3.6,-23.5,23.5,11,2016
+4/6/16,Metricon,Gold Coast,Sydney,41,79,-38,38,6.25,1.13,36.5,-36.5,11,2016
+5/6/16,M.C.G.,Collingwood,Port Adelaide,58,125,-67,67,2,1.85,1.5,-1.5,11,2016
+5/6/16,Marvel,Western Bulldogs,West Coast,83,75,8,-8,1.73,2.15,-5.5,5.5,11,2016
+5/6/16,Adelaide,Adelaide,St Kilda,133,45,88,-88,1.17,5.3,-35.5,35.5,11,2016
+10/6/16,Marvel,Essendon,Hawthorn,43,151,-108,108,12,1.04,52.5,-52.5,12,2016
+11/6/16,Adelaide,Port Adelaide,Western Bulldogs,97,100,-3,3,1.7,2.2,-5.5,5.5,12,2016
+11/6/16,Gabba,Brisbane,Fremantle,64,147,-83,83,2.2,1.7,6.5,-6.5,12,2016
+11/6/16,Domain,West Coast,Adelaide,76,105,-29,29,1.47,2.75,-13.5,13.5,12,2016
+11/6/16,Marvel,Geelong,North Melbourne,105,74,31,-31,1.9,1.94,-0.5,0.5,12,2016
+12/6/16,Marvel,St Kilda,Carlton,110,78,32,-32,2.72,1.48,10.5,-10.5,12,2016
+12/6/16,M.C.G.,Richmond,Gold Coast,114,97,17,-17,1.15,5.75,-36.5,36.5,12,2016
+12/6/16,GIANTS,GWS,Sydney,105,63,42,-42,2,1.85,2.5,-2.5,12,2016
+13/6/16,M.C.G.,Melbourne,Collingwood,104,58,46,-46,1.58,2.45,-8.5,8.5,12,2016
+17/6/16,Marvel,North Melbourne,Hawthorn,84,93,-9,9,3.65,1.3,24.5,-24.5,13,2016
+18/6/16,Gabba,Brisbane,West Coast,82,131,-49,49,8.5,1.08,47.5,-47.5,13,2016
+18/6/16,Domain,Fremantle,Port Adelaide,86,69,17,-17,2.4,1.6,9.5,-9.5,13,2016
+18/6/16,Marvel,Western Bulldogs,Geelong,43,100,-57,57,2.4,1.6,9.5,-9.5,13,2016
+19/6/16,S.C.G.,Sydney,Melbourne,86,31,55,-55,1.26,4,-26.5,26.5,13,2016
+19/6/16,Marvel,Essendon,GWS,90,117,-27,27,15,1.02,64.5,-64.5,13,2016
+23/6/16,Adelaide,Adelaide,North Melbourne,100,67,33,-33,1.28,3.8,-23.5,23.5,14,2016
+24/6/16,M.C.G.,Collingwood,Fremantle,85,37,48,-48,1.84,2,-2.5,2.5,14,2016
+25/6/16,M.C.G.,Richmond,Brisbane,117,75,42,-42,1.05,11,-56.5,56.5,14,2016
+25/6/16,GIANTS,GWS,Carlton,127,65,62,-62,1.05,11,-57.5,57.5,14,2016
+25/6/16,Marvel,St Kilda,Geelong,93,90,3,-3,5.25,1.17,35.5,-35.5,14,2016
+26/6/16,UTAS,Hawthorn,Gold Coast,86,60,26,-26,1.05,11,-52.5,52.5,14,2016
+30/6/16,Domain,West Coast,Essendon,130,52,78,-78,1.01,21,-69.5,69.5,15,2016
+1/7/16,Adelaide,Port Adelaide,Richmond,94,56,38,-38,1.38,3.15,-21.5,21.5,15,2016
+2/7/16,Metricon,Gold Coast,St Kilda,108,68,40,-40,1.88,1.97,-1.5,1.5,15,2016
+2/7/16,S.C.G.,Sydney,Western Bulldogs,79,83,-4,4,1.38,3.15,-16.5,16.5,15,2016
+2/7/16,M.C.G.,Carlton,Collingwood,45,57,-12,12,2.5,1.56,9.5,-9.5,15,2016
+3/7/16,M.C.G.,Melbourne,Adelaide,98,120,-22,22,3.85,1.28,23.5,-23.5,15,2016
+7/7/16,Adelaide,Port Adelaide,Hawthorn,79,101,-22,22,2.3,1.65,5.5,-5.5,16,2016
+8/7/16,GMHBA,Geelong,Sydney,60,98,-38,38,1.36,3.2,-19.5,19.5,16,2016
+9/7/16,GIANTS,GWS,Collingwood,93,125,-32,32,1.1,7.5,-45.5,45.5,16,2016
+9/7/16,Metricon,Gold Coast,Brisbane,139,113,26,-26,1.2,4.8,-34.5,34.5,16,2016
+9/7/16,TIO,Melbourne,Fremantle,87,55,32,-32,1.48,2.7,-13.5,13.5,16,2016
+9/7/16,Marvel,Western Bulldogs,Richmond,85,75,10,-10,1.2,4.8,-33.5,33.5,16,2016
+10/7/16,M.C.G.,Carlton,Adelaide,47,107,-60,60,6,1.14,38.5,-38.5,16,2016
+10/7/16,Domain,West Coast,North Melbourne,104,72,32,-32,1.35,3.3,-22.5,22.5,16,2016
+10/7/16,Marvel,Essendon,St Kilda,98,109,-11,11,6.25,1.13,40.5,-40.5,16,2016
+14/7/16,S.C.G.,Sydney,Hawthorn,70,75,-5,5,1.6,2.4,-9.5,9.5,17,2016
+15/7/16,Domain,Fremantle,Geelong,61,78,-17,17,3.4,1.34,20.5,-20.5,17,2016
+16/7/16,M.C.G.,Richmond,Essendon,102,83,19,-19,1.17,5.2,-34.5,34.5,17,2016
+16/7/16,Marvel,North Melbourne,Port Adelaide,77,105,-28,28,1.42,2.95,-18.5,18.5,17,2016
+16/7/16,Adelaide,Adelaide,Collingwood,97,69,28,-28,1.17,5.2,-38.5,38.5,17,2016
+16/7/16,Cazaly's,Western Bulldogs,Gold Coast,107,59,48,-48,1.11,7,-43.5,43.5,17,2016
+17/7/16,M.C.G.,Carlton,West Coast,75,82,-7,7,5.3,1.17,33.5,-33.5,17,2016
+17/7/16,Marvel,St Kilda,Melbourne,110,74,36,-36,2.3,1.65,7.5,-7.5,17,2016
+17/7/16,Gabba,Brisbane,GWS,67,146,-79,79,7.5,1.1,46.5,-46.5,17,2016
+22/7/16,Marvel,Collingwood,North Melbourne,84,124,-40,40,2,1.85,1.5,-1.5,18,2016
+23/7/16,S.C.G.,Sydney,Carlton,74,68,6,-6,1.06,10,-48.5,48.5,18,2016
+23/7/16,Metricon,Gold Coast,Fremantle,105,81,24,-24,1.92,1.92,-1.5,1.5,18,2016
+23/7/16,Domain,West Coast,Melbourne,66,60,6,-6,1.18,5,-34.5,34.5,18,2016
+23/7/16,GMHBA,Geelong,Adelaide,85,55,30,-30,1.88,1.95,-1.5,1.5,18,2016
+23/7/16,Marvel,Western Bulldogs,St Kilda,60,75,-15,15,1.35,3.25,-20.5,20.5,18,2016
+24/7/16,Marvel,Essendon,Brisbane,91,128,-37,37,1.46,2.8,-15.5,15.5,18,2016
+24/7/16,M.C.G.,Hawthorn,Richmond,114,44,70,-70,1.15,5.75,-36.5,36.5,18,2016
+24/7/16,Adelaide,Port Adelaide,GWS,60,79,-19,19,2.05,1.8,3.5,-3.5,18,2016
+29/7/16,GMHBA,Geelong,Western Bulldogs,103,78,25,-25,1.26,4,-23.5,23.5,19,2016
+30/7/16,Canberra,GWS,Richmond,111,23,88,-88,1.07,9.2,-51.5,51.5,19,2016
+30/7/16,UTAS,Hawthorn,Carlton,74,55,19,-19,1.09,8,-43.5,43.5,19,2016
+30/7/16,M.C.G.,Collingwood,West Coast,91,72,19,-19,2.25,1.67,5.5,-5.5,19,2016
+30/7/16,Marvel,North Melbourne,St Kilda,85,62,23,-23,1.5,2.65,-11.5,11.5,19,2016
+30/7/16,Gabba,Brisbane,Port Adelaide,79,173,-94,94,6,1.14,39.5,-39.5,19,2016
+31/7/16,M.C.G.,Melbourne,Gold Coast,66,64,2,-2,1.16,5.5,-38.5,38.5,19,2016
+31/7/16,Domain,Fremantle,Sydney,47,137,-90,90,4.5,1.22,24.5,-24.5,19,2016
+31/7/16,Adelaide,Adelaide,Essendon,143,61,82,-82,1.01,19,-75.5,75.5,19,2016
+5/8/16,M.C.G.,Richmond,Collingwood,92,77,15,-15,3.3,1.35,21.5,-21.5,20,2016
+6/8/16,S.C.G.,Sydney,Port Adelaide,100,33,67,-67,1.28,3.85,-22.5,22.5,20,2016
+6/8/16,M.C.G.,Melbourne,Hawthorn,110,81,29,-29,5.05,1.18,32.5,-32.5,20,2016
+6/8/16,Metricon,Gold Coast,GWS,84,92,-8,8,7.5,1.1,43.5,-43.5,20,2016
+6/8/16,Adelaide,Adelaide,Brisbane,177,39,138,-138,1.01,21,-86.5,86.5,20,2016
+6/8/16,Marvel,Western Bulldogs,North Melbourne,61,47,14,-14,2.3,1.65,7.5,-7.5,20,2016
+7/8/16,M.C.G.,Carlton,St Kilda,51,122,-71,71,2.45,1.58,10.5,-10.5,20,2016
+7/8/16,Domain,Fremantle,West Coast,64,110,-46,46,4.6,1.2,30.5,-30.5,20,2016
+7/8/16,Marvel,Geelong,Essendon,100,34,66,-66,1.01,21,-70.5,70.5,20,2016
+12/8/16,Marvel,Western Bulldogs,Collingwood,95,92,3,-3,1.35,3.35,-18.5,18.5,21,2016
+13/8/16,Gabba,Brisbane,Carlton,99,95,4,-4,3.45,1.33,21.5,-21.5,21,2016
+13/8/16,M.C.G.,Hawthorn,North Melbourne,96,57,39,-39,1.28,3.85,-24.5,24.5,21,2016
+13/8/16,GIANTS,GWS,West Coast,96,97,-1,1,1.28,3.85,-25.5,25.5,21,2016
+13/8/16,Adelaide,Port Adelaide,Melbourne,54,94,-40,40,1.5,2.65,-15.5,15.5,21,2016
+13/8/16,Marvel,St Kilda,Sydney,76,146,-70,70,3.15,1.38,17.5,-17.5,21,2016
+14/8/16,Marvel,Essendon,Gold Coast,75,69,6,-6,3.15,1.38,19.5,-19.5,21,2016
+14/8/16,Domain,Fremantle,Adelaide,70,142,-72,72,8.5,1.08,46.5,-46.5,21,2016
+14/8/16,M.C.G.,Richmond,Geelong,78,82,-4,4,5,1.18,33.5,-33.5,21,2016
+19/8/16,Domain,West Coast,Hawthorn,92,67,25,-25,1.83,2.02,-3.5,3.5,22,2016
+20/8/16,Blundstone,North Melbourne,Sydney,76,85,-9,9,3.6,1.3,20.5,-20.5,22,2016
+20/8/16,M.C.G.,Richmond,St Kilda,46,55,-9,9,2.4,1.6,7.5,-7.5,22,2016
+20/8/16,GIANTS,GWS,Fremantle,129,37,92,-92,1.01,17,-76.5,76.5,22,2016
+20/8/16,Adelaide,Port Adelaide,Adelaide,94,109,-15,15,7,1.11,44.5,-44.5,22,2016
+20/8/16,Marvel,Collingwood,Gold Coast,118,47,71,-71,1.26,4,-28.5,28.5,22,2016
+21/8/16,M.C.G.,Carlton,Melbourne,78,58,20,-20,4.25,1.24,25.5,-25.5,22,2016
+21/8/16,Gabba,Brisbane,Geelong,69,129,-60,60,15,1.03,59.5,-59.5,22,2016
+21/8/16,Marvel,Essendon,Western Bulldogs,53,93,-40,40,8.5,1.08,43.5,-43.5,22,2016
+26/8/16,Adelaide,Adelaide,West Coast,71,100,-29,29,1.28,3.8,-25.5,25.5,23,2016
+27/8/16,GMHBA,Geelong,Melbourne,155,44,111,-111,1.16,5.5,-35.5,35.5,23,2016
+27/8/16,M.C.G.,Essendon,Carlton,103,79,24,-24,3.25,1.36,18.5,-18.5,23,2016
+27/8/16,S.C.G.,Sydney,Richmond,164,51,113,-113,1.04,11,-55.5,55.5,23,2016
+27/8/16,Metricon,Gold Coast,Port Adelaide,66,89,-23,23,2.8,1.46,13.5,-13.5,23,2016
+27/8/16,Marvel,North Melbourne,GWS,63,100,-37,37,2.7,1.48,13.5,-13.5,23,2016
+28/8/16,Marvel,St Kilda,Brisbane,161,103,58,-58,1.07,9,-54.5,54.5,23,2016
+28/8/16,Domain,Fremantle,Western Bulldogs,69,49,20,-20,2.9,1.43,16.5,-16.5,23,2016
+28/8/16,M.C.G.,Hawthorn,Collingwood,112,111,1,-1,1.28,3.8,-24.5,24.5,23,2016
+8/9/16,Domain,West Coast,Western Bulldogs,52,99,-47,47,1.29,4.05,-23.5,23.5,24,2016
+9/9/16,M.C.G.,Geelong,Hawthorn,85,83,2,-2,1.66,2.31,-8.5,8.5,24,2016
+10/9/16,ANZ,Sydney,GWS,55,91,-36,36,1.54,2.66,-11.5,11.5,24,2016
+10/9/16,Adelaide,Adelaide,North Melbourne,141,79,62,-62,1.16,5.9,-39.5,39.5,24,2016
+16/9/16,M.C.G.,Hawthorn,Western Bulldogs,84,107,-23,23,1.57,2.56,-9.5,9.5,25,2016
+17/9/16,S.C.G.,Sydney,Adelaide,118,82,36,-36,1.61,2.46,-9.5,9.5,25,2016
+23/9/16,M.C.G.,Geelong,Sydney,60,97,-37,37,1.66,2.36,-8.5,8.5,26,2016
+24/9/16,GIANTS,GWS,Western Bulldogs,83,89,-6,6,1.39,3.16,-20.5,20.5,26,2016
+1/10/16,M.C.G.,Sydney,Western Bulldogs,67,89,-22,22,1.57,2.61,-11.5,11.5,27,2016
+23/3/17,M.C.G.,Carlton,Richmond,89,132,-43,43,3.05,1.41,16.5,-16.5,1,2017
+24/3/17,M.C.G.,Collingwood,Western Bulldogs,86,100,-14,14,3.05,1.4,15.5,-15.5,1,2017
+25/3/17,S.C.G.,Sydney,Port Adelaide,82,110,-28,28,1.29,3.66,-21.5,21.5,1,2017
+25/3/17,Marvel,St Kilda,Melbourne,90,120,-30,30,1.67,2.25,-6.5,6.5,1,2017
+25/3/17,Metricon,Gold Coast,Brisbane,96,98,-2,2,1.27,3.85,-26.5,26.5,1,2017
+25/3/17,M.C.G.,Essendon,Hawthorn,116,91,25,-25,3.05,1.4,20.5,-20.5,1,2017
+26/3/17,Marvel,North Melbourne,West Coast,93,136,-43,43,3.4,1.33,21.5,-21.5,1,2017
+26/3/17,Adelaide,Adelaide,GWS,147,91,56,-56,2,1.81,2.5,-2.5,1,2017
+26/3/17,Domain,Fremantle,Geelong,73,115,-42,42,2.25,1.67,5.5,-5.5,1,2017
+30/3/17,M.C.G.,Richmond,Collingwood,99,80,19,-19,2.15,1.73,6.5,-6.5,2,2017
+31/3/17,Marvel,Western Bulldogs,Sydney,110,87,23,-23,1.4,2.98,-16.5,16.5,2,2017
+1/4/17,M.C.G.,Hawthorn,Adelaide,89,113,-24,24,2,1.84,2.5,-2.5,2,2017
+1/4/17,GIANTS,GWS,Gold Coast,160,58,102,-102,1.13,6.3,-39.5,39.5,2,2017
+1/4/17,Domain,West Coast,St Kilda,116,97,19,-19,1.17,5.3,-39.5,39.5,2,2017
+1/4/17,Gabba,Brisbane,Essendon,84,111,-27,27,2.9,1.43,15.5,-15.5,2,2017
+2/4/17,Marvel,Geelong,North Melbourne,112,111,1,-1,1.16,5.3,-33.5,33.5,2,2017
+2/4/17,M.C.G.,Melbourne,Carlton,86,64,22,-22,1.25,4,-25.5,25.5,2,2017
+2/4/17,Adelaide,Port Adelaide,Fremantle,145,56,89,-89,1.23,4.25,-27.5,27.5,2,2017
+7/4/17,S.C.G.,Sydney,Collingwood,79,80,-1,1,1.44,2.88,-13.5,13.5,3,2017
+8/4/17,Blundstone,North Melbourne,GWS,67,109,-42,42,4.3,1.23,29.5,-29.5,3,2017
+8/4/17,M.C.G.,Richmond,West Coast,76,65,11,-11,2.55,1.54,12.5,-12.5,3,2017
+8/4/17,Marvel,Geelong,Melbourne,126,97,29,-29,1.4,3,-16.5,16.5,3,2017
+8/4/17,Domain,Fremantle,Western Bulldogs,89,73,16,-16,4.75,1.2,32.5,-32.5,3,2017
+8/4/17,Adelaide,Port Adelaide,Adelaide,83,100,-17,17,2.3,1.65,6.5,-6.5,3,2017
+9/4/17,Marvel,St Kilda,Brisbane,107,76,31,-31,1.15,5.75,-36.5,36.5,3,2017
+9/4/17,M.C.G.,Carlton,Essendon,57,42,15,-15,3.2,1.37,18.5,-18.5,3,2017
+9/4/17,Metricon,Gold Coast,Hawthorn,139,53,86,-86,3.04,1.4,17.5,-17.5,3,2017
+13/4/17,Domain,West Coast,Sydney,91,65,26,-26,1.35,3.25,-21.5,21.5,4,2017
+14/4/17,Marvel,North Melbourne,Western Bulldogs,86,89,-3,3,3.75,1.29,23.5,-23.5,4,2017
+15/4/17,M.C.G.,Melbourne,Fremantle,104,106,-2,2,1.39,3.1,-21.5,21.5,4,2017
+15/4/17,Canberra,GWS,Port Adelaide,112,81,31,-31,1.39,3.1,-18.5,18.5,4,2017
+15/4/17,Adelaide,Adelaide,Essendon,153,88,65,-65,1.16,5.5,-37.5,37.5,4,2017
+15/4/17,Marvel,Carlton,Gold Coast,82,108,-26,26,2.1,1.74,4.5,-4.5,4,2017
+16/4/17,Marvel,Collingwood,St Kilda,55,69,-14,14,1.6,2.4,-10.5,10.5,4,2017
+16/4/17,Gabba,Brisbane,Richmond,67,119,-52,52,3.3,1.35,19.5,-19.5,4,2017
+17/4/17,M.C.G.,Hawthorn,Geelong,48,134,-86,86,2.95,1.42,15.5,-15.5,4,2017
+21/4/17,Adelaide,Port Adelaide,Carlton,137,47,90,-90,1.07,9,-49.5,49.5,5,2017
+22/4/17,Marvel,Western Bulldogs,Brisbane,122,90,32,-32,1.05,11,-57.5,57.5,5,2017
+22/4/17,Metricon,Gold Coast,Adelaide,86,153,-67,67,4.3,1.23,28.5,-28.5,5,2017
+22/4/17,Domain,Fremantle,North Melbourne,67,62,5,-5,1.6,2.4,-9.5,9.5,5,2017
+22/4/17,S.C.G.,Sydney,GWS,63,105,-42,42,2.65,1.5,13.5,-13.5,5,2017
+23/4/17,Marvel,St Kilda,Geelong,88,126,-38,38,2.6,1.52,12.5,-12.5,5,2017
+23/4/17,M.C.G.,Hawthorn,West Coast,125,75,50,-50,2.8,1.46,14.5,-14.5,5,2017
+24/4/17,M.C.G.,Richmond,Melbourne,88,75,13,-13,1.67,2.25,-5.5,5.5,5,2017
+25/4/17,M.C.G.,Essendon,Collingwood,100,82,18,-18,2.45,1.57,11.5,-11.5,5,2017
+28/4/17,Canberra,GWS,Western Bulldogs,75,73,2,-2,1.31,3.6,-24.5,24.5,6,2017
+29/4/17,UTAS,Hawthorn,St Kilda,55,130,-75,75,1.85,2,-1.5,1.5,6,2017
+29/4/17,M.C.G.,Carlton,Sydney,97,78,19,-19,3.85,1.28,21.5,-21.5,6,2017
+29/4/17,Gabba,Brisbane,Port Adelaide,67,150,-83,83,5.5,1.16,40.5,-40.5,6,2017
+29/4/17,Domain,West Coast,Fremantle,103,62,41,-41,1.35,3.3,-27.5,27.5,6,2017
+29/4/17,Marvel,North Melbourne,Gold Coast,107,94,13,-13,1.47,2.72,-14.5,14.5,6,2017
+30/4/17,Marvel,Essendon,Melbourne,74,112,-38,38,1.95,1.89,0.5,-0.5,6,2017
+30/4/17,M.C.G.,Geelong,Collingwood,78,107,-29,29,1.26,4,-26.5,26.5,6,2017
+30/4/17,Adelaide,Adelaide,Richmond,140,64,76,-76,1.17,5.3,-38.5,38.5,6,2017
+5/5/17,Marvel,St Kilda,GWS,108,85,23,-23,2.9,1.42,14.5,-14.5,7,2017
+6/5/17,Blundstone,North Melbourne,Adelaide,145,86,59,-59,6.05,1.13,37.5,-37.5,7,2017
+6/5/17,M.C.G.,Collingwood,Carlton,56,79,-23,23,1.35,3.2,-19.5,19.5,7,2017
+6/5/17,Adelaide,Port Adelaide,West Coast,87,97,-10,10,1.34,3.3,-19.5,19.5,7,2017
+6/5/17,Marvel,Western Bulldogs,Richmond,80,75,5,-5,1.32,3.4,-18.5,18.5,7,2017
+6/5/17,Metricon,Gold Coast,Geelong,124,99,25,-25,3.65,1.29,20.5,-20.5,7,2017
+7/5/17,S.C.G.,Sydney,Brisbane,135,81,54,-54,1.14,5.75,-40.5,40.5,7,2017
+7/5/17,Domain,Fremantle,Essendon,116,79,37,-37,1.5,2.62,-12.5,12.5,7,2017
+7/5/17,M.C.G.,Melbourne,Hawthorn,91,94,-3,3,1.46,2.75,-14.5,14.5,7,2017
+12/5/17,Domain,West Coast,Western Bulldogs,69,61,8,-8,1.47,2.75,-17.5,17.5,8,2017
+13/5/17,UTAS,Hawthorn,Brisbane,113,75,38,-38,1.13,6.4,-47.5,47.5,8,2017
+13/5/17,Marvel,St Kilda,Carlton,85,66,19,-19,1.32,3.5,-23.5,23.5,8,2017
+13/5/17,GIANTS,GWS,Collingwood,102,99,3,-3,1.23,4.4,-32.5,32.5,8,2017
+13/5/17,Adelaide,Adelaide,Melbourne,66,107,-41,41,1.14,6.05,-40.5,40.5,8,2017
+13/5/17,M.C.G.,Essendon,Geelong,110,93,17,-17,3.4,1.34,27.5,-27.5,8,2017
+14/5/17,M.C.G.,Richmond,Fremantle,70,72,-2,2,1.4,3.05,-16.5,16.5,8,2017
+14/5/17,Jiangwan,Gold Coast,Port Adelaide,38,110,-72,72,3.8,1.28,27.5,-27.5,8,2017
+14/5/17,Marvel,North Melbourne,Sydney,78,120,-42,42,1.73,2.15,-6.5,6.5,8,2017
+19/5/17,GMHBA,Geelong,Western Bulldogs,104,81,23,-23,2,1.83,2.5,-2.5,9,2017
+20/5/17,Marvel,St Kilda,Sydney,68,118,-50,50,1.94,1.9,1.5,-1.5,9,2017
+20/5/17,GIANTS,GWS,Richmond,78,75,3,-3,1.25,4.1,-32.5,32.5,9,2017
+20/5/17,Gabba,Brisbane,Adelaide,60,140,-80,80,9,1.07,61.5,-61.5,9,2017
+20/5/17,M.C.G.,Collingwood,Hawthorn,90,72,18,-18,1.5,2.65,-16.5,16.5,9,2017
+21/5/17,Marvel,Essendon,West Coast,125,64,61,-61,2.45,1.57,10.5,-10.5,9,2017
+21/5/17,Domain,Fremantle,Carlton,86,51,35,-35,1.35,3.28,-22.5,22.5,9,2017
+21/5/17,M.C.G.,Melbourne,North Melbourne,90,104,-14,14,1.57,2.45,-10.5,10.5,9,2017
+25/5/17,GMHBA,Geelong,Port Adelaide,81,79,2,-2,1.73,2.15,-4.5,4.5,10,2017
+26/5/17,S.C.G.,Sydney,Hawthorn,75,81,-6,6,1.17,5.35,-40.5,40.5,10,2017
+27/5/17,Marvel,Western Bulldogs,St Kilda,90,50,40,-40,1.48,2.72,-15.5,15.5,10,2017
+27/5/17,TIO,Melbourne,Gold Coast,122,87,35,-35,1.38,3.15,-21.5,21.5,10,2017
+27/5/17,Adelaide,Adelaide,Fremantle,143,43,100,-100,1.17,5.25,-41.5,41.5,10,2017
+27/5/17,M.C.G.,Richmond,Essendon,81,66,15,-15,1.8,2.05,-3.5,3.5,10,2017
+28/5/17,M.C.G.,Collingwood,Brisbane,129,84,45,-45,1.08,8.5,-51.5,51.5,10,2017
+28/5/17,Domain,West Coast,GWS,90,98,-8,8,1.53,2.57,-12.5,12.5,10,2017
+28/5/17,Marvel,Carlton,North Melbourne,96,113,-17,17,3.44,1.33,24.5,-24.5,10,2017
+1/6/17,Adelaide,Port Adelaide,Hawthorn,98,47,51,-51,1.2,4.65,-34.5,34.5,11,2017
+2/6/17,GMHBA,Geelong,Adelaide,96,74,22,-22,2.1,1.74,4.5,-4.5,11,2017
+3/6/17,Metricon,Gold Coast,West Coast,80,77,3,-3,2.35,1.6,7.5,-7.5,11,2017
+3/6/17,GIANTS,GWS,Essendon,117,101,16,-16,1.25,4,-29.5,29.5,11,2017
+3/6/17,Marvel,North Melbourne,Richmond,66,101,-35,35,2.1,1.74,5.5,-5.5,11,2017
+4/6/17,Domain,Fremantle,Collingwood,85,105,-20,20,1.83,2,-2.5,2.5,11,2017
+8/6/17,S.C.G.,Sydney,Western Bulldogs,88,42,46,-46,1.81,2.1,-3.5,3.5,12,2017
+9/6/17,Adelaide,Adelaide,St Kilda,111,54,57,-57,1.14,6.49,-31.5,-31.5,12,2017
+10/6/17,M.C.G.,Hawthorn,Gold Coast,79,95,-16,16,2.04,1.85,-8.5,8.5,12,2017
+10/6/17,Gabba,Brisbane,Fremantle,121,64,57,-57,2.25,1.71,22.5,-22.5,12,2017
+10/6/17,Marvel,Essendon,Port Adelaide,131,61,70,-70,3.58,1.33,13.5,-13.5,12,2017
+11/6/17,Marvel,Carlton,GWS,71,70,1,-1,4.52,1.24,26.5,-26.5,12,2017
+12/6/17,M.C.G.,Melbourne,Collingwood,104,100,4,-4,1.61,2.46,-8.5,8.5,12,2017
+15/6/17,Domain,West Coast,Geelong,83,70,13,-13,2.24,1.71,6.5,-6.5,13,2017
+16/6/17,Marvel,North Melbourne,St Kilda,72,89,-17,17,2.07,1.83,2.5,-2.5,13,2017
+17/6/17,M.C.G.,Richmond,Sydney,71,80,-9,9,2.02,1.87,2.5,-2.5,13,2017
+17/6/17,Adelaide,Port Adelaide,Brisbane,121,81,40,-40,1.05,11,-58.5,58.5,13,2017
+17/6/17,Metricon,Gold Coast,Carlton,73,83,-10,10,1.4,3.18,-22.5,22.5,13,2017
+18/6/17,Marvel,Western Bulldogs,Melbourne,56,113,-57,57,1.67,2.33,-8.5,8.5,13,2017
+22/6/17,Adelaide,Adelaide,Hawthorn,82,96,-14,14,1.18,5,-36.5,36.5,14,2017
+23/6/17,S.C.G.,Sydney,Essendon,86,85,1,-1,1.33,3.3,-20.5,20.5,14,2017
+24/6/17,M.C.G.,Collingwood,Port Adelaide,62,93,-31,31,2,1.85,2.5,-2.5,14,2017
+24/6/17,Gabba,Brisbane,GWS,86,146,-60,60,4.1,1.25,30.5,-30.5,14,2017
+24/6/17,Domain,West Coast,Melbourne,96,99,-3,3,1.8,2,-2.5,2.5,14,2017
+24/6/17,Marvel,Western Bulldogs,North Melbourne,107,106,1,-1,1.18,4.8,-27.5,27.5,14,2017
+25/6/17,GMHBA,Geelong,Fremantle,74,72,2,-2,1.06,10,-59.5,59.5,14,2017
+25/6/17,M.C.G.,Richmond,Carlton,84,58,26,-26,1.38,3.15,-18.5,18.5,14,2017
+25/6/17,Marvel,St Kilda,Gold Coast,103,72,31,-31,1.15,5.75,-38.5,38.5,14,2017
+30/6/17,M.C.G.,Melbourne,Sydney,50,85,-35,35,2.4,1.56,11.5,-11.5,15,2017
+1/7/17,Marvel,Western Bulldogs,West Coast,80,87,-7,7,1.32,3.5,-22.5,22.5,15,2017
+1/7/17,M.C.G.,Carlton,Adelaide,77,89,-12,12,3.95,1.27,26.5,-26.5,15,2017
+1/7/17,Metricon,Gold Coast,North Melbourne,118,99,19,-19,1.55,2.55,-11.5,11.5,15,2017
+1/7/17,Adelaide,Port Adelaide,Richmond,63,76,-13,13,1.41,2.9,-13.5,13.5,15,2017
+1/7/17,GIANTS,GWS,Geelong,68,68,0,0,1.37,3.05,-15.5,15.5,15,2017
+2/7/17,Marvel,Essendon,Brisbane,82,90,-8,8,1.08,8,-48.5,48.5,15,2017
+2/7/17,Domain,Fremantle,St Kilda,80,89,-9,9,2.5,1.56,10.5,-10.5,15,2017
+2/7/17,M.C.G.,Hawthorn,Collingwood,118,94,24,-24,2.4,1.6,8.5,-8.5,15,2017
+7/7/17,Adelaide,Adelaide,Western Bulldogs,104,45,59,-59,1.28,3.65,-24.5,24.5,16,2017
+8/7/17,UTAS,Hawthorn,GWS,97,97,0,0,2.65,1.5,13.5,-13.5,16,2017
+8/7/17,M.C.G.,Collingwood,Essendon,80,117,-37,37,1.92,1.92,0,0,16,2017
+8/7/17,S.C.G.,Sydney,Gold Coast,118,51,67,-67,1.1,7.5,-45.5,45.5,16,2017
+8/7/17,Gabba,Brisbane,Geelong,78,163,-85,85,5,1.17,31.5,-31.5,16,2017
+8/7/17,Marvel,St Kilda,Richmond,138,71,67,-67,2.32,1.67,8.5,-8.5,16,2017
+9/7/17,Marvel,North Melbourne,Fremantle,82,86,-4,4,1.37,3.2,-20.5,20.5,16,2017
+9/7/17,Domain,West Coast,Port Adelaide,88,120,-32,32,1.7,2.2,-6.5,6.5,16,2017
+9/7/17,M.C.G.,Carlton,Melbourne,82,90,-8,8,2.8,1.46,14.5,-14.5,16,2017
+14/7/17,Marvel,St Kilda,Essendon,57,118,-61,61,2.2,1.67,6.5,-6.5,17,2017
+15/7/17,Adelaide,Port Adelaide,North Melbourne,127,57,70,-70,1.11,7,-46.5,46.5,17,2017
+15/7/17,M.C.G.,Geelong,Hawthorn,88,85,3,-3,1.38,3.15,-21.5,21.5,17,2017
+15/7/17,Metricon,Gold Coast,Collingwood,88,103,-15,15,1.8,2.05,-3.5,3.5,17,2017
+15/7/17,TIO,Melbourne,Adelaide,70,116,-46,46,5.5,1.14,32.5,-32.5,17,2017
+15/7/17,GIANTS,GWS,Sydney,83,96,-13,13,3.1,1.36,15.5,-15.5,17,2017
+16/7/17,Marvel,Richmond,Brisbane,112,81,31,-31,1.13,6.5,-40.5,40.5,17,2017
+16/7/17,Domain,Fremantle,West Coast,44,74,-30,30,3.6,1.31,26.5,-26.5,17,2017
+16/7/17,M.C.G.,Carlton,Western Bulldogs,62,82,-20,20,2.5,1.56,11.5,-11.5,17,2017
+21/7/17,Adelaide,Adelaide,Geelong,91,70,21,-21,1.48,2.65,-13.5,13.5,18,2017
+22/7/17,Marvel,Essendon,North Melbourne,132,105,27,-27,1.16,5.5,-37.5,37.5,18,2017
+22/7/17,M.C.G.,Melbourne,Port Adelaide,88,65,23,-23,2.2,1.7,6.5,-6.5,18,2017
+22/7/17,Cazaly's,Western Bulldogs,Gold Coast,110,56,54,-54,1.28,3.8,-25.5,25.5,18,2017
+22/7/17,Domain,Fremantle,Hawthorn,48,100,-52,52,3.55,1.3,25.5,-25.5,18,2017
+22/7/17,S.C.G.,Sydney,St Kilda,101,59,42,-42,1.1,7,-40.5,40.5,18,2017
+23/7/17,M.C.G.,Richmond,GWS,64,45,19,-19,2.3,1.65,7.5,-7.5,18,2017
+23/7/17,Marvel,Collingwood,West Coast,93,85,8,-8,1.76,2.1,-4.5,4.5,18,2017
+23/7/17,Gabba,Brisbane,Carlton,112,82,30,-30,2,1.85,2.5,-2.5,18,2017
+28/7/17,M.C.G.,Hawthorn,Sydney,72,66,6,-6,2.28,1.62,6.5,-6.5,19,2017
+29/7/17,Blundstone,North Melbourne,Melbourne,76,72,4,-4,3.25,1.36,22.5,-22.5,19,2017
+29/7/17,GIANTS,GWS,Fremantle,98,86,12,-12,1.09,8,-50.5,50.5,19,2017
+29/7/17,Adelaide,Port Adelaide,St Kilda,63,61,2,-2,1.26,3.8,-23.5,23.5,19,2017
+29/7/17,Metricon,Gold Coast,Richmond,65,98,-33,33,2.56,1.51,10.5,-10.5,19,2017
+29/7/17,Marvel,Carlton,Geelong,58,123,-65,65,7,1.09,39.5,-39.5,19,2017
+30/7/17,Marvel,Western Bulldogs,Essendon,127,97,30,-30,2.25,1.67,7.5,-7.5,19,2017
+30/7/17,Domain,West Coast,Brisbane,113,45,68,-68,1.08,8.5,-53.5,53.5,19,2017
+30/7/17,M.C.G.,Collingwood,Adelaide,103,103,0,0,2.5,1.55,10.5,-10.5,19,2017
+4/8/17,GMHBA,Geelong,Sydney,61,107,-46,46,2.76,1.45,13.5,-13.5,20,2017
+5/8/17,Canberra,GWS,Melbourne,97,62,35,-35,1.65,2.3,-8.5,8.5,20,2017
+5/8/17,M.C.G.,Essendon,Carlton,84,76,8,-8,1.22,4.5,-29.5,29.5,20,2017
+5/8/17,Gabba,Brisbane,Western Bulldogs,89,103,-14,14,4.15,1.25,27.5,-27.5,20,2017
+5/8/17,Domain,Fremantle,Gold Coast,90,67,23,-23,1.4,2.94,-15.5,15.5,20,2017
+5/8/17,Marvel,North Melbourne,Collingwood,57,111,-54,54,4,1.24,22.5,-22.5,20,2017
+6/8/17,Marvel,St Kilda,West Coast,103,95,8,-8,1.7,2.2,-6.5,6.5,20,2017
+6/8/17,M.C.G.,Richmond,Hawthorn,93,64,29,-29,1.7,2.2,-7.5,7.5,20,2017
+6/8/17,Adelaide,Adelaide,Port Adelaide,130,46,84,-84,1.54,2.55,-11.5,11.5,20,2017
+11/8/17,Marvel,Western Bulldogs,GWS,57,105,-48,48,2.66,1.47,12.5,-12.5,21,2017
+12/8/17,S.C.G.,Sydney,Fremantle,143,39,104,-104,1.05,11,-54.5,54.5,21,2017
+12/8/17,GMHBA,Geelong,Richmond,80,66,14,-14,2.25,1.68,8.5,-8.5,21,2017
+12/8/17,Gabba,Brisbane,Gold Coast,142,84,58,-58,1.47,2.75,-15.5,15.5,21,2017
+12/8/17,Domain,West Coast,Carlton,100,83,17,-17,1.11,6.6,-41.5,41.5,21,2017
+12/8/17,Marvel,Essendon,Adelaide,80,123,-43,43,6,1.13,40.5,-40.5,21,2017
+13/8/17,M.C.G.,Melbourne,St Kilda,96,72,24,-24,1.58,2.45,-11.5,11.5,21,2017
+13/8/17,UTAS,Hawthorn,North Melbourne,116,89,27,-27,1.42,2.95,-16.5,16.5,21,2017
+13/8/17,Adelaide,Port Adelaide,Collingwood,98,71,27,-27,1.36,3.25,-22.5,22.5,21,2017
+18/8/17,Adelaide,Adelaide,Sydney,80,83,-3,3,2.05,1.77,3.5,-3.5,22,2017
+19/8/17,Mars,Western Bulldogs,Port Adelaide,79,96,-17,17,1.96,1.88,1.5,-1.5,22,2017
+19/8/17,M.C.G.,Collingwood,Geelong,59,70,-11,11,2.65,1.5,12.5,-12.5,22,2017
+19/8/17,GIANTS,GWS,West Coast,81,60,21,-21,1.19,5,-34.5,34.5,22,2017
+19/8/17,Metricon,Gold Coast,Essendon,57,90,-33,33,4.5,1.2,24.5,-24.5,22,2017
+19/8/17,Marvel,Carlton,Hawthorn,77,70,7,-7,4,1.28,26.5,-26.5,22,2017
+20/8/17,M.C.G.,Melbourne,Brisbane,104,91,13,-13,1.1,7.5,-44.5,44.5,22,2017
+20/8/17,Domain,Fremantle,Richmond,51,155,-104,104,4,1.26,26.5,-26.5,22,2017
+20/8/17,Marvel,St Kilda,North Melbourne,127,78,49,-49,1.3,3.65,-22.5,22.5,22,2017
+25/8/17,Marvel,Hawthorn,Western Bulldogs,99,90,9,-9,1.8,2,-1.5,1.5,23,2017
+26/8/17,M.C.G.,Collingwood,Melbourne,99,83,16,-16,3.35,1.35,22.5,-22.5,23,2017
+26/8/17,Gabba,Brisbane,North Melbourne,79,130,-51,51,1.46,2.8,-15.5,15.5,23,2017
+26/8/17,S.C.G.,Sydney,Carlton,138,57,81,-81,1.05,11,-53.5,53.5,23,2017
+26/8/17,Adelaide,Port Adelaide,Gold Coast,135,20,115,-115,1.02,13,-56.5,56.5,23,2017
+26/8/17,GMHBA,Geelong,GWS,103,59,44,-44,1.58,2.34,-8.5,8.5,23,2017
+27/8/17,Marvel,Essendon,Fremantle,107,92,15,-15,1.1,7.5,-43.5,43.5,23,2017
+27/8/17,Domain,West Coast,Adelaide,100,71,29,-29,1.88,1.96,-1.5,1.5,23,2017
+27/8/17,M.C.G.,Richmond,St Kilda,122,81,41,-41,1.54,2.55,-9.5,9.5,23,2017
+7/9/17,Adelaide,Adelaide,GWS,84,48,36,-36,1.53,2.6,-11.5,11.5,24,2017
+8/9/17,M.C.G.,Geelong,Richmond,40,91,-51,51,2.15,1.7,4.5,-4.5,24,2017
+9/9/17,S.C.G.,Sydney,Essendon,121,56,65,-65,1.16,5.5,-36.5,36.5,24,2017
+9/9/17,Adelaide,Port Adelaide,West Coast,76,78,-2,2,2.2,1.65,5.5,-5.5,24,2017
+15/9/17,M.C.G.,Geelong,Sydney,98,39,59,-59,2.5,1.52,11.5,-11.5,25,2017
+16/9/17,GIANTS,GWS,West Coast,125,58,67,-67,1.42,2.95,-15.5,15.5,25,2017
+22/9/17,Adelaide,Adelaide,Geelong,136,75,61,-61,1.4,3.05,-17.5,17.5,26,2017
+23/9/17,M.C.G.,Richmond,GWS,103,67,36,-36,1.58,2.45,-9.5,9.5,26,2017
+30/9/17,M.C.G.,Adelaide,Richmond,60,108,-48,48,1.75,2.25,-7,6,27,2017
+22/3/18,M.C.G.,Richmond,Carlton,121,95,26,-26,1.19,5,-30.5,30.5,1,2018
+23/3/18,Marvel,Essendon,Adelaide,99,87,12,-12,1.83,2.02,-2.5,2.5,1,2018
+24/3/18,Marvel,St Kilda,Brisbane,107,82,25,-25,1.33,3.45,-22.5,22.5,1,2018
+24/3/18,Adelaide,Port Adelaide,Fremantle,110,60,50,-50,1.18,5.25,-34.5,34.5,1,2018
+24/3/18,Cazaly's,Gold Coast,North Melbourne,55,39,16,-16,1.13,6,-24.5,24.5,1,2018
+24/3/18,M.C.G.,Hawthorn,Collingwood,101,67,34,-34,1.1,7,-31.5,31.5,1,2018
+25/3/18,Canberra,GWS,Western Bulldogs,133,51,82,-82,1.33,3.45,-20.5,20.5,1,2018
+25/3/18,M.C.G.,Melbourne,Geelong,94,97,-3,3,1.7,2.2,-6.5,6.5,1,2018
+25/3/18,Perth,West Coast,Sydney,86,115,-29,29,11,1.04,37.5,-37.5,1,2018
+29/3/18,Adelaide,Adelaide,Richmond,118,82,36,-36,1.65,2.2,-7.5,7.5,2,2018
+30/3/18,Marvel,North Melbourne,St Kilda,95,43,52,-52,3.35,1.35,19.5,-19.5,2,2018
+31/3/18,Marvel,Carlton,Gold Coast,67,101,-34,34,1.58,2.45,-9.5,9.5,2,2018
+31/3/18,M.C.G.,Collingwood,GWS,79,95,-16,16,2.95,1.42,17.5,-17.5,2,2018
+31/3/18,Perth,Fremantle,Essendon,106,90,16,-16,1.95,1.85,1.5,-1.5,2,2018
+31/3/18,Gabba,Brisbane,Melbourne,74,100,-26,26,21,1.01,53.5,-53.5,2,2018
+1/4/18,Marvel,Western Bulldogs,West Coast,70,121,-51,51,1.7,2.2,-7.5,7.5,2,2018
+1/4/18,S.C.G.,Sydney,Port Adelaide,71,94,-23,23,1.42,2.95,-16.5,16.5,2,2018
+2/4/18,M.C.G.,Geelong,Hawthorn,117,118,-1,1,1.7,2.2,-5.5,5.5,2,2018
+6/4/18,M.C.G.,Carlton,Collingwood,76,100,-24,24,2.45,1.58,10.5,-10.5,3,2018
+7/4/18,Adelaide,Port Adelaide,Brisbane,97,92,5,-5,1.03,13,-56.5,56.5,3,2018
+7/4/18,M.C.G.,Melbourne,North Melbourne,123,86,37,-37,1.37,3.2,-20.5,20.5,3,2018
+7/4/18,Perth,Gold Coast,Fremantle,68,96,-28,28,2.55,1.54,11.5,-11.5,3,2018
+7/4/18,Marvel,St Kilda,Adelaide,55,104,-49,49,3.7,1.28,20.5,-20.5,3,2018
+7/4/18,S.C.G.,Sydney,GWS,103,87,16,-16,1.4,2.94,-15.5,15.5,3,2018
+8/4/18,M.C.G.,Richmond,Hawthorn,102,89,13,-13,1.56,2.5,-11.5,11.5,3,2018
+8/4/18,Perth,West Coast,Geelong,95,80,15,-15,2,1.85,2.5,-2.5,3,2018
+8/4/18,Marvel,Western Bulldogs,Essendon,104,83,21,-21,3.05,1.4,18.5,-18.5,3,2018
+13/4/18,Adelaide,Adelaide,Collingwood,58,106,-48,48,1.18,5.25,-31.5,31.5,4,2018
+14/4/18,Canberra,GWS,Fremantle,82,51,31,-31,1.18,5.25,-31.5,31.5,4,2018
+14/4/18,M.C.G.,Richmond,Brisbane,110,17,93,-93,1.11,7,-40.5,40.5,4,2018
+14/4/18,Marvel,Western Bulldogs,Sydney,79,86,-7,7,3.85,1.28,24.5,-24.5,4,2018
+14/4/18,Perth,West Coast,Gold Coast,139,59,80,-80,1.19,5,-31.5,31.5,4,2018
+14/4/18,Blundstone,North Melbourne,Carlton,116,30,86,-86,1.09,7.4,-36.5,36.5,4,2018
+15/4/18,Marvel,Essendon,Port Adelaide,106,84,22,-22,2.25,1.67,7.5,-7.5,4,2018
+15/4/18,M.C.G.,Hawthorn,Melbourne,115,48,67,-67,2.2,1.7,6.5,-6.5,4,2018
+15/4/18,GMHBA,Geelong,St Kilda,103,56,47,-47,1.26,4,-26.5,26.5,4,2018
+20/4/18,S.C.G.,Sydney,Adelaide,75,85,-10,10,1.24,4.25,-27.5,27.5,5,2018
+21/4/18,Marvel,St Kilda,GWS,73,73,0,0,3.4,1.34,20.5,-20.5,5,2018
+21/4/18,M.C.G.,Carlton,West Coast,69,79,-10,10,4.65,1.21,30.5,-30.5,5,2018
+21/4/18,Perth,Fremantle,Western Bulldogs,108,54,54,-54,1.52,2.6,-13.5,13.5,5,2018
+21/4/18,Adelaide,Port Adelaide,Geelong,50,84,-34,34,1.32,3.35,-19.5,19.5,5,2018
+22/4/18,Marvel,North Melbourne,Hawthorn,98,70,28,-28,2.55,1.54,11.5,-11.5,5,2018
+22/4/18,Gabba,Brisbane,Gold Coast,71,76,-5,5,1.71,2.2,-6.5,6.5,5,2018
+24/4/18,M.C.G.,Melbourne,Richmond,56,102,-46,46,2.34,1.59,6.5,-6.5,5,2018
+25/4/18,M.C.G.,Collingwood,Essendon,101,52,49,-49,1.74,2.15,-4.5,4.5,5,2018
+27/4/18,Marvel,Western Bulldogs,Carlton,80,59,21,-21,1.42,2.95,-16.5,16.5,6,2018
+28/4/18,GMHBA,Geelong,Sydney,69,86,-17,17,1.43,2.9,-15.5,15.5,6,2018
+28/4/18,Marvel,North Melbourne,Port Adelaide,69,102,-33,33,2.15,1.73,5.5,-5.5,6,2018
+28/4/18,GIANTS,GWS,Brisbane,77,43,34,-34,1.1,7.5,-38.5,38.5,6,2018
+28/4/18,Adelaide,Adelaide,Gold Coast,110,62,48,-48,1.04,11,-51.5,51.5,6,2018
+28/4/18,UTAS,Hawthorn,St Kilda,89,54,35,-35,1.11,6.4,-32.5,32.5,6,2018
+29/4/18,Marvel,Essendon,Melbourne,72,108,-36,36,2.2,1.71,6.5,-6.5,6,2018
+29/4/18,Perth,Fremantle,West Coast,81,89,-8,8,2.3,1.65,8.5,-8.5,6,2018
+29/4/18,M.C.G.,Collingwood,Richmond,70,113,-43,43,2.75,1.48,13.5,-13.5,6,2018
+4/5/18,GMHBA,Geelong,GWS,93,32,61,-61,1.35,3.35,-19.5,19.5,7,2018
+5/5/18,Mars,Western Bulldogs,Gold Coast,81,72,9,-9,1.23,4.35,-27.5,27.5,7,2018
+5/5/18,M.C.G.,Essendon,Hawthorn,67,90,-23,23,2.65,1.5,13.5,-13.5,7,2018
+5/5/18,Perth,West Coast,Port Adelaide,102,60,42,-42,1.77,2.1,-3.5,3.5,7,2018
+5/5/18,Adelaide,Adelaide,Carlton,125,70,55,-55,1.02,13,-57.5,57.5,7,2018
+5/5/18,S.C.G.,Sydney,North Melbourne,66,68,-2,2,1.25,4,-23.5,23.5,7,2018
+6/5/18,M.C.G.,Richmond,Fremantle,110,33,77,-77,1.11,7,-40.5,40.5,7,2018
+6/5/18,Marvel,St Kilda,Melbourne,67,106,-39,39,3.15,1.38,18.5,-18.5,7,2018
+6/5/18,Gabba,Brisbane,Collingwood,114,121,-7,7,3.6,1.31,22.5,-22.5,7,2018
+11/5/18,M.C.G.,Hawthorn,Sydney,71,79,-8,8,1.58,2.45,-10.5,10.5,8,2018
+12/5/18,GIANTS,GWS,West Coast,61,86,-25,25,1.47,2.75,-14.5,14.5,8,2018
+12/5/18,M.C.G.,Carlton,Essendon,91,78,13,-13,2.8,1.46,15.5,-15.5,8,2018
+12/5/18,Gabba,Gold Coast,Melbourne,77,146,-69,69,3.7,1.29,25.5,-25.5,8,2018
+12/5/18,Adelaide,Port Adelaide,Adelaide,95,90,5,-5,2.1,1.75,6.5,-6.5,8,2018
+12/5/18,Perth,Fremantle,St Kilda,89,59,30,-30,1.5,2.65,-13.5,13.5,8,2018
+12/5/18,Marvel,Western Bulldogs,Brisbane,107,93,14,-14,1.15,5.3,-29.5,29.5,8,2018
+13/5/18,Marvel,North Melbourne,Richmond,72,82,-10,10,3.75,1.29,22.5,-22.5,8,2018
+13/5/18,M.C.G.,Collingwood,Geelong,45,66,-21,21,2.3,1.65,7.5,-7.5,8,2018
+18/5/18,Adelaide,Adelaide,Western Bulldogs,63,26,37,-37,1.3,3.7,-21.5,21.5,9,2018
+19/5/18,Jiangwan,Gold Coast,Port Adelaide,42,82,-40,40,8.5,1.08,46.5,-46.5,9,2018
+19/5/18,Blundstone,North Melbourne,GWS,112,69,43,-43,1.45,2.85,-15.5,15.5,9,2018
+19/5/18,M.C.G.,Essendon,Geelong,84,50,34,-34,5,1.19,33.5,-33.5,9,2018
+19/5/18,S.C.G.,Sydney,Fremantle,111,52,59,-59,1.07,8.4,-42.5,42.5,9,2018
+19/5/18,Marvel,St Kilda,Collingwood,72,100,-28,28,4.5,1.2,25.5,-25.5,9,2018
+20/5/18,M.C.G.,Carlton,Melbourne,50,159,-109,109,6.75,1.12,41.5,-41.5,9,2018
+20/5/18,Perth,West Coast,Richmond,130,83,47,-47,1.92,1.92,0,0,9,2018
+20/5/18,Gabba,Brisbane,Hawthorn,129,73,56,-56,3.3,1.36,17.5,-17.5,9,2018
+25/5/18,Marvel,Collingwood,Western Bulldogs,90,55,35,-35,1.4,3.05,-18.5,18.5,10,2018
+26/5/18,M.C.G.,Richmond,St Kilda,105,77,28,-28,1.1,7.5,-42.5,42.5,10,2018
+26/5/18,Gabba,Brisbane,Sydney,49,67,-18,18,3.15,1.38,17.5,-17.5,10,2018
+26/5/18,GMHBA,Geelong,Carlton,73,45,28,-28,1.03,17,-50.5,50.5,10,2018
+26/5/18,GIANTS,GWS,Essendon,60,95,-35,35,1.83,1.97,-1.5,1.5,10,2018
+27/5/18,Marvel,Hawthorn,West Coast,60,75,-15,15,2.15,1.73,5.5,-5.5,10,2018
+27/5/18,Perth,Fremantle,North Melbourne,58,86,-28,28,1.88,1.96,-1.5,1.5,10,2018
+27/5/18,TIO,Melbourne,Adelaide,146,55,91,-91,1.67,2.25,-7.5,7.5,10,2018
+1/6/18,S.C.G.,Sydney,Carlton,91,61,30,-30,1.06,10,-48.5,48.5,11,2018
+2/6/18,Marvel,Western Bulldogs,Melbourne,51,100,-49,49,6,1.14,38.5,-38.5,11,2018
+2/6/18,UTAS,Hawthorn,Port Adelaide,64,61,3,-3,2,1.84,2.5,-2.5,11,2018
+2/6/18,Metricon,Gold Coast,Geelong,36,121,-85,85,3.25,1.36,21.5,-21.5,11,2018
+2/6/18,Perth,West Coast,St Kilda,101,88,13,-13,1.05,11,-52.5,52.5,11,2018
+2/6/18,M.C.G.,Essendon,Richmond,43,114,-71,71,21,1.01,51.5,-51.5,11,2018
+3/6/18,Marvel,North Melbourne,Brisbane,141,87,54,-54,1.24,4.25,-27.5,27.5,11,2018
+3/6/18,M.C.G.,Collingwood,Fremantle,138,77,61,-61,1.14,6.25,-40.5,40.5,11,2018
+3/6/18,Adelaide,Adelaide,GWS,81,97,-16,16,1.33,3.5,-22.5,22.5,11,2018
+8/6/18,Adelaide,Port Adelaide,Richmond,72,58,14,-14,1.7,2.2,-7.5,7.5,12,2018
+9/6/18,GMHBA,Geelong,North Melbourne,96,59,37,-37,1.47,2.75,-15.5,15.5,12,2018
+9/6/18,GIANTS,GWS,Gold Coast,134,26,108,-108,1.06,10,-46.5,46.5,12,2018
+9/6/18,Marvel,St Kilda,Sydney,55,126,-71,71,301,1,84.5,-84.5,12,2018
+10/6/18,Gabba,Brisbane,Essendon,62,84,-22,22,2.18,1.72,6.5,-6.5,12,2018
+10/6/18,Perth,Fremantle,Adelaide,71,68,3,-3,3.95,1.27,27.5,-27.5,12,2018
+11/6/18,M.C.G.,Melbourne,Collingwood,91,133,-42,42,1.54,2.55,-12.5,12.5,12,2018
+14/6/18,Adelaide,Port Adelaide,Western Bulldogs,132,75,57,-57,1.12,6.75,-35.5,35.5,13,2018
+15/6/18,S.C.G.,Sydney,West Coast,72,57,15,-15,1.52,2.6,-14.5,14.5,13,2018
+16/6/18,Marvel,Carlton,Fremantle,46,103,-57,57,2.1,1.77,4.5,-4.5,13,2018
+16/6/18,Metricon,Gold Coast,St Kilda,78,80,-2,2,2.45,1.58,11.5,-11.5,13,2018
+16/6/18,M.C.G.,Hawthorn,Adelaide,88,32,56,-56,1.34,3.25,-15.5,15.5,13,2018
+17/6/18,M.C.G.,Geelong,Richmond,65,83,-18,18,2.4,1.6,9.5,-9.5,13,2018
+21/6/18,Perth,West Coast,Essendon,52,80,-28,28,1.33,3.45,-20.5,20.5,14,2018
+22/6/18,Adelaide,Port Adelaide,Melbourne,75,65,10,-10,1.7,2.2,-6.5,6.5,14,2018
+23/6/18,UTAS,Hawthorn,Gold Coast,96,43,53,-53,1.04,12,-54.5,54.5,14,2018
+23/6/18,Gabba,Brisbane,GWS,82,109,-27,27,3.35,1.35,19.5,-19.5,14,2018
+23/6/18,Marvel,Western Bulldogs,North Melbourne,75,77,-2,2,2.9,1.4,14.5,-14.5,14,2018
+24/6/18,M.C.G.,Collingwood,Carlton,79,59,20,-20,1.07,9,-47.5,47.5,14,2018
+28/6/18,Marvel,Richmond,Sydney,93,67,26,-26,1.6,2.35,-9.5,9.5,15,2018
+29/6/18,Marvel,Western Bulldogs,Geelong,103,101,2,-2,5,1.19,33.5,-33.5,15,2018
+30/6/18,M.C.G.,Carlton,Port Adelaide,69,90,-21,21,6,1.14,33.5,-33.5,15,2018
+30/6/18,Adelaide,Adelaide,West Coast,88,78,10,-10,1.45,2.85,-17.5,17.5,15,2018
+30/6/18,GIANTS,GWS,Hawthorn,95,84,11,-11,1.17,5,-33.5,33.5,15,2018
+30/6/18,Metricon,Gold Coast,Collingwood,60,99,-39,39,8.6,1.07,36.5,-36.5,15,2018
+1/7/18,M.C.G.,Melbourne,St Kilda,117,119,-2,2,1.14,6,-40.5,40.5,15,2018
+1/7/18,Perth,Fremantle,Brisbane,64,119,-55,55,1.32,3.55,-21.5,21.5,15,2018
+1/7/18,Marvel,Essendon,North Melbourne,125,108,17,-17,1.96,1.88,1.5,-1.5,15,2018
+5/7/18,S.C.G.,Sydney,Geelong,59,71,-12,12,1.6,2.35,-8.5,8.5,16,2018
+6/7/18,M.C.G.,Richmond,Adelaide,103,56,47,-47,1.26,4.05,-27.5,27.5,16,2018
+7/7/18,Gabba,Brisbane,Carlton,120,55,65,-65,1.29,3.75,-25.5,25.5,16,2018
+7/7/18,Adelaide,Port Adelaide,St Kilda,86,50,36,-36,1.14,6,-39.5,39.5,16,2018
+7/7/18,TIO,Melbourne,Fremantle,102,48,54,-54,1.08,8.4,-45.5,45.5,16,2018
+7/7/18,Marvel,Western Bulldogs,Hawthorn,59,122,-63,63,2.38,1.58,8.5,-8.5,16,2018
+8/7/18,Marvel,North Melbourne,Gold Coast,95,58,37,-37,1.07,9,-51.5,51.5,16,2018
+8/7/18,Perth,West Coast,GWS,86,75,11,-11,1.64,2.3,-9.5,9.5,16,2018
+8/7/18,M.C.G.,Essendon,Collingwood,62,78,-16,16,2.25,1.67,8.5,-8.5,16,2018
+12/7/18,Adelaide,Adelaide,Geelong,112,97,15,-15,2,1.85,2.5,-2.5,17,2018
+13/7/18,Marvel,St Kilda,Carlton,116,52,64,-64,1.32,3.5,-22.5,22.5,17,2018
+14/7/18,UTAS,Hawthorn,Brisbane,65,98,-33,33,1.24,4.25,-28.5,28.5,17,2018
+14/7/18,M.C.G.,Melbourne,Western Bulldogs,119,69,50,-50,1.15,5.75,-40.5,40.5,17,2018
+14/7/18,GIANTS,GWS,Richmond,79,77,2,-2,1.51,2.54,-9.5,9.5,17,2018
+14/7/18,Metricon,Gold Coast,Essendon,51,95,-44,44,3.5,1.3,16.5,-16.5,17,2018
+15/7/18,M.C.G.,Collingwood,West Coast,67,102,-35,35,1.54,2.55,-13.5,13.5,17,2018
+15/7/18,Perth,Fremantle,Port Adelaide,59,50,9,-9,4.8,1.2,32.5,-32.5,17,2018
+15/7/18,Marvel,North Melbourne,Sydney,98,104,-6,6,1.85,2,-2.5,2.5,17,2018
+20/7/18,Marvel,St Kilda,Richmond,57,111,-54,54,5.4,1.17,33.5,-33.5,18,2018
+21/7/18,M.C.G.,Collingwood,North Melbourne,130,64,66,-66,1.51,2.65,-15.5,15.5,18,2018
+21/7/18,S.C.G.,Sydney,Gold Coast,64,88,-24,24,1.03,14,-63.5,63.5,18,2018
+21/7/18,Marvel,Essendon,Fremantle,99,70,29,-29,1.15,5.75,-38.5,38.5,18,2018
+21/7/18,Gabba,Brisbane,Adelaide,88,93,-5,5,2.08,1.74,3.5,-3.5,18,2018
+21/7/18,GMHBA,Geelong,Melbourne,100,98,2,-2,1.58,2.36,-7.5,7.5,18,2018
+22/7/18,Marvel,Carlton,Hawthorn,52,124,-72,72,5.5,1.16,35.5,-35.5,18,2018
+22/7/18,Perth,West Coast,Western Bulldogs,100,46,54,-54,1.15,5.85,-37.5,37.5,18,2018
+22/7/18,Adelaide,Port Adelaide,GWS,58,80,-22,22,1.65,2.3,-10.5,10.5,18,2018
+27/7/18,Marvel,Essendon,Sydney,109,66,43,-43,1.75,2.12,-6.5,6.5,19,2018
+28/7/18,M.C.G.,Richmond,Collingwood,105,77,28,-28,1.37,3.2,-20.5,20.5,19,2018
+28/7/18,GMHBA,Geelong,Brisbane,120,78,42,-42,1.19,5,-30.5,30.5,19,2018
+28/7/18,GIANTS,GWS,St Kilda,86,61,25,-25,1.15,5.75,-36.5,36.5,19,2018
+28/7/18,Adelaide,Adelaide,Melbourne,77,90,-13,13,1.35,3.2,-18.5,18.5,19,2018
+28/7/18,Metricon,Gold Coast,Carlton,44,79,-35,35,1.11,6.6,-31.5,31.5,19,2018
+29/7/18,Blundstone,North Melbourne,West Coast,81,41,40,-40,1.75,2.12,-6.5,6.5,19,2018
+29/7/18,Perth,Fremantle,Hawthorn,53,112,-59,59,2.75,1.48,15.5,-15.5,19,2018
+29/7/18,Mars,Western Bulldogs,Port Adelaide,34,78,-44,44,3.35,1.35,22.5,-22.5,19,2018
+3/8/18,M.C.G.,Richmond,Geelong,85,82,3,-3,1.41,3.05,-17.5,17.5,20,2018
+4/8/18,M.C.G.,Hawthorn,Essendon,107,103,4,-4,2.05,1.8,3.5,-3.5,20,2018
+4/8/18,Gabba,Brisbane,North Melbourne,104,107,-3,3,1.77,2.1,-4.5,4.5,20,2018
+4/8/18,Adelaide,Adelaide,Port Adelaide,96,93,3,-3,2.05,1.8,3.5,-3.5,20,2018
+4/8/18,Marvel,St Kilda,Western Bulldogs,68,103,-35,35,1.17,5,-33.5,33.5,20,2018
+4/8/18,S.C.G.,Sydney,Collingwood,73,71,2,-2,2,1.8,1.5,-1.5,20,2018
+5/8/18,Marvel,Carlton,GWS,46,151,-105,105,7.5,1.1,42.5,-42.5,20,2018
+5/8/18,Perth,West Coast,Fremantle,142,84,58,-58,1.19,5,-34.5,34.5,20,2018
+5/8/18,M.C.G.,Melbourne,Gold Coast,143,47,96,-96,1.03,14,-69.5,69.5,20,2018
+10/8/18,Marvel,Essendon,St Kilda,122,79,43,-43,1.18,5.15,-34.5,34.5,21,2018
+11/8/18,M.C.G.,Hawthorn,Geelong,71,60,11,-11,2.6,1.52,14.5,-14.5,21,2018
+11/8/18,Metricon,Gold Coast,Richmond,51,125,-74,74,14,1.03,60.5,-60.5,21,2018
+11/8/18,Adelaide,Port Adelaide,West Coast,58,62,-4,4,1.41,3,-18.5,18.5,21,2018
+11/8/18,Marvel,Collingwood,Brisbane,104,73,31,-31,1.47,2.66,-11.5,11.5,21,2018
+11/8/18,Canberra,GWS,Adelaide,106,92,14,-14,1.47,2.66,-9.5,9.5,21,2018
+12/8/18,Marvel,North Melbourne,Western Bulldogs,85,92,-7,7,1.3,3.7,-24.5,24.5,21,2018
+12/8/18,Perth,Fremantle,Carlton,101,72,29,-29,1.32,3.55,-22.5,22.5,21,2018
+12/8/18,M.C.G.,Melbourne,Sydney,78,87,-9,9,1.36,3.25,-22.5,22.5,21,2018
+17/8/18,M.C.G.,Richmond,Essendon,81,73,8,-8,1.45,2.85,-14.5,14.5,22,2018
+18/8/18,M.C.G.,Collingwood,Port Adelaide,115,64,51,-51,1.45,2.85,-15.5,15.5,22,2018
+18/8/18,GMHBA,Geelong,Fremantle,158,25,133,-133,1.05,11,-49.5,49.5,22,2018
+18/8/18,GIANTS,GWS,Sydney,60,80,-20,20,1.77,2.1,-4.5,4.5,22,2018
+18/8/18,Metricon,Gold Coast,Brisbane,74,78,-4,4,6,1.13,35.5,-35.5,22,2018
+18/8/18,Marvel,St Kilda,Hawthorn,76,80,-4,4,8.4,1.06,39.5,-39.5,22,2018
+19/8/18,Marvel,Carlton,Western Bulldogs,49,66,-17,17,4.5,1.22,28.5,-28.5,22,2018
+19/8/18,Perth,West Coast,Melbourne,91,108,-17,17,1.71,2.2,-6.5,6.5,22,2018
+19/8/18,Adelaide,Adelaide,North Melbourne,86,77,9,-9,1.4,3.05,-18.5,18.5,22,2018
+24/8/18,Adelaide,Port Adelaide,Essendon,89,111,-22,22,1.64,2.3,-10.5,10.5,23,2018
+25/8/18,GMHBA,Geelong,Gold Coast,142,40,102,-102,1.01,21,-79.5,79.5,23,2018
+25/8/18,M.C.G.,Richmond,Western Bulldogs,98,95,3,-3,1.08,8.5,-45.5,45.5,23,2018
+25/8/18,Perth,Fremantle,Collingwood,67,76,-9,9,6,1.14,35.5,-35.5,23,2018
+25/8/18,Marvel,Carlton,Adelaide,61,165,-104,104,15,1.02,55.5,-55.5,23,2018
+25/8/18,S.C.G.,Sydney,Hawthorn,74,83,-9,9,2.4,1.57,10.5,-10.5,23,2018
+26/8/18,Gabba,Brisbane,West Coast,72,98,-26,26,2.2,1.7,6.5,-6.5,23,2018
+26/8/18,M.C.G.,Melbourne,GWS,102,57,45,-45,1.45,2.85,-17.5,17.5,23,2018
+26/8/18,Marvel,St Kilda,North Melbourne,94,117,-23,23,3.35,1.35,20.5,-20.5,23,2018
+6/9/18,M.C.G.,Richmond,Hawthorn,95,64,31,-31,1.48,2.65,-11.5,11.5,24,2018
+7/9/18,M.C.G.,Melbourne,Geelong,75,46,29,-29,1.88,1.96,-1.5,1.5,24,2018
+8/9/18,S.C.G.,Sydney,GWS,30,79,-49,49,1.96,1.88,1.5,-1.5,24,2018
+8/9/18,Perth,West Coast,Collingwood,86,70,16,-16,1.58,2.45,-10.5,10.5,24,2018
+14/9/18,M.C.G.,Hawthorn,Melbourne,71,104,-33,33,3,1.41,17.5,-17.5,25,2018
+15/9/18,M.C.G.,Collingwood,GWS,69,59,10,-10,1.3,3.55,-23.5,23.5,25,2018
+21/9/18,M.C.G.,Richmond,Collingwood,58,97,-39,39,1.35,3.35,-15.5,15.5,26,2018
+22/9/18,Perth,West Coast,Melbourne,121,55,66,-66,1.76,2.12,-4.5,4.5,26,2018
+29/9/18,M.C.G.,West Coast,Collingwood,79,74,5,-5,2.18,1.72,6.5,-6.5,27,2018
+21/3/19,M.C.G.,Carlton,Richmond,64,97,-33,33,6.75,1.12,39.5,-39.5,1,2019
+22/3/19,M.C.G.,Collingwood,Geelong,65,72,-7,7,1.54,2.55,-12.5,12.5,1,2019
+23/3/19,M.C.G.,Melbourne,Port Adelaide,61,87,-26,26,1.21,4.65,-31.5,31.5,1,2019
+23/3/19,Adelaide,Adelaide,Hawthorn,55,87,-32,32,1.31,3.6,-22.5,22.5,1,2019
+23/3/19,Gabba,Brisbane,West Coast,102,58,44,-44,2.15,1.73,5.5,-5.5,1,2019
+23/3/19,Marvel,Western Bulldogs,Sydney,82,65,17,-17,2.5,1.56,11.5,-11.5,1,2019
+24/3/19,Marvel,St Kilda,Gold Coast,85,84,1,-1,1.29,3.75,-25.5,25.5,1,2019
+24/3/19,GIANTS,GWS,Essendon,112,40,72,-72,1.8,2.05,-3.5,3.5,1,2019
+24/3/19,Perth,Fremantle,North Melbourne,141,59,82,-82,2.02,1.83,2.5,-2.5,1,2019
+28/3/19,M.C.G.,Richmond,Collingwood,66,110,-44,44,2,1.85,2.5,-2.5,2,2019
+29/3/19,S.C.G.,Sydney,Adelaide,62,88,-26,26,2.8,1.44,9.5,-9.5,2,2019
+30/3/19,Marvel,Essendon,St Kilda,65,76,-11,11,1.35,3.35,-20.5,20.5,2,2019
+30/3/19,Adelaide,Port Adelaide,Carlton,88,72,16,-16,1.18,5.15,-33.5,33.5,2,2019
+30/3/19,Perth,West Coast,GWS,104,52,52,-52,1.33,3.25,-15.5,15.5,2,2019
+30/3/19,GMHBA,Geelong,Melbourne,126,46,80,-80,1.05,10,-30.5,30.5,2,2019
+31/3/19,Marvel,North Melbourne,Brisbane,87,107,-20,20,1.35,3.2,-16.5,16.5,2,2019
+31/3/19,M.C.G.,Hawthorn,Western Bulldogs,87,106,-19,19,1.48,2.65,-12.5,12.5,2,2019
+31/3/19,Metricon,Gold Coast,Fremantle,61,58,3,-3,3.1,1.39,17.5,-17.5,2,2019
+4/4/19,Adelaide,Adelaide,Geelong,75,99,-24,24,4.5,1.2,23.5,-23.5,3,2019
+5/4/19,M.C.G.,Melbourne,Essendon,112,130,-18,18,1.38,3.05,-11.5,11.5,3,2019
+6/4/19,Marvel,Carlton,Sydney,74,93,-19,19,2.95,1.43,15.5,-15.5,3,2019
+6/4/19,GIANTS,GWS,Richmond,125,76,49,-49,1.48,2.75,-14.5,14.5,3,2019
+6/4/19,Gabba,Brisbane,Port Adelaide,107,90,17,-17,1.29,3.6,-15.5,15.5,3,2019
+6/4/19,M.C.G.,Collingwood,West Coast,76,98,-22,22,2,1.8,1.5,-1.5,3,2019
+7/4/19,Marvel,Western Bulldogs,Gold Coast,68,73,-5,5,1.18,5.2,-31.5,31.5,3,2019
+7/4/19,M.C.G.,Hawthorn,North Melbourne,87,71,16,-16,1.49,2.7,-14.5,14.5,3,2019
+7/4/19,Perth,Fremantle,St Kilda,71,66,5,-5,1.39,3.1,-18.5,18.5,3,2019
+11/4/19,S.C.G.,Sydney,Melbourne,78,100,-22,22,1.72,2.12,-5.5,5.5,4,2019
+12/4/19,M.C.G.,Collingwood,Western Bulldogs,78,64,14,-14,1.28,3.85,-23.5,23.5,4,2019
+13/4/19,GMHBA,Geelong,GWS,75,79,-4,4,1.44,2.9,-16.5,16.5,4,2019
+13/4/19,M.C.G.,Essendon,Brisbane,112,65,47,-47,1.77,2.1,-4.5,4.5,4,2019
+13/4/19,Adelaide,Port Adelaide,Richmond,92,99,-7,7,1.29,3.75,-24.5,24.5,4,2019
+13/4/19,Perth,West Coast,Fremantle,69,56,13,-13,1.12,6.75,-38.5,38.5,4,2019
+13/4/19,Marvel,North Melbourne,Adelaide,71,59,12,-12,1.79,2,1.5,-1.5,4,2019
+14/4/19,Metricon,Gold Coast,Carlton,59,57,2,-2,1.74,2.15,-5.5,5.5,4,2019
+14/4/19,Marvel,St Kilda,Hawthorn,74,69,5,-5,2.6,1.52,12.5,-12.5,4,2019
+18/4/19,Gabba,Brisbane,Collingwood,61,123,-62,62,3,1.38,16.5,-16.5,5,2019
+19/4/19,Marvel,North Melbourne,Essendon,58,116,-58,58,2.25,1.68,6.5,-6.5,5,2019
+19/4/19,Perth,West Coast,Port Adelaide,53,95,-42,42,1.27,3.95,-23.5,23.5,5,2019
+20/4/19,Canberra,GWS,Fremantle,82,106,-24,24,1.14,6,-34.5,34.5,5,2019
+20/4/19,M.C.G.,Melbourne,St Kilda,55,95,-40,40,1.44,2.9,-16.5,16.5,5,2019
+20/4/19,Marvel,Richmond,Sydney,89,67,22,-22,1.27,3.7,-20.5,20.5,5,2019
+21/4/19,Marvel,Western Bulldogs,Carlton,57,101,-44,44,1.36,3.25,-19.5,19.5,5,2019
+21/4/19,Adelaide,Adelaide,Gold Coast,119,46,73,-73,1.19,5,-34.5,34.5,5,2019
+22/4/19,M.C.G.,Hawthorn,Geelong,90,113,-23,23,2.65,1.51,12.5,-12.5,5,2019
+24/4/19,M.C.G.,Richmond,Melbourne,85,42,43,-43,1.47,2.8,-14.5,14.5,6,2019
+25/4/19,M.C.G.,Essendon,Collingwood,69,73,-4,4,2.6,1.53,12.5,-12.5,6,2019
+26/4/19,Adelaide,Port Adelaide,North Melbourne,88,72,16,-16,1.22,4.5,-27.5,27.5,6,2019
+27/4/19,Metricon,Gold Coast,Brisbane,62,111,-49,49,3.1,1.39,18.5,-18.5,6,2019
+27/4/19,Marvel,St Kilda,Adelaide,68,97,-29,29,1.85,2,-2.5,2.5,6,2019
+27/4/19,Perth,Fremantle,Western Bulldogs,88,69,19,-19,1.4,3.05,-16.5,16.5,6,2019
+27/4/19,S.C.G.,Sydney,GWS,79,120,-41,41,7,1.09,33.5,-33.5,6,2019
+28/4/19,UTAS,Hawthorn,Carlton,93,88,5,-5,1.32,3.5,-21.5,21.5,6,2019
+28/4/19,GMHBA,Geelong,West Coast,104,46,58,-58,1.3,3.65,-22.5,22.5,6,2019
+3/5/19,Marvel,Collingwood,Port Adelaide,108,69,39,-39,1.31,3.6,-22.5,22.5,7,2019
+4/5/19,M.C.G.,Melbourne,Hawthorn,79,74,5,-5,2.2,1.71,6.5,-6.5,7,2019
+4/5/19,Canberra,GWS,St Kilda,114,70,44,-44,1.26,4.05,-25.5,25.5,7,2019
+4/5/19,Gabba,Brisbane,Sydney,103,81,22,-22,1.41,3,-17.5,17.5,7,2019
+4/5/19,Perth,West Coast,Gold Coast,80,57,23,-23,1.07,9,-45.5,45.5,7,2019
+4/5/19,Marvel,Western Bulldogs,Richmond,99,52,47,-47,3.15,1.35,14.5,-14.5,7,2019
+5/5/19,Marvel,Carlton,North Melbourne,62,120,-58,58,2.7,1.49,14.5,-14.5,7,2019
+5/5/19,M.C.G.,Geelong,Essendon,86,54,32,-32,1.56,2.5,-11.5,11.5,7,2019
+5/5/19,Adelaide,Adelaide,Fremantle,51,34,17,-17,1.35,3.35,-20.5,20.5,7,2019
+10/5/19,S.C.G.,Sydney,Essendon,77,72,5,-5,2.65,1.51,13.5,-13.5,8,2019
+11/5/19,Mars,Western Bulldogs,Brisbane,92,76,16,-16,1.68,2.25,-6.5,6.5,8,2019
+11/5/19,M.C.G.,Carlton,Collingwood,87,106,-19,19,7.5,1.1,37.5,-37.5,8,2019
+11/5/19,Metricon,Gold Coast,Melbourne,60,61,-1,1,3.15,1.38,19.5,-19.5,8,2019
+11/5/19,Adelaide,Port Adelaide,Adelaide,68,88,-20,20,2.3,1.61,6.5,-6.5,8,2019
+11/5/19,Marvel,St Kilda,West Coast,70,88,-18,18,2.6,1.49,10.5,-10.5,8,2019
+12/5/19,Marvel,North Melbourne,Geelong,80,104,-24,24,4.05,1.26,25.5,-25.5,8,2019
+12/5/19,M.C.G.,Hawthorn,GWS,71,38,33,-33,2.4,1.6,9.5,-9.5,8,2019
+12/5/19,Perth,Fremantle,Richmond,86,111,-25,25,1.62,2.35,-8.5,8.5,8,2019
+17/5/19,Perth,West Coast,Melbourne,85,69,16,-16,1.27,3.95,-23.5,23.5,9,2019
+18/5/19,M.C.G.,Collingwood,St Kilda,112,71,41,-41,1.24,4.25,-25.5,25.5,9,2019
+18/5/19,Gabba,Brisbane,Adelaide,93,92,1,-1,1.78,2.08,-4.5,4.5,9,2019
+18/5/19,GMHBA,Geelong,Western Bulldogs,133,89,44,-44,1.2,4.85,-30.5,30.5,9,2019
+18/5/19,Marvel,Essendon,Fremantle,60,53,7,-7,1.62,2.28,-5.5,5.5,9,2019
+18/5/19,Blundstone,North Melbourne,Sydney,72,77,-5,5,1.2,4.5,-27.5,27.5,9,2019
+19/5/19,Adelaide,Port Adelaide,Gold Coast,89,51,38,-38,1.19,5,-29.5,29.5,9,2019
+19/5/19,M.C.G.,Richmond,Hawthorn,95,59,36,-36,1.77,2.1,-4.5,4.5,9,2019
+19/5/19,GIANTS,GWS,Carlton,138,45,93,-93,1.11,7,-38.5,38.5,9,2019
+24/5/19,S.C.G.,Sydney,Collingwood,73,80,-7,7,2.95,1.43,15.5,-15.5,10,2019
+25/5/19,UTAS,Hawthorn,Port Adelaide,80,49,31,-31,1.68,2.25,-7.5,7.5,10,2019
+25/5/19,Marvel,Western Bulldogs,North Melbourne,90,115,-25,25,1.6,2.4,-9.5,9.5,10,2019
+25/5/19,Adelaide,Adelaide,West Coast,73,85,-12,12,1.6,2.4,-9.5,9.5,10,2019
+25/5/19,Metricon,Gold Coast,Geelong,64,91,-27,27,7.5,1.1,36.5,-36.5,10,2019
+25/5/19,M.C.G.,Richmond,Essendon,73,50,23,-23,1.63,2.35,-8.5,8.5,10,2019
+26/5/19,M.C.G.,Melbourne,GWS,68,94,-26,26,2.55,1.54,11.5,-11.5,10,2019
+26/5/19,Perth,Fremantle,Brisbane,73,72,1,-1,1.7,2.2,-6.5,6.5,10,2019
+26/5/19,Marvel,St Kilda,Carlton,68,55,13,-13,1.46,2.8,-14.5,14.5,10,2019
+31/5/19,Marvel,North Melbourne,Richmond,99,62,37,-37,3.2,1.37,15.5,-15.5,11,2019
+1/6/19,GIANTS,GWS,Gold Coast,126,43,83,-83,1.04,12,-52.5,52.5,11,2019
+1/6/19,M.C.G.,Collingwood,Fremantle,75,79,-4,4,1.14,6,-34.5,34.5,11,2019
+1/6/19,GMHBA,Geelong,Sydney,85,63,22,-22,1.16,5.5,-31.5,31.5,11,2019
+1/6/19,TIO,Melbourne,Adelaide,88,90,-2,2,2.02,1.78,3.5,-3.5,11,2019
+1/6/19,Gabba,Brisbane,Hawthorn,85,66,19,-19,3.7,1.28,22.5,-22.5,11,2019
+2/6/19,Jiangwan,St Kilda,Port Adelaide,69,139,-70,70,3.75,1.29,23.5,-23.5,11,2019
+2/6/19,Perth,West Coast,Western Bulldogs,133,72,61,-61,1.22,4.5,-25.5,25.5,11,2019
+2/6/19,M.C.G.,Essendon,Carlton,74,33,41,-41,1.44,2.9,-16.5,16.5,11,2019
+7/6/19,M.C.G.,Richmond,Geelong,37,104,-67,67,3,1.41,15.5,-15.5,12,2019
+8/6/19,Marvel,Carlton,Brisbane,78,63,15,-15,2.95,1.42,16.5,-16.5,12,2019
+8/6/19,Metricon,Gold Coast,North Melbourne,72,99,-27,27,3.35,1.35,19.5,-19.5,12,2019
+8/6/19,Adelaide,Adelaide,GWS,82,61,21,-21,1.58,2.36,-8.5,8.5,12,2019
+9/6/19,S.C.G.,Sydney,West Coast,116,71,45,-45,2,1.85,2.5,-2.5,12,2019
+10/6/19,M.C.G.,Collingwood,Melbourne,98,57,41,-41,1.4,3.05,-15.5,15.5,12,2019
+13/6/19,Adelaide,Adelaide,Richmond,101,68,33,-33,1.18,5.15,-32.5,32.5,13,2019
+14/6/19,Marvel,Essendon,Hawthorn,96,77,19,-19,1.7,2.21,-6.5,6.5,13,2019
+15/6/19,Riverway,Gold Coast,St Kilda,76,80,-4,4,2.5,1.56,11.5,-11.5,13,2019
+15/6/19,Perth,Fremantle,Port Adelaide,100,79,21,-21,1.88,1.96,-1.5,1.5,13,2019
+15/6/19,Marvel,Carlton,Western Bulldogs,100,103,-3,3,5.5,1.14,30.5,-30.5,13,2019
+16/6/19,Blundstone,North Melbourne,GWS,68,91,-23,23,2.7,1.49,12.5,-12.5,13,2019
+20/6/19,Perth,West Coast,Essendon,106,71,35,-35,1.35,3.35,-16.5,16.5,14,2019
+21/6/19,S.C.G.,Sydney,Hawthorn,82,63,19,-19,1.5,2.65,-11.5,11.5,14,2019
+22/6/19,M.C.G.,Melbourne,Fremantle,85,71,14,-14,1.62,2.35,-9.5,9.5,14,2019
+22/6/19,Marvel,St Kilda,Brisbane,59,115,-56,56,2.15,1.74,5.5,-5.5,14,2019
+22/6/19,Adelaide,Port Adelaide,Geelong,67,56,11,-11,2.28,1.62,1.5,-4.5,14,2019
+23/6/19,Marvel,Western Bulldogs,Collingwood,73,82,-9,9,3.65,1.3,22.5,-22.5,14,2019
+27/6/19,Marvel,Essendon,GWS,77,71,6,-6,1.72,2.1,-4.5,4.5,15,2019
+28/6/19,GMHBA,Geelong,Adelaide,96,69,27,-27,1.26,4.05,-22.5,22.5,15,2019
+29/6/19,M.C.G.,Hawthorn,West Coast,71,77,-6,6,2.15,1.74,4.5,-4.5,15,2019
+29/6/19,S.C.G.,Sydney,Gold Coast,93,51,42,-42,1.11,7,-35.5,35.5,15,2019
+29/6/19,Adelaide,Port Adelaide,Western Bulldogs,41,66,-25,25,1.2,4.5,-23.5,23.5,15,2019
+29/6/19,Marvel,Collingwood,North Melbourne,37,81,-44,44,1.54,2.48,-8.5,8.5,15,2019
+30/6/19,Marvel,St Kilda,Richmond,70,103,-33,33,3.55,1.32,20.5,-20.5,15,2019
+30/6/19,Perth,Fremantle,Carlton,75,79,-4,4,1.16,5.6,-33.5,33.5,15,2019
+30/6/19,Gabba,Brisbane,Melbourne,107,74,33,-33,1.54,2.55,-11.5,11.5,15,2019
+5/7/19,M.C.G.,Hawthorn,Collingwood,67,63,4,-4,2.75,1.45,14.5,-14.5,16,2019
+6/7/19,M.C.G.,Essendon,Sydney,76,66,10,-10,1.52,2.55,-12.5,12.5,16,2019
+6/7/19,Metricon,Gold Coast,Richmond,58,150,-92,92,4.75,1.19,29.5,-29.5,16,2019
+6/7/19,Adelaide,Adelaide,Port Adelaide,44,101,-57,57,1.74,2.1,-4.5,4.5,16,2019
+6/7/19,Perth,Fremantle,West Coast,31,122,-91,91,3.1,1.37,17.5,-17.5,16,2019
+6/7/19,Marvel,Western Bulldogs,Geelong,71,55,16,-16,3.45,1.31,22.5,-22.5,16,2019
+7/7/19,M.C.G.,Carlton,Melbourne,100,105,-5,5,3.05,1.38,17.5,-17.5,16,2019
+7/7/19,Blundstone,North Melbourne,St Kilda,112,73,39,-39,1.26,3.9,-23.5,23.5,16,2019
+7/7/19,GIANTS,GWS,Brisbane,74,94,-20,20,1.37,3.1,-18.5,18.5,16,2019
+12/7/19,Perth,West Coast,Collingwood,77,78,-1,1,1.34,3.3,-19.5,19.5,17,2019
+13/7/19,S.C.G.,Sydney,Carlton,62,69,-7,7,1.29,3.6,-23.5,23.5,17,2019
+13/7/19,UTAS,Hawthorn,Fremantle,84,53,31,-31,1.48,2.65,-13.5,13.5,17,2019
+13/7/19,Marvel,Essendon,North Melbourne,86,81,5,-5,1.96,1.85,1.5,-1.5,17,2019
+13/7/19,GMHBA,Geelong,St Kilda,84,57,27,-27,1.08,8,-43.5,43.5,17,2019
+13/7/19,Metricon,Gold Coast,Adelaide,56,151,-95,95,5,1.17,32.5,-32.5,17,2019
+14/7/19,M.C.G.,Richmond,GWS,94,67,27,-27,1.44,2.8,-15.5,15.5,17,2019
+14/7/19,Marvel,Western Bulldogs,Melbourne,74,66,8,-8,1.68,2.2,-6.5,6.5,17,2019
+14/7/19,Adelaide,Port Adelaide,Brisbane,49,97,-48,48,1.48,2.65,-13.5,13.5,17,2019
+19/7/19,Adelaide,Adelaide,Essendon,75,96,-21,21,1.43,2.85,-16.5,16.5,18,2019
+20/7/19,M.C.G.,Richmond,Port Adelaide,101,63,38,-38,1.31,3.5,-21.5,21.5,18,2019
+20/7/19,Marvel,Carlton,Gold Coast,99,75,24,-24,1.19,4.75,-32.5,32.5,18,2019
+20/7/19,GIANTS,GWS,Collingwood,122,75,47,-47,2.05,1.78,3.5,-3.5,18,2019
+20/7/19,Perth,Fremantle,Sydney,52,51,1,-1,1.82,2,-2.5,2.5,18,2019
+20/7/19,Gabba,Brisbane,North Melbourne,87,75,12,-12,1.43,2.85,-15.5,15.5,18,2019
+21/7/19,M.C.G.,Geelong,Hawthorn,61,85,-24,24,1.42,2.9,-16.5,16.5,18,2019
+21/7/19,TIO,Melbourne,West Coast,78,91,-13,13,2.65,1.49,13.5,-13.5,18,2019
+21/7/19,Marvel,St Kilda,Western Bulldogs,116,89,27,-27,2.7,1.47,14.5,-14.5,18,2019
+26/7/19,M.C.G.,Collingwood,Richmond,66,98,-32,32,2.4,1.58,9.5,-9.5,19,2019
+27/7/19,UTAS,Hawthorn,Brisbane,60,87,-27,27,1.82,2,-2.5,2.5,19,2019
+27/7/19,M.C.G.,Carlton,Adelaide,87,60,27,-27,2.5,1.54,10.5,-10.5,19,2019
+27/7/19,Perth,West Coast,North Melbourne,121,72,49,-49,1.45,2.75,-13.5,13.5,19,2019
+27/7/19,Adelaide,Port Adelaide,GWS,55,56,-1,1,1.96,1.85,1.5,-1.5,19,2019
+27/7/19,Marvel,St Kilda,Melbourne,104,85,19,-19,2,1.82,2.5,-2.5,19,2019
+28/7/19,Marvel,Western Bulldogs,Fremantle,113,66,47,-47,1.5,2.6,-12.5,12.5,19,2019
+28/7/19,S.C.G.,Sydney,Geelong,80,107,-27,27,2.5,1.54,10.5,-10.5,19,2019
+28/7/19,Metricon,Gold Coast,Essendon,96,106,-10,10,6,1.13,34.5,-34.5,19,2019
+2/8/19,Marvel,North Melbourne,Hawthorn,86,64,22,-22,1.87,1.94,-1.5,1.5,20,2019
+3/8/19,Marvel,Essendon,Port Adelaide,67,126,-59,59,1.53,2.5,-11.5,11.5,20,2019
+3/8/19,GIANTS,GWS,Sydney,83,81,2,-2,1.3,3.5,-21.5,21.5,20,2019
+3/8/19,Perth,Fremantle,Geelong,95,61,34,-34,3.25,1.34,19.5,-19.5,20,2019
+3/8/19,Adelaide,Adelaide,St Kilda,92,70,22,-22,1.31,3.45,-21.5,21.5,20,2019
+3/8/19,M.C.G.,Melbourne,Richmond,60,93,-33,33,4.35,1.22,25.5,-25.5,20,2019
+4/8/19,M.C.G.,Collingwood,Gold Coast,120,51,69,-69,1.1,7,-36.5,36.5,20,2019
+4/8/19,Marvel,Carlton,West Coast,75,99,-24,24,3.15,1.36,18.5,-18.5,20,2019
+4/8/19,Gabba,Brisbane,Western Bulldogs,98,80,18,-18,1.36,3.15,-18.5,18.5,20,2019
+9/8/19,Canberra,GWS,Hawthorn,29,85,-56,56,1.34,3.3,-18.5,18.5,21,2019
+10/8/19,Adelaide,Port Adelaide,Sydney,103,56,47,-47,1.37,3.1,-17.5,17.5,21,2019
+10/8/19,M.C.G.,Melbourne,Collingwood,53,70,-17,17,2.7,1.47,12.5,-12.5,21,2019
+10/8/19,Gabba,Brisbane,Gold Coast,144,53,91,-91,1.03,12,-56.5,56.5,21,2019
+10/8/19,GMHBA,Geelong,North Melbourne,69,14,55,-55,1.31,3.5,-20.5,20.5,21,2019
+10/8/19,Marvel,Essendon,Western Bulldogs,33,137,-104,104,2.2,1.68,6.5,-6.5,21,2019
+11/8/19,Marvel,St Kilda,Fremantle,72,69,3,-3,1.5,2.6,-13.5,13.5,21,2019
+11/8/19,Perth,West Coast,Adelaide,90,80,10,-10,1.22,4.3,-26.5,26.5,21,2019
+11/8/19,M.C.G.,Richmond,Carlton,73,45,28,-28,1.23,4.2,-24.5,24.5,21,2019
+16/8/19,M.C.G.,Melbourne,Sydney,42,95,-53,53,1.8,2.02,-3.5,3.5,22,2019
+17/8/19,M.C.G.,Carlton,St Kilda,78,68,10,-10,1.95,1.85,1.5,-1.5,22,2019
+17/8/19,Gabba,Brisbane,Geelong,75,74,1,-1,1.74,2.1,-4.5,4.5,22,2019
+17/8/19,Adelaide,Adelaide,Collingwood,48,114,-66,66,1.65,2.25,-7.5,7.5,22,2019
+17/8/19,Perth,Fremantle,Essendon,55,87,-32,32,1.62,2.3,-8.5,8.5,22,2019
+17/8/19,Marvel,North Melbourne,Port Adelaide,144,58,86,-86,2.1,1.74,4.5,-4.5,22,2019
+18/8/19,M.C.G.,Richmond,West Coast,88,82,6,-6,1.54,2.5,-11.5,11.5,22,2019
+18/8/19,GIANTS,GWS,Western Bulldogs,65,126,-61,61,1.71,2.15,-5.5,5.5,22,2019
+18/8/19,Marvel,Hawthorn,Gold Coast,118,48,70,-70,1.03,12,-51.5,51.5,22,2019
+23/8/19,M.C.G.,Collingwood,Essendon,76,65,11,-11,1.22,4.35,-28.5,28.5,23,2019
+24/8/19,S.C.G.,Sydney,St Kilda,109,64,45,-45,1.38,3.05,-17.5,17.5,23,2019
+24/8/19,Blundstone,North Melbourne,Melbourne,88,83,5,-5,1.23,4.2,-24.5,24.5,23,2019
+24/8/19,GMHBA,Geelong,Carlton,129,61,68,-68,1.16,5.25,-30.5,30.5,23,2019
+24/8/19,Perth,West Coast,Hawthorn,67,105,-38,38,1.23,4.2,-26.5,26.5,23,2019
+24/8/19,Metricon,Gold Coast,GWS,55,127,-72,72,9,1.06,44.5,-44.5,23,2019
+25/8/19,Mars,Western Bulldogs,Adelaide,121,87,34,-34,1.33,3.35,-18.5,18.5,23,2019
+25/8/19,M.C.G.,Richmond,Brisbane,82,55,27,-27,1.41,2.95,-16.5,16.5,23,2019
+25/8/19,Adelaide,Port Adelaide,Fremantle,110,67,43,-43,1.33,3.35,-20.5,20.5,23,2019
+5/9/19,Perth,West Coast,Essendon,116,61,55,-55,1.21,4.5,-28.5,28.5,24,2019
+6/9/19,M.C.G.,Geelong,Collingwood,51,61,-10,10,1.78,2.05,-3.5,3.5,24,2019
+7/9/19,GIANTS,GWS,Western Bulldogs,113,55,58,-58,1.82,2,-2.5,2.5,24,2019
+7/9/19,Gabba,Brisbane,Richmond,65,112,-47,47,2.15,1.71,5.5,-5.5,24,2019
+13/9/19,M.C.G.,Geelong,West Coast,88,68,20,-20,1.85,1.96,-1.5,1.5,25,2019
+14/9/19,Gabba,Brisbane,GWS,80,83,-3,3,1.62,2.3,-8.5,8.5,25,2019
+20/9/19,M.C.G.,Richmond,Geelong,85,66,19,-19,1.34,3.3,-19.5,19.5,26,2019
+21/9/19,M.C.G.,Collingwood,GWS,52,56,-4,4,1.3,3.6,-21.5,21.5,26,2019
+28/9/19,M.C.G.,Richmond,GWS,114,25,89,-89,1.41,3.05,-17.5,17.5,27,2019
+19/3/20,MCG,Richmond,Carlton,105,81,24,-24,1.3,3.55,-20.5,20.5,1,2020
+20/3/20,Marvel,Western Bulldogs,Collingwood,34,86,-52,52,1.85,1.95,-1.5,1.5,1,2020
+21/3/20,Marvel,Essendon,Fremantle,63,57,6,-6,1.45,2.75,-15.5,15.5,1,2020
+21/3/20,Adelaide,Adelaide,Sydney,71,74,-3,3,1.7,2.15,-6.5,6.5,1,2020
+21/3/20,Metricon,Gold Coast,Port Adelaide,29,76,-47,47,2.7,1.47,14.5,-14.5,1,2020
+21/3/20,GIANTS,GWS,Geelong,105,73,32,-32,1.5,2.6,-12.5,12.5,1,2020
+22/3/20,Marvel,North Melbourne,St Kilda,56,54,2,-2,2,1.8,2.5,-2.5,1,2020
+22/3/20,MCG,Hawthorn,Brisbane,90,62,28,-28,1.95,1.85,1.5,-1.5,1,2020
+22/3/20,Perth,West Coast,Melbourne,78,51,27,-27,1.32,3.4,-20.5,20.5,1,2020
+11/6/20,M.C.G.,Collingwood,Richmond,36,36,0,0,2.4,1.6,8.5,-8.5,2,2020
+12/6/20,KardiniaÂ Park,Geelong,Hawthorn,108,47,61,-61,1.55,2.45,-10.5,10.5,2,2020
+13/6/20,Gabba,Brisbane,Fremantle,81,69,12,-12,1.36,3.25,-18.5,18.5,2,2020
+13/6/20,Docklands,Carlton,Melbourne,53,54,-1,1,2.4,1.6,9.5,-9.5,2,2020
+13/6/20,AdelaideÂ Oval,Port Adelaide,Adelaide,110,35,75,-75,1.47,2.75,-13.5,13.5,2,2020
+13/6/20,Carrara,Gold Coast,West Coast,90,46,44,-44,5.75,1.15,30.5,-30.5,2,2020
+14/6/20,SydneyÂ Showground,GWS,North Melbourne,60,80,-20,20,1.35,3.2,-19.5,19.5,2,2020
+14/6/20,S.C.G.,Sydney,Essendon,73,79,-6,6,1.74,2.1,-3.5,3.5,2,2020
+14/6/20,Docklands,St Kilda,Western Bulldogs,88,49,39,-39,2.35,1.6,9.5,-9.5,2,2020
+18/6/20,M.C.G.,Richmond,Hawthorn,39,71,-32,32,1.35,3.25,-16.5,16.5,3,2020
+19/6/20,Docklands,Western Bulldogs,GWS,57,33,24,-24,2.45,1.56,9.5,-9.5,3,2020
+20/6/20,Docklands,North Melbourne,Sydney,60,71,-11,11,1.56,2.45,-9.5,9.5,3,2020
+20/6/20,M.C.G.,Collingwood,St Kilda,81,37,44,-44,1.38,3.1,16.5,-16.5,3,2020
+20/6/20,Gabba,Brisbane,West Coast,74,44,30,-30,1.78,2.05,-3.5,3.5,3,2020
+20/6/20,KardiniaÂ Park,Geelong,Carlton,77,79,-2,2,1.15,5.5,-27.5,27.5,3,2020
+21/6/20,Carrara,Gold Coast,Adelaide,82,29,53,-53,1.85,1.97,-1.5,1.5,3,2020
+21/6/20,Carrara,Fremantle,Port Adelaide,41,70,-29,29,3.35,1.33,21.5,-21.5,3,2020
+25/6/20,S.C.G.,Sydney,Western Bulldogs,39,67,-28,28,1.77,2.1,1.5,-1.5,4,2020
+26/6/20,SydneyÂ Showground,GWS,Collingwood,66,64,2,-2,1.95,1.86,6.5,-6.5,4,2020
+27/6/20,Carrara,Port Adelaide,West Coast,89,41,48,-48,1.62,2.35,-6.5,6.5,4,2020
+27/6/20,Docklands,St Kilda,Richmond,93,67,26,-26,2.9,1.42,14.5,-14.5,4,2020
+27/6/20,Carrara,Gold Coast,Fremantle,64,51,13,-13,1.67,2.2,-6.5,6.5,4,2020
+28/6/20,Gabba,Brisbane,Adelaide,83,46,37,-37,1.12,6.5,-33.5,33.5,4,2020
+28/6/20,M.C.G.,Melbourne,Geelong,44,47,-3,3,2.55,1.52,11.5,-11.5,4,2020
+28/6/20,Docklands,Hawthorn,North Melbourne,58,54,4,-4,1.6,2.35,-6.5,6.5,4,2020
+27/6/20,M.C.G.,Essendon,Carlton,51,52,-1,1,1.74,2.1,-10.5,10.5,4,2020
+2/7/20,Marvel,Carlton,St Kilda,55,73,-18,18,2.1,1.75,3.5,-3.5,5,2020
+3/7/20,MCG,Collingwood,Essendon,48,63,-15,15,1.39,3.05,-15.5,15.5,5,2020
+4/7/20,Metricon,West Coast,Sydney,77,43,34,-34,1.58,2.4,-9.5,9.5,5,2020
+4/7/20,GMHBA,Geelong,Gold Coast,89,52,37,-37,1.29,3.65,-20.5,20.5,5,2020
+4/7/20,Marvel,Western Bulldogs,North Melbourne,87,38,49,-49,1.68,2.2,-6.5,6.5,5,2020
+4/7/20,Gabba,Brisbane,Port Adelaide,85,48,37,-37,1.86,1.95,-1.5,1.5,5,2020
+5/7/20,Metricon,Adelaide,Fremantle,34,54,-20,20,2.4,1.58,9.5,-9.5,5,2020
+5/7/20,MCG,Melbourne,Richmond,52,79,-27,27,2.6,1.5,12.5,-12.5,5,2020
+5/7/20,GIANTS,GWS,Hawthorn,83,49,34,-34,1.68,2.2,-6.5,6.5,5,2020
+9/7/20,SCG,Geelong,Brisbane,73,46,27,-27,2.35,1.63,7.5,-7.5,6,2020
+10/7/20,GIANTS,Collingwood,Hawthorn,59,27,32,-32,1.68,2.2,-6.5,6.5,6,2020
+11/7/20,Metricon,Fremantle,St Kilda,79,73,6,-6,3.05,1.38,16.5,-16.5,6,2020
+11/7/20,Gabba,West Coast,Adelaide,67,34,33,-33,1.13,6,-32.5,32.5,6,2020
+11/7/20,GIANTS,Melbourne,Gold Coast,80,63,17,-17,1.71,2.15,-5.5,5.5,6,2020
+11/7/20,Metricon,Essendon,North Melbourne,67,53,14,-14,1.62,2.3,-8.5,8.5,6,2020
+12/7/20,Metricon,Port Adelaide,GWS,63,46,17,-17,1.96,1.85,1.5,-1.5,6,2020
+12/7/20,Gabba,Richmond,Sydney,34,26,8,-8,1.77,2.05,-3.5,3.5,6,2020
+12/7/20,Metricon,Carlton,Western Bulldogs,103,51,52,-52,2.5,1.54,11.5,-11.5,6,2020
+16/7/20,ÊPerth,Geelong,Collingwood,35,57,-22,22,1.97,1.87,1.5,-1.5,7,2020
+17/7/20,ÊMetricon,Essendon,Western Bulldogs,51,93,-42,42,2.18,1.72,4.5,-4.5,7,2020
+18/7/20,ÊGIANTS,GWS,Brisbane,68,88,-20,20,1.87,1.95,1.5,-1.5,7,2020
+18/7/20,ÊSCG,Sydney,Gold Coast,60,92,-32,32,2.02,1.83,2.5,-2.5,7,2020
+18/7/20,ÊMetricon,Richmond,North Melbourne,77,23,54,-54,1.63,2.35,7.5,-7.5,7,2020
+19/7/20,ÊGabba,Carlton,Port Adelaide,61,64,-3,3,2.7,1.47,13.5,-13.5,7,2020
+19/7/20,ÊGIANTS,Hawthorn,Melbourne,48,91,-43,43,1.78,2.05,-3.5,-3.5,7,2020
+19/7/20,ÊPerth,Fremantle,West Coast,32,62,-30,30,3.5,1.33,19.5,-19.5,7,2020
+20/7/20,Adelaide,Adelaide,St Kilda,55,78,-23,23,3.55,1.32,18.5,-18.5,7,2020
+23/7/20,ÊMetricon,Gold Coast,Western Bulldogs,46,51,-5,5,2.3,1.65,6.5,-6.5,8,2020
+24/7/20,ÊGIANTS,GWS,Richmond,62,50,12,-12,1.58,2.45,-9.5,9.5,8,2020
+25/7/20,ÊGabba,North Melbourne,Carlton,57,64,-7,7,2.65,1.48,12.5,-12.5,8,2020
+25/7/20,ÊSCG,Sydney,Hawthorn,60,53,7,-7,2.15,1.71,5.5,-5.5,8,2020
+25/7/20,ÊAdelaide,Port Adelaide,St Kilda,44,73,-29,29,1.34,3.4,-16.5,16.5,8,2020
+26/7/20,ÊAdelaide,Adelaide,Essendon,59,62,-3,3,2.65,1.51,10.5,-10.5,8,2020
+26/7/20,ÊPerth,West Coast,Collingwood,111,45,66,-66,1.8,2.06,-3.5,3.5,8,2020
+26/7/20,ÊMetricon,Melbourne,Brisbane,49,53,-4,4,2.8,1.46,12.5,-12.5,8,2020
+27/7/20,ÊPerth,Fremantle,Geelong,16,48,-32,32,2.7,1.49,11.5,-11.5,8,2020
+29/7/20,ÊMetricon,Western Bulldogs,Richmond,49,90,-41,41,1.71,2.2,-5.5,5.5,9,2020
+30/7/20,ÊGabba,Melbourne,Port Adelaide,32,83,-51,51,2.3,1.65,6.5,-6.5,9,2020
+31/7/20,ÊPerth,Carlton,Hawthorn,58,89,-31,31,1.72,2.18,-5.5,5.5,9,2020
+31/7/20,ÊMetricon,Essendon,Brisbane,28,91,-63,63,3.7,1.3,19.5,-19.5,9,2020
+1/8/20,ÊMetricon,North Melbourne,Adelaide,119,50,69,-69,1.5,2.68,-12.5,12.5,9,2020
+1/8/20,ÊGabba,St Kilda,Sydney,101,48,53,-53,1.39,3.1,-15.5,15.5,9,2020
+1/8/20,ÊPerth,West Coast,Geelong,73,64,9,-9,1.34,3.4,-16.5,16.5,9,2020
+2/8/20,ÊMetricon,Gold Coast,GWS,35,61,-26,26,3.15,1.38,15.5,-15.5,9,2020
+2/8/20,ÊPerth,Fremantle,Collingwood,61,49,12,-12,3.5,1.32,15.5,-15.5,9,2020
+3/8/20,ÊAdelaide,Port Adelaide,Western Bulldogs,55,42,13,-13,1.37,3.2,-15.5,15.5,10,2020
+4/8/20,ÊMetricon,Richmond,Brisbane,82,41,41,-41,1.98,1.85,1.5,-1.5,10,2020
+5/8/20,ÊGabba,Geelong,North Melbourne,90,57,33,-33,1.31,3.6,-17.5,17.5,10,2020
+5/8/20,ÊAdelaide,Adelaide,Melbourne,37,88,-51,51,3.7,1.3,19.5,-19.5,10,2020
+6/8/20,ÊGabba,Collingwood,Sydney,50,41,9,-9,1.25,4.15,-21.5,21.5,10,2020
+6/8/20,ÊMetricon,Gold Coast,St Kilda,74,78,-4,4,3,1.41,14.5,-14.5,10,2020
+7/8/20,ÊMetricon,Essendon,GWS,55,59,-4,4,3.3,1.36,13.5,-13.5,10,2020
+8/8/20,ÊAdelaide,Port Adelaide,Richmond,93,72,21,-21,1.77,2.1,-3.5,3.5,11,2020
+8/8/20,ÊGabba,Brisbane,Western Bulldogs,96,72,24,-24,1.39,3.1,-14.5,14.5,11,2020
+9/8/20,ÊPerth,West Coast,Carlton,72,50,22,-22,1.2,4.75,-18.5,18.5,11,2020
+9/8/20,ÊAdelaide,Melbourne,North Melbourne,92,35,57,-57,1.77,2.1,-3.5,3.5,11,2020
+10/8/20,ÊGabba,St Kilda,Geelong,34,93,-59,59,2.75,1.48,9.5,-9.5,11,2020
+10/8/20,ÊPerth,Fremantle,Hawthorn,48,32,16,-16,2.25,1.68,5.5,-5.5,11,2020
+11/8/20,ÊAdelaide,Adelaide,Collingwood,38,62,-24,24,4.5,1.22,20.5,-20.5,11,2020
+12/8/20,ÊMetricon,Gold Coast,Essendon,73,73,0,0,1.67,2.25,-5.5,5.5,11,2020
+13/8/20,ÊPerth,Sydney,GWS,66,25,41,-41,4.8,1.2,22.5,-22.5,12,2020
+14/8/20,ÊGabba,Geelong,Port Adelaide,91,31,60,-60,1.95,1.89,1.5,-1.5,12,2020
+15/8/20,ÊBlundstone,North Melbourne,Brisbane,52,53,-1,1,8.5,1.08,36.5,-36.5,12,2020
+15/8/20,ÊGabba,Melbourne,Collingwood,100,44,56,-56,2.4,1.6,7.5,-7.5,12,2020
+15/8/20,ÊPerth,Fremantle,Carlton,36,40,-4,4,1.68,2.25,-5.5,5.5,12,2020
+16/8/20,ÊMetricon,Western Bulldogs,Adelaide,111,54,57,-57,1.14,6.15,-31.5,31.5,12,2020
+16/8/20,ÊGabba,St Kilda,Essendon,68,33,35,-35,1.41,3,-14.5,14.5,12,2020
+16/8/20,ÊPerth,West Coast,Hawthorn,81,49,32,-32,1.2,4.75,-23.5,23.5,12,2020
+17/8/20,ÊGabba,Richmond,Gold Coast,53,32,21,-21,1.18,5.2,-25.5,25.5,12,2020
+21/8/20,ÊTIO,Gold Coast,Carlton,27,60,-33,33,2.5,1.56,9.5,-9.5,13,2020
+22/8/20,ÊMetricon,Western Bulldogs,Melbourne,80,52,28,-28,2.1,1.74,4.5,-4.5,13,2020
+22/8/20,ÊAdelaide,Port Adelaide,Hawthorn,68,58,10,-10,1.14,6,-29.5,29.5,13,2020
+22/8/20,ÊPerth,Fremantle,Sydney,50,19,31,-31,1.52,2.6,-11.5,11.5,13,2020
+22/8/20,ÊTIO,Essendon,Richmond,61,73,-12,12,5,1.19,24.5,-24.5,13,2020
+23/8/20,ÊAdelaide,Adelaide,Geelong,37,65,-28,28,10,1.05,38.5,-38.5,13,2020
+23/8/20,ÊGabba,Brisbane,St Kilda,50,48,2,-2,1.38,3.15,-15.5,15.5,13,2020
+23/8/20,ÊPerth,West Coast,GWS,61,49,12,-12,1.29,3.75,-18.5,18.5,13,2020
+24/8/20,ÊGabba,Collingwood,North Melbourne,65,35,30,-30,1.33,3.45,-17.5,17.5,13,2020
+27/8/20,ÊAdelaide,Hawthorn,Essendon,71,87,-16,16,2.25,1.65,6.5,-6.5,14,2020
+27/8/20,ÊMetricon,Richmond,West Coast,88,61,27,-27,1.67,2.25,-6.5,6.5,14,2020
+28/8/20,ÊMetricon,Western Bulldogs,Geelong,61,72,-11,11,2.9,1.44,12.5,-12.5,14,2020
+29/8/20,ÊAdelaide,Port Adelaide,Sydney,73,47,26,-26,1.1,7.5,-31.5,31.5,14,2020
+29/8/20,ÊPerth,Fremantle,GWS,53,91,-38,38,2.2,1.7,5.5,-5.5,14,2020
+29/8/20,ÊTIO,Melbourne,St Kilda,52,49,3,-3,2,1.85,1.5,-1.5,14,2020
+30/8/20,ÊGabba,Carlton,Collingwood,48,72,-24,24,1.98,1.87,1.5,-1.5,14,2020
+30/8/20,ÊMetricon,Gold Coast,North Melbourne,91,28,63,-63,1.6,2.4,-7.5,7.5,14,2020
+1/9/20,ÊAdelaide,Hawthorn,Adelaide,48,83,-35,35,1.39,3.1,-14.5,14.5,15,2020
+1/9/20,ÊGabba,West Coast,Essendon,60,45,15,-15,1.39,3.1,-13.5,13.5,15,2020
+2/9/20,ÊMetricon,Richmond,Fremantle,56,29,27,-27,1.08,8.5,-29.5,29.5,15,2020
+3/9/20,ÊCazaly's,Sydney,Melbourne,67,46,21,-21,4.05,1.26,19.5,-19.5,15,2020
+3/9/20,ÊMetricon,GWS,Carlton,48,39,9,-9,1.45,2.85,-12.5,12.5,15,2020
+4/9/20,ÊGabba,Brisbane,Collingwood,42,34,8,-8,1.37,3.2,-15.5,15.5,15,2020
+5/9/20,ÊMetricon,North Melbourne,Port Adelaide,42,78,-36,36,8,1.09,29.5,-29.5,16,2020
+6/9/20,ÊMetricon,St Kilda,Hawthorn,80,66,14,-14,1.24,4.25,-21.5,21.5,16,2020
+6/9/20,ÊGabba,Geelong,Essendon,108,42,66,-66,1.21,4.65,-22.5,22.5,16,2020
+6/9/20,ÊMetricon,Western Bulldogs,West Coast,49,47,2,-2,1.74,2.15,-4.5,4.5,16,2020
+7/9/20,ÊCazaly's,Melbourne,Fremantle,33,47,-14,14,1.45,2.85,-11.5,11.5,16,2020
+8/9/20,ÊAdelaide,Adelaide,GWS,59,47,12,-12,3.8,1.27,19.5,-19.5,16,2020
+8/9/20,ÊMetricon,Carlton,Sydney,57,52,5,-5,1.56,2.45,-8.5,8.5,16,2020
+9/9/20,ÊGabba,Brisbane,Gold Coast,88,43,45,-45,1.32,3.4,-17.5,17.5,16,2020
+10/9/20,Gabba,St Kilda,West Coast,50,65,-15,15,2.25,1.65,6.5,-6.5,17,2020
+11/9/20,Metricon,Geelong,Richmond,31,57,-26,26,2.25,1.65,4.5,-4.5,17,2020
+12/9/20,Metricon,North Melbourne,Fremantle,35,99,-64,64,1.54,2.5,-9.5,9.5,17,2020
+12/9/20,Adelaide,Port Adelaide,Essendon,79,29,50,-50,6.5,1.12,29.5,-29.5,17,2020
+12/9/20,Gabba,GWS,Melbourne,74,79,-5,5,2.15,1.71,5.5,-5.5,17,2020
+13/9/20,Metricon,Carlton,Adelaide,56,72,-16,16,2.75,1.45,13.5,-13.5,17,2020
+13/9/20,Adelaide,Hawthorn,Western Bulldogs,40,76,-36,36,1.29,3.5,-18.5,18.5,17,2020
+13/9/20,Cazaly's,Sydney,Brisbane,41,73,-32,32,1.36,3.06,-15.5,15.5,17,2020
+14/9/20,Gabba,Collingwood,Gold Coast,68,46,22,-22,3.45,1.3,18.5,-18.5,17,2020
+17/9/20,Metricon,North Melbourne,West Coast,34,49,-15,15,7,1.1,30.5,-30.5,18,2020
+18/9/20,Gabba,St Kilda,GWS,82,30,52,-52,1.8,2,-1.5,1.5,18,2020
+19/9/20,Metricon,Essendon,Melbourne,49,68,-19,19,2.6,1.5,11.5,-11.5,18,2020
+19/9/20,Adelaide,Adelaide,Richmond,33,77,-44,44,3.95,1.24,21.5,-21.5,18,2020
+19/9/20,Gabba,Brisbane,Carlton,78,61,17,-17,1.18,5,-26.5,26.5,18,2020
+20/9/20,Adelaide,Hawthorn,Gold Coast,108,57,51,-51,2.15,1.71,5.5,-5.5,18,2020
+20/9/20,Metricon,Sydney,Geelong,63,69,-6,6,5,1.18,26.5,-26.5,18,2020
+20/9/20,Cazaly's,Fremantle,Western Bulldogs,44,74,-30,30,2.86,1.4,13.5,-13.5,18,2020
+21/9/20,Gabba,Collingwood,Port Adelaide,45,61,-16,16,2.26,1.62,7.5,-7.5,18,2020
+1/10/20,Adelaide,Port Adelaide,Geelong,58,42,16,-16,1.72,2.1,-4.5,4.5,19,2020
+2/10/20,Gabba,Brisbane,Richmond,69,54,15,-15,2.06,1.75,2.5,-2.5,19,2020
+3/10/20,Gabba,St Kilda,Western Bulldogs,67,64,3,-3,2.17,1.68,5.5,-5.5,19,2020
+3/10/20,Perth,West Coast,Collingwood,75,76,-1,1,1.41,2.87,-12.5,12.5,19,2020
+9/10/20,Metricon,Richmond,St Kilda,80,49,31,-31,1.26,3.88,-20.5,20.5,20,2020
+10/10/20,Gabba,Geelong,Collingwood,100,32,68,-68,1.6,2.33,-6.5,6.5,20,2020
+16/10/20,Adelaide,Port Adelaide,Richmond,40,46,-6,6,1.73,2.09,-3.5,3.5,21,2020
+17/10/20,Gabba,Brisbane,Geelong,42,82,-40,40,1.79,2.01,-2.5,2.5,21,2020
