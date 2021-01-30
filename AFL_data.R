@@ -21,6 +21,7 @@ betting_odds<-get_footywire_betting_odds(
 
 #read in betting odd .csv
 #betting_odds <- read.csv('csv_files/betting_odds.csv')
+
 ## Get match results
 results<-get_match_results()
 
@@ -115,7 +116,7 @@ glicko %<>%
   ungroup()
 
 glicko_clean<-glicko[apply(glicko!=0, 1, all),]
-glicko_clean <- glicko_clean %>% filter(var == "Rating")
+glicko_clean %<>% filter(var == "Rating")
 glicko_clean$match <- as.integer(glicko_clean$match)
 
 glicko_clean %<>%
@@ -246,7 +247,7 @@ future_data_lean <- new %>%
          last_encounter_line_Odds)
 
 future_data_lean<-future_data_lean[complete.cases(future_data_lean), ] #remove NAs from data frame
-future_data_lean<-future_data_lean%>%
+future_data_lean %<>%
   filter(results == 0 | results == 1 | results == 999) #remove draws ensure that the loss function is "binary_crossentropy", if you want to keep Draws change to "categorical_crossentropy"
 
 #Create data frame for margin predictions used in DeepLearning_Margin.R
