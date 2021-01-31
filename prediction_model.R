@@ -8,11 +8,12 @@ data <- future_data_lean
 col_num<-as.numeric(ncol(data))
 data[1:col_num] <- lapply(data[1:col_num], as.numeric) #make sure all variables are numeric
 
+# returns a list of matrix used for running model
 model.data <- model_data(data)
+# trains the model using the data frames you choose from the list target needs to be categorical
+model <- model_training(inputs = model.data$training, target = model.data$trainLabels)
 
-model <- model_training(model.data$training, model.data$trainLabels)
-
-#save_model_hdf5(model, "model.h5")
+#save_model_hdf5(model, "model.h5") # save model for distribution elsewhere
 
 #evaluate model from test dataset
 model %>% 
